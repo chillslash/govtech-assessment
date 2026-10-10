@@ -1,0 +1,6 @@
+data/raw/*.pdf
+.venv/
+.env
+__pycache__/
+*.pyc
+outputs/
