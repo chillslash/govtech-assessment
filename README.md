@@ -170,6 +170,8 @@ The independent Responses API adapter (`python -m audit_assurance extract ... --
 
 **Next:** Finish exhaustive labels for the development paragraphs, manually adjudicate duplicates and classifications, freeze the extraction rules, then run a genuinely held-out FY2024/25 evaluation and compare a generic-chatbot baseline. The assessment deliverable remains the 6-8 slide proposal, with an AI-use disclosure.
 
-## ANAO standalone audit-report pilot (prepared)
+## ANAO standalone audit-report pilot (completed initial slice)
 
-A second, source-appropriate evaluation track uses individual published ANAO audits rather than using AGO annual summaries as if they were underlying audits. The [pilot protocol](docs/anao-pilot.md) explains official sources, how to withhold executive summaries, and an executable GPT-6 Luna Medium runner. The PDFs are not yet present in the workspace because ANAO blocked automated downloads; **no ANAO model scores exist yet**.
+We also evaluated **individual published ANAO performance audits** to better reflect the assignment's intended input, rather than treating an AGO annual overview as an individual audit. See the [ANAO pilot protocol](docs/anao-pilot.md), [reviewed results and limitations](docs/anao-pilot-results.md), and saved provisional model outputs in `data/evaluations/anao-2021-pilot.json` and `data/evaluations/anao-2024-pilot.json`.
+
+GPT-6 Luna Medium extracted **9 source-supported records from 5 detailed PDF pages across two separate audits**, with 9/9 quotations verified. A separate AI-assisted review identified additional atomic issues that the model had **merged into fewer records**; these are development observations, **not an auditor-validated accuracy benchmark**. Published executive summaries were withheld during model inference and read only afterward for a qualitative thematic check. The local ANAO PDFs were provided via browser download and remain Git-ignored.

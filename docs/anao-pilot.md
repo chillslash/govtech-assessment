@@ -13,11 +13,11 @@ Two official source documents have been verified:
 
 The ANAO documents are **published audits** and provide much richer individual findings than AGO annual-report overviews. They are not the auditors' confidential working papers. Australian standards and agencies also differ from Singapore's.
 
-### Local retrieval status
+### Local retrieval and completed pilot
 
-On 10 October 2026, the official links were readable through the web browser, but direct downloads to the restricted Gateway account failed with a reset connection. **Do not claim that the PDFs have been downloaded or that the ANAO pilot has produced model results until files are present and the run is completed.** The files are intentionally git-ignored.
+The user downloaded both official PDFs through a browser on 10 October 2026 and placed them into `data/raw/`. Both parsed successfully: **2024 report 103 pages; 2021 report 105 pages**. They are ignored by Git. Automated direct downloads to the restricted account had failed with a reset connection, but this was a network/download issue, **not** a reason to broaden permissions.
 
-Use an ordinary browser to download both official PDFs, and save them under the exact filenames shown above in the repository's `data/raw/` directory. Do not grant Gateway broader Windows profile permissions.
+**The initial GPT-6 Luna Medium extraction is complete**; see [pilot results](anao-pilot-results.md). The first 2024 run stalled and was cancelled, but a narrower two-page run succeeded. The evaluation is a targeted development pilot, not a blind report-level benchmark.
 
 ## Small, defensible experiment
 
@@ -34,8 +34,8 @@ Use an ordinary browser to download both official PDFs, and save them under the 
 $env:PYTHONPATH = "$PWD\src"
 python -m audit_assurance inspect --report data/raw/anao-2024-incidents.pdf --limit 20
 python -m audit_assurance inspect --report data/raw/anao-2021-strategies.pdf --limit 20
-python scripts/run_anao_pilot.py --report data/raw/anao-2024-incidents.pdf --detail-pages 45,46 --summary-pages 9,10 --codex "C:\Users\ryano\.codex\packages\standalone\current\bin\codex.exe" --output outputs/anao-2024-pilot.json
-python scripts/run_anao_pilot.py --report data/raw/anao-2021-strategies.pdf --detail-pages 38,39 --summary-pages 9,10 --codex "C:\Users\ryano\.codex\packages\standalone\current\bin\codex.exe" --output outputs/anao-2021-pilot.json
+python scripts/run_anao_pilot.py --report data/raw/anao-2024-incidents.pdf --detail-pages 48,49 --summary-pages 7,8,9,10,11 --codex "C:\Users\ryano\.codex\packages\standalone\current\bin\codex.exe" --output outputs/anao-2024-pilot.json
+python scripts/run_anao_pilot.py --report data/raw/anao-2021-strategies.pdf --detail-pages 43,44,45 --summary-pages 7,8,9,10,11 --codex "C:\Users\ryano\.codex\packages\standalone\current\bin\codex.exe" --output outputs/anao-2021-pilot.json
 ```
 
 **Recheck the example page selections after inspection**: printed and physical PDF page numbers must not be confused. The runner records exact detail and withheld page sets for auditability.

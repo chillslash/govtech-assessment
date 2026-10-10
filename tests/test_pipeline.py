@@ -143,6 +143,31 @@ class AuditPrototypeTests(unittest.TestCase):
         self.assertEqual(fixed[1]["observation_id"], 3.7)
         self.assertEqual(original[0]["observation_id"], 2.56)
 
+    def test_saved_anao_pilots_have_verified_source_pages(self):
+        cases = (("anao-2021-pilot.json", "anao-2021-strategies.pdf", 2),
+                 ("anao-2024-pilot.json", "anao-2024-incidents.pdf", 7))
+        for snapshot, source, expected in cases:
+            with self.subTest(source=source):
+                path = ROOT / "data" / "evaluations" / snapshot
+                pdf = ROOT / "data" / "raw" / source
+                if not path.exists() or not pdf.exists():
+                    self.skipTest("ANAO pilot snapshot or public PDF is missing")
+                payload = json.loads(path.read_text(encoding="utf-8"))
+                self.assertEqual(payload["model"], "gpt-6-luna")
+                self.assertEqual(payload["reasoning"], "medium")
+                self.assertFalse(set(payload["detail_pdf_pages_supplied"])
+                                 & set(payload["summary_pdf_pages_withheld"]))
+                self.assertEqual(len(payload["source_verified"]), expected)
+                self.assertFalse(payload["rejected"])
+                pages = read_report(pdf)
+                accepted, rejected = validate_predictions(
+                    payload["source_verified"], pages, source)
+                self.assertFalse(rejected)
+                self.assertEqual(len(accepted), expected)
+                self.assertTrue(all(
+                    row["pdf_page"] in payload["detail_pdf_pages_supplied"]
+                    for row in accepted))
+
     def test_manual_anchors_against_real_reports(self):
         path = ROOT / "data" / "labels-dev.json"
         if not path.exists():

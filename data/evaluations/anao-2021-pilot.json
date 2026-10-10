@@ -1,0 +1,70 @@
+{
+  "source_url": "https://www.anao.gov.au/work/performance-audit/cyber-security-strategies-non-corporate-commonwealth-entities",
+  "document_id": "anao-2021-strategies.pdf",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "runner": "Codex CLI, read-only, ephemeral",
+  "run_utc": "2026-10-10T14:47:41.184290+00:00",
+  "detail_pdf_pages_supplied": [
+    43,
+    44,
+    45
+  ],
+  "summary_pdf_pages_withheld": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "raw_predictions": [
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": "Security information and event management (SIEM) system",
+      "observation_id": "2.27",
+      "weakness": "PM&C lacked a robust process to ensure it monitored all security events relevant to its environment.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not have a robust process to ensure that it is monitoring all security events relevant to its environment",
+      "pdf_page": 43
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": "Security information and event management (SIEM)",
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM monitoring were not documented or formally approved, creating a risk that security events would not be managed consistently.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "there was no documentation and formal approval of reviews",
+      "pdf_page": 44
+    }
+  ],
+  "numeric_ids_normalised": [],
+  "source_verified": [
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": "Security information and event management (SIEM) system",
+      "observation_id": "2.27",
+      "weakness": "PM&C lacked a robust process to ensure it monitored all security events relevant to its environment.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not have a robust process to ensure that it is monitoring all security events relevant to its environment",
+      "pdf_page": 43,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": "Security information and event management (SIEM)",
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM monitoring were not documented or formally approved, creating a risk that security events would not be managed consistently.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "there was no documentation and formal approval of reviews",
+      "pdf_page": 44,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "status": "Provisional. Verbatim quote on page does not prove semantic correctness.",
+  "evaluation_note": "Withheld summaries/recommendations are partial thematic references, not comprehensive ground truth. Human adjudication is needed."
+}

@@ -1,0 +1,174 @@
+{
+  "source_url": "https://www.anao.gov.au/work/performance-audit/management-cyber-security-incidents",
+  "document_id": "anao-2024-incidents.pdf",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "runner": "Codex CLI, read-only, ephemeral",
+  "run_utc": "2026-10-10T14:56:07.358510+00:00",
+  "detail_pdf_pages_supplied": [
+    48,
+    49
+  ],
+  "summary_pdf_pages_withheld": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "raw_predictions": [
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.55",
+      "weakness": "Event logging is decentralised and has not been implemented in the recommended way.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "it has not been implemented in the recommended way",
+      "pdf_page": 48
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.56",
+      "weakness": "AUSTRAC lacks appropriate SIEM coverage and a documented strategy for prioritising event monitoring resources.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "has not implemented ASD’s recommendation for appropriate SIEM coverage or documented a strategy for prioritising its event monitoring resources",
+      "pdf_page": 48
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "Automated alert prioritisation is unused, and security alerts are manually handled with the same priority.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC does not use this feature and security alerts are manually handled with the same level of priority",
+      "pdf_page": 48
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "Escalation discussions between security analysts and the ITSA are not documented.",
+      "control_area": "incident_response",
+      "evidence_quote": "Escalation discussions between security analysts and the ITSA occur verbally and are not documented.",
+      "pdf_page": 48
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.61",
+      "weakness": "Only investigations deemed significant by the security analyst are recorded; alerts deemed non-significant are reported only verbally.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Security alerts that have not been determined as ‘significant’ are only reported verbally.",
+      "pdf_page": 49
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "AUSTRAC has not defined timeframes for analysing cyber security events or analysed the timeliness and completeness of triage and escalation.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC has not defined timeframes for analysing cyber security events",
+      "pdf_page": 49
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "AUSTRAC could not provide archived SIEM data for the stated period and lacks processes to extract and retrieve events from production or archives for future analysis.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC could not provide archived SIEM data from 1 June 2022 to 31 October 2023.",
+      "pdf_page": 49
+    }
+  ],
+  "numeric_ids_normalised": [],
+  "source_verified": [
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.55",
+      "weakness": "Event logging is decentralised and has not been implemented in the recommended way.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "it has not been implemented in the recommended way",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.56",
+      "weakness": "AUSTRAC lacks appropriate SIEM coverage and a documented strategy for prioritising event monitoring resources.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "has not implemented ASD’s recommendation for appropriate SIEM coverage or documented a strategy for prioritising its event monitoring resources",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "Automated alert prioritisation is unused, and security alerts are manually handled with the same priority.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC does not use this feature and security alerts are manually handled with the same level of priority",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "Escalation discussions between security analysts and the ITSA are not documented.",
+      "control_area": "incident_response",
+      "evidence_quote": "Escalation discussions between security analysts and the ITSA occur verbally and are not documented.",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.61",
+      "weakness": "Only investigations deemed significant by the security analyst are recorded; alerts deemed non-significant are reported only verbally.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Security alerts that have not been determined as ‘significant’ are only reported verbally.",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "AUSTRAC has not defined timeframes for analysing cyber security events or analysed the timeliness and completeness of triage and escalation.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC has not defined timeframes for analysing cyber security events",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "AUSTRAC could not provide archived SIEM data for the stated period and lacks processes to extract and retrieve events from production or archives for future analysis.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC could not provide archived SIEM data from 1 June 2022 to 31 October 2023.",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "status": "Provisional. Verbatim quote on page does not prove semantic correctness.",
+  "evaluation_note": "Withheld summaries/recommendations are partial thematic references, not comprehensive ground truth. Human adjudication is needed."
+}
