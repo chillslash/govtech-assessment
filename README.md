@@ -140,3 +140,34 @@ Optionally create **synthetic rewrites** to test phrasing/layout robustness, but
 ---
 
 **Decision record:** Prioritise a lean, repeatable, evidence-linked extraction workflow over an attractive but unmeasured chatbot. Building the optional prototype is to strengthen the assessment, not to replace the required proposal.
+
+## Prototype status — 10 October 2026
+
+**Phase 0 and a minimal Phase 1 are implemented** in this repository. This is not an audit-grade product, and **no live LLM extraction or model accuracy evaluation has been performed**. See [Phase 0 notes](docs/phase0-findings.md) and [17 researcher labels](data/labels-dev.json).
+
+Implemented: page-aware `pypdf` reading; candidate-page ranking for reconnaissance (not guaranteed exhaustive); optional structured-output LLM adapter; fixed control taxonomy; deterministic validation of verbatim evidence quotes against 1-based PDF pages; a source-linked provisional record export; conservative one-to-one evaluation; standard-library tests.
+
+### Run locally (PowerShell from this repository)
+
+Install requirements into an environment you control (for example, a project-local venv), then set `PYTHONPATH` to include `src`:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+$env:PYTHONPATH = "$PWD\src"
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe -m audit_assurance check-labels --labels data/labels-dev.json
+.\.venv\Scripts\python.exe -m audit_assurance inspect --report data/raw/ago-fy2023-24.pdf --limit 10
+```
+
+A live model call is **optional**, requires a separately authorised `OPENAI_API_KEY` and a provider-supported `--model` identifier, and should use only public reports:
+
+```powershell
+python -m audit_assurance extract --report data/raw/ago-fy2023-24.pdf --pages 84,85 --model YOUR_SUPPORTED_MODEL_ID
+```
+
+This adapter asks for **medium** reasoning by default and rejects unsupported quotes; it has **not** been exercised with live credentials. Existing ChatGPT/Codex login does not itself supply an API key.
+
+**Test status:** 7 unit/integration tests passed. 17/17 manually drafted labels matched exact source text on their cited PDF pages (12 FY2022/23; 5 FY2023/24). These are **evidence-linkage checks**, not measures of model precision or recall. Some PDF pages produce recoverable parser warnings; FY2025/26 needs separate parser investigation before full-corpus use.
+
+Next: adjudicate development labels and negative cases; obtain an authorised live inference route; run a real source-grounded extraction and baseline comparison; reserve genuinely untouched passages for held-out evaluation.

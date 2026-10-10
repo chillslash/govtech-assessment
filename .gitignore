@@ -1,6 +1,8 @@
-data/raw/*.pdf
+.deps/
 .venv/
 .env
+data/raw/*.pdf
 __pycache__/
 *.pyc
 outputs/
+.pytest_cache/
