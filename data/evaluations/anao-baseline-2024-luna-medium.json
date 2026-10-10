@@ -1,0 +1,22 @@
+{
+  "kind": "plain_prompt_no_framework",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "source_file": "anao-2024-incidents.pdf",
+  "physical_pdf_pages": [
+    48,
+    49
+  ],
+  "summary_pages_not_supplied": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "user_prompt": "Read the following excerpts from a government audit report. Identify the IT or cybersecurity control weaknesses described. For each issue, briefly explain what was wrong and identify the agency and source page. Mention any common themes you notice. Base your answer only on the excerpts.",
+  "full_prompt_sha256": "e77e029cee4da2e89d3c860f6a0619a933bf4de65d8fe868bf3e7c6186780b36",
+  "duration_seconds": 13.03,
+  "utc": "2026-10-10T15:37:52.056095+00:00",
+  "raw_answer": "## Control weaknesses\n\n| Issue | What was wrong | Agency and source page |\n|---|---|---|\n| Decentralised event logging | AUSTRAC’s logging setup reflected historical management arrangements and had not been implemented in the recommended way. The report says centralised logging would improve control, efficiency and standardisation. | Australian Transaction Reports and Analysis Centre (AUSTRAC), PDF p. 48 |\n| SIEM coverage and monitoring strategy | AUSTRAC had not implemented the recommended SIEM coverage or documented a strategy for prioritising monitoring resources. | AUSTRAC, PDF p. 48 |\n| Alert prioritisation | The SIEM could assign alert priorities automatically, but AUSTRAC did not use that feature. Analysts handled alerts manually at the same priority level. | AUSTRAC, PDF p. 48 |\n| Undocumented escalation discussions | Discussions between security analysts and the IT Security Adviser about escalating events happened verbally and were not documented. | AUSTRAC, PDF p. 48 |\n| Incomplete records for non-significant events | Only investigations analysts deemed “significant” were recorded in the repository. Other alerts and investigations were reported verbally, with significance determined by the analyst. | AUSTRAC, PDF p. 49 |\n| No triage and escalation timeframes or process review | AUSTRAC had not set timeframes for analysing cyber security events and did not assess whether triage and escalation were timely or complete. | AUSTRAC, PDF p. 49 |\n| SIEM data retrieval and retention gaps | AUSTRAC could not provide archived SIEM data for 1 June 2022 to 31 October 2023 and lacked processes to extract and retrieve events from production systems or archives for later analysis. | AUSTRAC, PDF p. 49 |\n\n## Common themes\n\nThe excerpts point to gaps in central oversight, documented procedures and record keeping. They also describe weaknesses in consistent alert prioritisation, timely triage and preserving or retrieving event data for future analysis."
+}

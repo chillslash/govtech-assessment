@@ -1,0 +1,23 @@
+{
+  "kind": "plain_prompt_no_framework",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "source_file": "anao-2021-strategies.pdf",
+  "physical_pdf_pages": [
+    43,
+    44,
+    45
+  ],
+  "summary_pages_not_supplied": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "user_prompt": "Read the following excerpts from a government audit report. Identify the IT or cybersecurity control weaknesses described. For each issue, briefly explain what was wrong and identify the agency and source page. Mention any common themes you notice. Base your answer only on the excerpts.",
+  "full_prompt_sha256": "43527681ea1090be27bbcc354f3565eac3f9178854e68d29e7fd6e4516a2ed89",
+  "duration_seconds": 7.98,
+  "utc": "2026-10-10T15:37:15.599353+00:00",
+  "raw_answer": "## Control weaknesses identified\n\n- **Department of the Prime Minister and Cabinet (PM&C)** — PM&C lacked a robust process to ensure it monitored all security events relevant to its environment. The audit said this reduced its ability to manage cyber security threats. *(PDF p. 43)*\n\n- **PM&C** — Its risk assessment of security events needed improvement, as did testing of security configurations and reviews of user access to confirm configurations were working as intended. *(PDF p. 44; Recommendation 3)*\n\n- **Attorney-General’s Department (AGD)** — Reviews of SIEM monitoring and responses were not documented and formally approved. This created a risk that security events would not be managed consistently. *(PDF p. 44)*\n\n- **AGD** — Its processes for documenting risk assessments and monitoring cyber security events needed improvement to help ensure responses were consistent and appropriate. *(PDF p. 45; Recommendation 4)*\n\n## Common themes\n\nBoth agencies had weaknesses in monitoring and assessing security events, and in keeping formal records of reviews and risk assessments. PM&C also had weaknesses in testing security configurations and reviewing user access. The excerpts describe these as gaps in oversight and assurance; they do not report backup weaknesses."
+}
