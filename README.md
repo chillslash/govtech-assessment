@@ -179,3 +179,7 @@ GPT-6 Luna Medium extracted **9 source-supported records from 5 detailed PDF pag
 ## Plain-model baseline (completed)
 
 A [zero-shot GPT-6 Luna Medium comparison](docs/plain-model-baseline.md) was run on **exactly the same ANAO detail pages** as the structured framework, without the audit taxonomy, JSON extraction constraints, or quote validator. It reported 4 points on the 2021 sample (including 2 recommendation-derived points) and 7 on the 2024 sample (essentially the same groupings as the framework). **There is no demonstrated extraction-performance uplift from the framework on this small sample.** Raw outputs are saved in data/evaluations/anao-baseline-*-luna-medium.json. No other experimental configurations have been run.
+
+## Improved audit framework pilot
+
+We implemented bounded whole-report page discovery, stronger atomic weakness extraction, and validation of paragraph/table locators (plus a flagged page-only fallback for unnumbered findings). In a controlled rerun on the same ANAO pages, the updated GPT-6 Luna Medium pipeline produced **11 source-grounded records**, versus 9 previously; splitting is still imperfect and no formal accuracy uplift is claimed. Automatic discovery found relevant audit material beyond the originally selected pages, but completeness is unmeasured. See [results and limitations](docs/improved-framework-results.md). No weaker-model comparisons were run.

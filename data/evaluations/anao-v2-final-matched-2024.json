@@ -1,0 +1,728 @@
+{
+  "document_id": "anao-2024-incidents.pdf",
+  "mode": "matched",
+  "selected_pdf_pages": [
+    48,
+    49
+  ],
+  "summary_pdf_pages_withheld": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "discovery": {
+    "method": "full-report deterministic negative-control page ranking",
+    "eligible_pdf_pages": [
+      30,
+      88
+    ],
+    "ranked_candidates": [
+      {
+        "pdf_page": 36,
+        "score": 18,
+        "signals": [
+          "g cyber security matters to asd. reporting timeframes have not been defined. austrac has not documented its approach or defined reporting timeframes for the reporting significant or reportable cyber sec",
+          "vernance policy as part of its cyber security incident management framework. austrac has not reviewed, updated or tested its protective security governance policy at least annually and does not have doc",
+          "lemented a process for reporting cyber security matters to asd. reporting timeframes have not been defined. austrac has not documented its approach or defined reporting timeframes for the reporting signi"
+        ]
+      },
+      {
+        "pdf_page": 49,
+        "score": 18,
+        "signals": [
+          "t have not been determined as ‘significant’ are only reported verbally. 2.62 austrac has not defined timeframes for analysing cyber security events, nor does it perform any analysis on the timeliness or",
+          "igation records include event logs, minutes and communications. security alerts that have not been determined as ‘significant’ are only reported verbally. 2.62 austrac has not defined timeframes for anal",
+          "ac could not provide archived siem data from 1 june 2022 to 31 october 2023. austrac does not have processes for extracting and retrieving cyber security events from either the production environment or "
+        ]
+      },
+      {
+        "pdf_page": 48,
+        "score": 16,
+        "signals": [
+          "ments, where it environments were managed by different austrac business areas and it has not been implemented in the recommended way (see table 2.8). a centralised logging approach offers better control",
+          "decentralised event logging approach is the responsibility of the itsa. 2.56 austrac has not implemented asd’s recommendation for appropriate siem coverage or documented a strategy for prioritising its ",
+          "or the automated assignment of priority to assist with triaging activities . austrac does not use this feature and security alerts are manually handled with the same level of priority. security analysts "
+        ]
+      },
+      {
+        "pdf_page": 64,
+        "score": 16,
+        "signals": [
+          "ity monitoring plan called the protective security risk management plan, although it has not defined a continuous improvement cycle as well as reporting to management. entities document and evidence the",
+          "ber security matters to asd but not defined reporting timeframes. services australia has not documented its approach or defined reporting timeframes for the reporting significant or reportable cyber sec",
+          "ies, plans and frameworks for cyber security incident management. services australia does not regularly review, update, test and evidence the assessment of its security maturity. entities must maintain a"
+        ]
+      },
+      {
+        "pdf_page": 71,
+        "score": 16,
+        "signals": [
+          "a’s legal function during external referrals of significant cyber security incidents has not been outlined within the cyber security incident response plan. 3.42 services australia demonstrated it did n",
+          " its approach for managing data spills, malicious code infections and intrusions. it has not established processes for reviewing, updating and testing these cyber security incident response procedures. ",
+          " security alerts. services australia has an event logging and monitoring policy . it has not established processes for extracting, retrieving and analysing archived siem data, nor has it defined the tim"
+        ]
+      },
+      {
+        "pdf_page": 86,
+        "score": 16,
+        "signals": [
+          "s framework of procedures for cyber security incident management. services australia has not undertaken a post-incident review or a lessons-learned exercise following a large-scale data breach involving",
+          "hat experience, including support received from services australia’s legal function, have not been used to review or update services australia’s framework of procedures for cyber security incident manage",
+          "pproach 3.98 as outlined at table 3.5, the incident management and escalation policy does not include ‘cyber security incidents’. services australia does not: • undertake post-incident reviews specific t"
+        ]
+      },
+      {
+        "pdf_page": 35,
+        "score": 14,
+        "signals": [
+          "ent that ensure relevant security policy or legislative obligations are met. austrac has not reviewed, updated and tested its agency security plan and it does not have a documented plan to do so. austra",
+          " to monitoring, evaluating, responding to and managing security incidents.  austrac has not designed and implemented a security maturity monitoring plan that defines a continuous improvement cycle. key",
+          "mation, cyber and physical security. ▲ austrac monitors a central email address, but has not documented its approach for triaging and responding to cyber security related matters using a monitored email"
+        ]
+      },
+      {
+        "pdf_page": 38,
+        "score": 14,
+        "signals": [
+          "nformation technology security and information security considerations. 2.16 austrac has not documented its approach to cyber security threat and vulnerability assessments and has not established critic",
+          "t documented its approach to cyber security threat and vulnerability assessments and has not established critical information and asset registers. it has developed, implemented and maintained an insider",
+          "ian government investigations standard, within its documented guidance. 2.21 austrac has not reviewed, updated and tested and does not have documented plans to review, update or test the framework of pr"
+        ]
+      },
+      {
+        "pdf_page": 45,
+        "score": 14,
+        "signals": [
+          "ntly across systems to assist with identifying connections between events.  austrac has not implemented a centralised event logging facility approach. however, it uses several event logging facilities ",
+          "ral event logging facilities covering different systems. this decentralised approach has not been implemented in the recommended way. cyber security events are analysed in a timely manner to identify cy",
+          "ents are analysed in a timely manner to identify cyber security incidents.  austrac does not have a documented approach for analysing cyber security events in a timely manner. key:  fully implemented ▲"
+        ]
+      },
+      {
+        "pdf_page": 52,
+        "score": 14,
+        "signals": [
+          " to monitoring, evaluating, responding to and managing security incidents.  austrac has not designed and implemented a security maturity monitoring plan that defines a continuous improvement cycle as w",
+          "-critical services are supported appropriately in the event of a disaster.  austrac has not designed and implemented assigned responsibilities for its ciso; such as, contributing to the development and",
+          "cument and share learnings internally … and externally, where appropriate.  austrac does not use incident reports to update its framework of procedures for cyber security incident management or share le"
+        ]
+      },
+      {
+        "pdf_page": 58,
+        "score": 14,
+        "signals": [
+          "ures. it has established a framework of procedures and an incident response plan. it has not documented an approach to threat and vulnerability assessments. it d oes not have a policy covering the manag",
+          "a systematic approach to monitoring and prioritisation of alerts. services australia has not established a timeframe for triage and escalation activities nor a process for analysing archived siem data. ",
+          " triage and escalation activities nor a process for analysing archived siem data. it has not defined an approach for cyber security investigations. services australia has partly implemented effective re"
+        ]
+      },
+      {
+        "pdf_page": 60,
+        "score": 14,
+        "signals": [
+          " structures and responsibilities for its management of cyber security incidents. i t has not documented an approach to threat and vulnerability assessments, nor does it have a policy covering the manage",
+          "nt response plan and a trusted insider program. however, its trusted insider program has not considered input from other business areas, such as its legal function. services australia’s critical asset a",
+          "nt or reportable cyber security incidents, to internal and external stakeholders. it has not defined the timeframes for reporting to relevant stakeholders and the consideration of engaging other relevan"
+        ]
+      },
+      {
+        "pdf_page": 42,
+        "score": 13,
+        "signals": [
+          "mented a framework of procedures for responding to cyber security incidents. austrac has not reviewed, updated and tested its framework of procedures and it does not have a documented plan to do so. aus",
+          "nts. austrac has not reviewed, updated and tested its framework of procedures and it does not have a documented plan to do so. austrac’s ciso and itsa regularly meet to discuss cyber security incidents. ",
+          "s these incidents with the ciso at the time of occurrence. these ad hoc meetings are not documented and are not supported by documented procedures. key:  fully implemented ▲ partly implemented  not implement"
+        ]
+      },
+      {
+        "pdf_page": 54,
+        "score": 13,
+        "signals": [
+          " reporting standard operating procedure. 2.74 as outlined at paragraph 2.21, austrac has not reviewed, updated and tested and does not have documented plans to review, update or test the framework of pr",
+          "s . the systems, applications and servers which support critical business processes, have not been identified. austrac only specifies the use of business continuity workarounds and alternate systems, equ",
+          "2.74 as outlined at paragraph 2.21, austrac has not reviewed, updated and tested and does not have documented plans to review, update or test the framework of procedures for cyber security incident manag"
+        ]
+      },
+      {
+        "pdf_page": 76,
+        "score": 13,
+        "signals": [
+          "se within services australia and to shared service entities. 3.58 services australia has not documented its approach to cyber security investigations. although cyber security investigation s are perform",
+          "ccordance with the australian government investigations standard. services australia has not defined: • when communications relating to cyber security incidents are moved to, or recorded in, its archive",
+          "tions. although cyber security investigation s are performed by the csirt, there are no documented procedures that ensure cyber security investigations are performed in accordance with the australian governme"
+        ]
+      },
+      {
+        "pdf_page": 78,
+        "score": 13,
+        "signals": [
+          "alysts, until they can be prioritised and triaged as needed. 3.70 services australia has not defined timeframes for analysing cyber security events, nor does it perform any analysis on the timeliness of",
+          "ing policy was issued in june 2016 and last updated in june 2021. services australia does not have documented plans to review, update and test the policy. analysis of cyber security events 3.69 services ",
+          "de all archived offense data from 1 june 2022 to 31 october 2023. services australia does not have a process for extracting, retrieving and analysing cyber security events from archives for future analys"
+        ]
+      },
+      {
+        "pdf_page": 83,
+        "score": 13,
+        "signals": [
+          "ckup solution in place which is largely implemented in the recommended way. however, has not enabled restoration of backups to a common point in time once it has been archived. unprivileged and privileg",
+          " breach response plan; and • systems criticality assessment. 3.82 services australia has not defined an approach to digital preservation. the concept of ‘digital preservation’ is mentioned within the re",
+          ". unprivileged and privileged accounts (excluding backup administrator accounts): a) cannot access backups belonging to other accounts; and b) are prevented from modifying and deleting backups.  servi"
+        ]
+      },
+      {
+        "pdf_page": 46,
+        "score": 12,
+        "signals": [
+          "taining data spills within its privacy breach reporting standard operating procedure has not been documented . the p rocedure does not specify actions for restricting access to data, systems and network",
+          "iscussions. 2.45 a data inventory outlining important datasets and associated owners has not been developed by austrac. a project to establish a data inventory with an expected completion date of novemb",
+          "each reporting standard operating procedure has not been documented . the p rocedure does not specify actions for restricting access to data, systems and networks in the event of a data spill. a plan of "
+        ]
+      },
+      {
+        "pdf_page": 47,
+        "score": 12,
+        "signals": [
+          "t of the ict resource has on the business process during a disruption event. austrac has not documented the use of the business continuity business impact assessment matrix during remediation activities",
+          "s and mobile phones within its information systems incident response plan. this plan does not specify how an investigator will gather evidence in the recommended way following a cyber security incident. ",
+          "twork traffic for the purposes of remediation and investigation activities. there is no documented event log retention policy which requires retrievable event logs for investigation purposes. 62 the acronym r"
+        ]
+      },
+      {
+        "pdf_page": 55,
+        "score": 12,
+        "signals": [
+          "s as part of the system security plans. regular backup requirements for some systems have not been documented. 2.82 production data is hosted at austrac’s primary data centre and backup data is located a",
+          "-week legal hold period from the point that the backups are taken. 74 system restore does not imply successful recovery of production data. ",
+          "part of the system security plans. regular backup requirements for some systems have not been documented. 2.82 production data is hosted at austrac’s primary data centre and backup data is located at a s"
+        ]
+      },
+      {
+        "pdf_page": 56,
+        "score": 12,
+        "signals": [
+          "ber security incident. 2.87 austrac advised the anao that during the audit period it has not had a significant or reportable cyber security incident and consequently has not needed to recover backups in",
+          " it has not had a significant or reportable cyber security incident and consequently has not needed to recover backups in response to a cyber security incident. recommendation no. 8 2.88 australian tran",
+          "s not regularly review, update or test its security documentation and procedures and has not documented a security maturity monitoring plan. 75 department of home affairs, protective security policy fra"
+        ]
+      },
+      {
+        "pdf_page": 63,
+        "score": 12,
+        "signals": [
+          "ity monitoring plan called the protective security risk management plan, although it has not defined a continuous improvement cycle as well as reporting to management. key:  fully implemented ▲ partly ",
+          "cumentation was last updated between june 2022 and december 2023. services australia does not have a documented plan to review, update and test its security documentation. services australia’s ciso, with",
+          "monitoring plan called the protective security risk management plan, although it has not defined a continuous improvement cycle as well as reporting to management. key:  fully implemented ▲ partly implemen"
+        ]
+      },
+      {
+        "pdf_page": 65,
+        "score": 12,
+        "signals": [
+          "designed and implemented a cyber security incident response plan. services australia has not reviewed, updated or tested its incident management and escalation policy at least annually and does not have",
+          "pdated or tested its incident management and escalation policy at least annually and does not have documented plans to do so. cyber security incidents are reported to asd as soon as possible after they o",
+          "s implemented a process for reporting cyber security matters or incidents to asd but not defined reporting timeframes. services australia does have a cyber security incident register which is called the sec"
+        ]
+      },
+      {
+        "pdf_page": 70,
+        "score": 12,
+        "signals": [
+          "lude security maturity indicators that trigger report escalation. services australia has not assessed whether the frequency of security monitoring advice and approach to monitoring security performance ",
+          "port as well as completed its asd cyber security survey annually. services australia has not defined reporting timeframes for referring significant or reportable cyber security incident s to asd, affect",
+          "le area manages which pspf policy. 3.34 the protective security risk management plan does not detail an approach that defines a continuous improvement cycle as well as reporting to management. the plan d"
+        ]
+      },
+      {
+        "pdf_page": 74,
+        "score": 12,
+        "signals": [
+          "all instructions provided by relevant law enforcement agencies.  services australia has not documented its approach to cyber security investigations of compromised servers, end-user computers and mobil",
+          "sed to remove the infection from infected systems and media; and d) if the infection cannot be reliably removed, systems are restored from a known good backup or rebuilt.  services australia does docu",
+          "instructions provided by relevant law enforcement agencies.  services australia has not documented its approach to cyber security investigations of compromised servers, end-user computers and mobile phones or"
+        ]
+      },
+      {
+        "pdf_page": 84,
+        "score": 12,
+        "signals": [
+          "tolerable periods of disruption for a list of business processes. services australia does not have b usiness continuity or disaster recovery plans that address all systems, including the systems which su",
+          "luding the systems which support the critical recovery processes. services australia does not have a complete list of critical assets. as such, services australia is not well placed to ensure business co",
+          "stem owners and criticality of the systems were not defined. 3.86 services australia does not have a policy for managing regular backups. services australia’s recovery documentation does not include: • r"
+        ]
+      },
+      {
+        "pdf_page": 30,
+        "score": 11,
+        "signals": [
+          "yber security risk and incident management procedures to support these processes. it has not documented: • the assigned responsibilities for its chief information security officer (ciso), although the c",
+          "coverage of event logs is not in accordance with asd’s cyber security guidelines. it does not have an event logging policy and does not document its analysis of all cyber security events. austrac has doc",
+          "e with asd’s cyber security guidelines. it does not have an event logging policy and does not document its analysis of all cyber security events. austrac has documented procedures to support its cyber se"
+        ]
+      },
+      {
+        "pdf_page": 79,
+        "score": 11,
+        "signals": [
+          "t mitigate disruptions during and after cyber security incidents? services australia has not defined an approach to digital preservation related to cyber security incidents and regular backups nor does ",
+          "to a common point in time as part of disaster recovery exercises. services australia has not appropriately documented an embedded post-incident learning approach following a cyber security incident. ser",
+          "t-incident learning approach following a cyber security incident. services australia has not established a process that leverages post-incident learnings to review and improve the effective implementati"
+        ]
+      },
+      {
+        "pdf_page": 32,
+        "score": 10,
+        "signals": [
+          "t structures and responsibilities for managing cyber security incidents. however, it has not documented the assigned responsibilities for its ciso although the ciso is empowered to make decisions. austr",
+          "framework of procedures for cyber security risk and incident management. however, it does not detail a process for reviewing, updating and testing its cyber security incident management procedures, nor h",
+          " reporting processes for significant or reportable cyber security incidents. austrac does not document cyber security incident meeting s, nor has it defined timeframes for reporting to relevant stakehold"
+        ]
+      },
+      {
+        "pdf_page": 53,
+        "score": 10,
+        "signals": [
+          "ar backup solution in place which is implemented in the recommended way. however, it has not identified the systems, applications and servers which support critical business processes. unprivileged and ",
+          "s. unprivileged and privileged accounts (excluding backup administrator accounts: a) cannot access backups belonging to other accounts; and b) are prevented from modifying and deleting backups.  austr",
+          "e plan and business continuity plan. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of austrac’s implementation of asd’s guidelines for cyber security incidents. table 2.1"
+        ]
+      },
+      {
+        "pdf_page": 73,
+        "score": 10,
+        "signals": [
+          "tralia has designed and implemented procedures for handling data spills. however, it has not detailed an approach for containing data spills. a plan of containment is determined on a case-by-case basis ",
+          "ed on a case-by-case basis based on operational team discussions. services australia has not developed an inventory of important datasets and their associated owners. ",
+          "cumentation was last updated between june 2022 and december 2023. services australia does not have a documented plan to review, update and test its security documentation. services australia’s ciso, with"
+        ]
+      },
+      {
+        "pdf_page": 81,
+        "score": 10,
+        "signals": [
+          "ity monitoring plan called the protective security risk management plan, although it has not defined a continuous improvement cycle as well as reporting to management. entities identify, document and sh",
+          "cumentation was last updated between june 2022 and december 2023. services australia does not have a documented plan to review, update and test its security documentation. services australia’s ciso, with",
+          "share learnings internally … and externally, where appropriate.  services australia does not use incident reports to update its framework of procedures for cyber security incident management or share le"
+        ]
+      },
+      {
+        "pdf_page": 37,
+        "score": 9,
+        "signals": [
+          " and implemented assigned responsibilities for the accountable authority and cso. it has not designed and implemented assigned responsibilities for the ciso other than to say that ‘the cso can appoint s",
+          "s implemented a process for reporting cyber security matters or incidents to asd but not defined reporting timeframes. austrac does have a cyber security incident register. a trusted insider program is deve",
+          "d internal functions within austrac. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of austrac’s implementation of asd’s guidelines for cyber security incidents. managemen"
+        ]
+      },
+      {
+        "pdf_page": 39,
+        "score": 9,
+        "signals": [
+          "ll as asd’s cyber security survey annually. austrac’s approach to external reporting has not defined reporting timeframes for 53 home affairs defines a significant security incident as a ‘deliberate, ne",
+          "s these incidents with the ciso at the time of occurrence. these ad hoc meetings are not documented and are not supported by documented procedures. 2.27 austrac’s security sub-committee was formed in 2019 to s",
+          "s asd’s cyber security survey annually. austrac’s approach to external reporting has not defined reporting timeframes for 53 home affairs defines a significant security incident as a ‘deliberate, negligent "
+        ]
+      },
+      {
+        "pdf_page": 43,
+        "score": 9,
+        "signals": [
+          "is determined on a case-by-case basis based on operational team discussions. austrac has not developed an inventory of important datasets and their associated owners. when malicious code is detected, th",
+          "eliably removed, systems are restored from a known good backup or rebuilt.  austrac does not have a documented approach for handling and containing malicious code infections that details the recommended",
+          "sed to remove the infection from infected systems and media; and d) if the infection cannot be reliably removed, systems are restored from a known good backup or rebuilt.  austrac does not have a docu"
+        ]
+      },
+      {
+        "pdf_page": 50,
+        "score": 8,
+        "signals": [
+          "he systems, applications and servers supporting critical business processes. austrac has not tested the recoverability of its systems and applications supporting critical business processes. it has not ",
+          "erability of its systems and applications supporting critical business processes. it has not included all relevant systems, including the tools used for managing backups, within disaster recovery testin",
+          "backups. austrac performs recovery of backups as part of business area requests . it does not perform testing of restoration of backups for disaster recovery purposes. it does not have a process for extr"
+        ]
+      },
+      {
+        "pdf_page": 69,
+        "score": 8,
+        "signals": [
+          "ta asset management policy outlines practices for organising data assets, the policy does not specify the criticality of data assets. 3.26 the majority of services australia’s security documentation was ",
+          "cumentation was last updated between june 2022 and december 2023. services australia does not have documented plans to review, update and test its security documentation. cyber security incident manageme",
+          "the ‘relevant business teams’ within the cyber security division. services australia does not have a policy or approach for managing cyber security incidents. in january 2024, services australia advised "
+        ]
+      },
+      {
+        "pdf_page": 34,
+        "score": 7,
+        "signals": [
+          "responsibilities for its cso including empowering the cso to make decisions. austrac has not documented the assigned responsibilities for its ciso, although the ciso is empowered to make decisions. the ",
+          " direct all areas of security to protect its people, information and assets. austrac has not established critical information and assets registers. the ciso must be responsible for the entity’s cyber se",
+          "onsibilities for its cso including empowering the cso to make decisions. austrac has not documented the assigned responsibilities for its ciso, although the ciso is empowered to make decisions. the cso must be"
+        ]
+      },
+      {
+        "pdf_page": 41,
+        "score": 7,
+        "signals": [
+          "ustrac has documented cyber security incident monitoring and response procedures. it has not developed an event log policy for handling and containing malicious code infections or intrusions, or contain",
+          "table cyber security incident s to management and relevant external stakeholders. it does not record or document its analysis of non-significant cyber security events, nor has it defined timeframes for t",
+          " escalation activities. austrac is able to analyse data within its siem solution, it does not have a process for retrieving and analysing production and archived siem data. 2.33 the information security "
+        ]
+      },
+      {
+        "pdf_page": 44,
+        "score": 7,
+        "signals": [
+          "rmine whether the adversary has been successfully removed from the system.  austrac does not have a documented approach for handling and containing intrusions that details the recommended steps. the int",
+          "ile phones within its information systems incident response plan. however, this plan does not specify how an investigator will gather evidence in the recommended way following a cyber security incident. ",
+          "nce to be used by its investigators. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of austrac’s implementation of asd’s guidelines for cyber security incidents. "
+        ]
+      },
+      {
+        "pdf_page": 68,
+        "score": 7,
+        "signals": [
+          ". services australia’s integrity framework was developed, implemented and maintained without advice provided by relevant external entities and internal functions within services australia. 3.22 services",
+          "fine all of services australia’s critical systems, with a number of critical systems without descriptions, business owners or a systems owners assigned. recommendation no. 11 3.23 services australia upd",
+          "he system owner as well as the ciso. a number of systems criticality assessments are incomplete and do not define all of services australia’s critical systems, with a number of critical systems without des"
+        ]
+      },
+      {
+        "pdf_page": 51,
+        "score": 6,
+        "signals": [
+          "nted a framework of procedures for recovering from cyber security incidents. austrac has not reviewed, updated and tested its agency security plan and it does not have a documented plan to do so. austra",
+          "idents. austrac has not reviewed, updated and tested its agency security plan and it does not have a documented plan to do so. austrac’s ciso and itsa regularly meet to discuss cyber security incidents. "
+        ]
+      },
+      {
+        "pdf_page": 67,
+        "score": 6,
+        "signals": [
+          "ics; and • a privacy incident and data breach response plan. 3.17 services australia has not documented its approach to threat and vulnerability assessments. services australia has documented an integri",
+          " and • a privacy incident and data breach response plan. 3.17 services australia has not documented its approach to threat and vulnerability assessments. services australia has documented an integrity framewor"
+        ]
+      },
+      {
+        "pdf_page": 75,
+        "score": 6,
+        "signals": [
+          " investigating, triaging and escalating cyber security incidents. services australia has not designed and implemented a policy for how to analyse cyber security events in a timely manner. key:  fully i",
+          " security events in a timely manner. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of services australia’s implementation of asd’s guidelines for system monitoring. cyber"
+        ]
+      },
+      {
+        "pdf_page": 77,
+        "score": 6,
+        "signals": [
+          "es its event monitoring resources using an appropriate framework. services australia has not implemented asd’s recommendation for appropriate siem coverage. it uses an alternative cyber security framewo",
+          "ts event monitoring resources using an appropriate framework. services australia has not implemented asd’s recommendation for appropriate siem coverage. it uses an alternative cyber security framework to provid"
+        ]
+      },
+      {
+        "pdf_page": 85,
+        "score": 6,
+        "signals": [
+          "taining regular backups 3.90 as outlined in table 3.11, a policy for regular backups has not been designed and implemented. services australia has processes for performing regular backups . however, not",
+          "ing regular backups 3.90 as outlined in table 3.11, a policy for regular backups has not been designed and implemented. services australia has processes for performing regular backups . however, not all "
+        ]
+      },
+      {
+        "pdf_page": 82,
+        "score": 5,
+        "signals": [
+          "ely designed and implemented policy. key:  fully implemented ▲ partly implemented  not implemented. source: anao analysis of services australia’s implementation of pspf policy 10 — safeguarding data from cybe",
+          "tinuity and disaster recovery plans. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of services australia’s implementation of asd’s guidelines for cyber security roles. ta",
+          "cident or business continuity event. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of services australia’s implementation of asd’s guidelines for cyber security incidents"
+        ]
+      },
+      {
+        "pdf_page": 33,
+        "score": 3,
+        "signals": [
+          "requirements, two were fully implemented, nine were partly implemented, and two were not implemented. 52 department of home affairs, protective security policy framework – assessment report 2022–23, home affair"
+        ]
+      },
+      {
+        "pdf_page": 40,
+        "score": 3,
+        "signals": [
+          " affairs, as the owner of the pspf, will be notified.55 2.30 austrac demonstrated it did not have any significant or reportable cyber security incidents to report to asd during the audit period, 1 july "
+        ]
+      },
+      {
+        "pdf_page": 62,
+        "score": 3,
+        "signals": [
+          "as established critical information and assets registers. however, the registers are incomplete and do not specify all critical systems and data assets. the ciso must be responsible for the entity’s cyber "
+        ]
+      },
+      {
+        "pdf_page": 66,
+        "score": 3,
+        "signals": [
+          "functions within services australia. key:  fully implemented ▲ partly implemented  not implemented source: anao analysis of services australia’s implementation of asd’s guidelines for cyber security incidents"
+        ]
+      },
+      {
+        "pdf_page": 72,
+        "score": 3,
+        "signals": [
+          "n requirements, four were fully implemented, two were partly implemented and one was not implemented. 88 australian signals directorate, ‘guidelines for cyber security incidents’ webpage, asd, canberra, last up"
+        ]
+      },
+      {
+        "pdf_page": 80,
+        "score": 3,
+        "signals": [
+          "ine requirements, four were implemented, three were partly implemented, and two were not implemented. 101 department of home affairs, protective security policy framework — 2 management structures and responsib"
+        ]
+      }
+    ],
+    "selected_pdf_pages": [
+      36,
+      49
+    ],
+    "limitations": "Heuristic triage, no completeness/recall guarantee; scores may include recommendations or agency responses."
+  },
+  "prompt_character_count": 8425,
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "run_utc": "2026-10-10T16:11:04.920242+00:00",
+  "duration_seconds": 8.83,
+  "atomic_prompt_rules": "Extract one independently remediable, explicitly observed weakness per record. If one audit observation reports several distinct failures, create separate records with specific evidence for each; do not collapse independent failures into a compound description. Conversely, do not split a single underlying deficiency into synonyms, consequences, or repeated wording. Treat a list of actions needed to fix one lifecycle control as one deficiency unless distinct independently testable control gaps are explicitly stated. Do not infer observations solely from recommendations, general standards, or agency responses. For findings in tables use the actual printed table identifier as observation_id. For numbered narrative findings use the actual paragraph identifier. Never invent or recycle a source identifier. The evidence quote must occur within the identified paragraph or table, not merely elsewhere on the PDF page. ",
+  "raw_predictions": [
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.55",
+      "weakness": "Event logging is decentralised and has not been implemented in the recommended way.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "it has not been implemented in the recommended way",
+      "pdf_page": 48
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.56",
+      "weakness": "SIEM coverage does not meet ASD’s recommendation, and there is no documented strategy for prioritising event-monitoring resources.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "has not implemented ASD’s recommendation for appropriate SIEM coverage or documented a strategy for prioritising its event monitoring resources",
+      "pdf_page": 48
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "The automated alert-priority feature is not used; alerts are manually handled at the same priority.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not use this feature and security alerts are manually handled with the same level of priority",
+      "pdf_page": 48
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "Escalation discussions between security analysts and the ITSA are not documented.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Escalation discussions between security analysts and the ITSA occur verbally and are not documented.",
+      "pdf_page": 48
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.61",
+      "weakness": "Only significant SIEM investigations are recorded; alerts not deemed significant are reported verbally only.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Security alerts that have not been determined as ‘significant’ are only reported verbally.",
+      "pdf_page": 49
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "Timeframes for analysing cyber security events are undefined.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC has not defined timeframes for analysing cyber security events",
+      "pdf_page": 49
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "AUSTRAC does not analyse the timeliness or completeness of triage and escalation processes.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "nor does it perform any analysis on the timeliness or completeness of triaging and escalation processes",
+      "pdf_page": 49
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "Archived SIEM data for the stated period could not be provided.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC could not provide archived SIEM data from 1 June 2022 to 31 October 2023.",
+      "pdf_page": 49
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "There are no processes for extracting and retrieving cyber security events from production or archives for future analysis.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC does not have processes for extracting and retrieving cyber security events from either the production environment or archives for future analysis.",
+      "pdf_page": 49
+    }
+  ],
+  "numeric_ids_normalised": [],
+  "source_verified": [
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.55",
+      "weakness": "Event logging is decentralised and has not been implemented in the recommended way.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "it has not been implemented in the recommended way",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.56",
+      "weakness": "SIEM coverage does not meet ASD’s recommendation, and there is no documented strategy for prioritising event-monitoring resources.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "has not implemented ASD’s recommendation for appropriate SIEM coverage or documented a strategy for prioritising its event monitoring resources",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "The automated alert-priority feature is not used; alerts are manually handled at the same priority.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not use this feature and security alerts are manually handled with the same level of priority",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.59",
+      "weakness": "Escalation discussions between security analysts and the ITSA are not documented.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Escalation discussions between security analysts and the ITSA occur verbally and are not documented.",
+      "pdf_page": 48,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.61",
+      "weakness": "Only significant SIEM investigations are recorded; alerts not deemed significant are reported verbally only.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Security alerts that have not been determined as ‘significant’ are only reported verbally.",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "Timeframes for analysing cyber security events are undefined.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC has not defined timeframes for analysing cyber security events",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "AUSTRAC does not analyse the timeliness or completeness of triage and escalation processes.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "nor does it perform any analysis on the timeliness or completeness of triaging and escalation processes",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "Archived SIEM data for the stated period could not be provided.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC could not provide archived SIEM data from 1 June 2022 to 31 October 2023.",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "2.62",
+      "weakness": "There are no processes for extracting and retrieving cyber security events from production or archives for future analysis.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "AUSTRAC does not have processes for extracting and retrieving cyber security events from either the production environment or archives for future analysis.",
+      "pdf_page": 49,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "atomic_review_flags": [
+    {
+      "index": 0,
+      "observation_id": "2.55",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    },
+    {
+      "index": 1,
+      "observation_id": "2.56",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    },
+    {
+      "index": 2,
+      "observation_id": "2.59",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    },
+    {
+      "index": 3,
+      "observation_id": "2.59",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    },
+    {
+      "index": 4,
+      "observation_id": "2.61",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    },
+    {
+      "index": 6,
+      "observation_id": "2.62",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    },
+    {
+      "index": 8,
+      "observation_id": "2.62",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    }
+  ],
+  "caution": "Heuristic discovery and valid page quotes are not exhaustive recall or auditor validation."
+}

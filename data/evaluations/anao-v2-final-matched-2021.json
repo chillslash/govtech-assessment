@@ -1,0 +1,368 @@
+{
+  "document_id": "anao-2021-strategies.pdf",
+  "mode": "matched",
+  "selected_pdf_pages": [
+    43,
+    44,
+    45
+  ],
+  "summary_pdf_pages_withheld": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "discovery": {
+    "method": "full-report deterministic negative-control page ranking",
+    "eligible_pdf_pages": [
+      35,
+      84
+    ],
+    "ranked_candidates": [
+      {
+        "pdf_page": 36,
+        "score": 14,
+        "signals": [
+          " commonwealth entities 36 policy 10 is ‘ad hoc’ or ‘developing’, which means that it has not fully implemented all the top four mitigation strategies, the entity is required to detail the proposed strat",
+          "lf-assessed their implementation of one of the top four mitigation strategies . pm&c has not fully implemented the mitigation strategy for restricting administrative privileges. agd has not fully implem",
+          "y implemented the mitigation strategy for restricting administrative privileges. agd has not fully implemented the mitigation strategy for patching operating systems . future fund has accurately self -a"
+        ]
+      },
+      {
+        "pdf_page": 54,
+        "score": 14,
+        "signals": [
+          "aturity level three’ against the essential eight mitigation strategies. however, agd has not set a timeframe for achieving ‘managing’ maturity for policy 10. agd informed the anao that ‘uncertainty abou",
+          "r threat environment’ and that its timeframe was ‘on-going’. as at october 2020, agd has not developed a clear strategy for achieving ‘managing’ maturity. 2.81 agd informed the anao that it assessed its",
+          "ent of risk to ensure that it meets its obligations under regulatory frameworks. agd has not provided evidence to demonstrate its processes to improve its maturity against policy 10 to ‘managing’. 2.82 "
+        ]
+      },
+      {
+        "pdf_page": 47,
+        "score": 13,
+        "signals": [
+          "safeguarding information from cyber threats. 2.43 if an entity self-assesses that it has not implemented all the top four mitigation strategies and thus has a maturity level of ‘ad hoc’ or ‘developing’ ",
+          "lementation of all the top four). 2.44 as the six selected entities in table 2.3 had not fully implemented all the top four mitigation strategies and had a pspf maturity level of ‘ad hoc’ or ‘developing’ ",
+          "10 maturity level assessment by rating itself at the ‘managing’ level despite having not fully implemented all the top four mitigation strategies. "
+        ]
+      },
+      {
+        "pdf_page": 40,
+        "score": 12,
+        "signals": [
+          " period for patches to be installed not being agreed upon by all business units. agd did not perform risk assessments against the missed patches. agd has since established agreed outage periods where th",
+          "cted. 2.17 the anao’s review of servers found that some operating system patches had not been applied within ism timeframes. the agd cyber security team stated that this was due to the outage period for ",
+          "siness need. agd validated privileged access on an annual basis. privileged accounts cannot access the internet unless they are members of an authorised group and for specific duties only. users with p"
+        ]
+      },
+      {
+        "pdf_page": 72,
+        "score": 12,
+        "signals": [
+          "s still considering a moderation model for the annual pspf self-assessment data. agd has not returned to the government security committee to discuss the moderation of self- assessments. agd also inform",
+          "pf . paragraph 19 of the report notes that the cyber policy and operational entities have not developed processes to verify the accuracy of entities’ pspf policy 10 self -assessed reporting. at paragraph",
+          "f self- assessments and appropriate assurance activities for the self-reported data. without appropriate assurance, agd is unable to provide advice to the australian government on the extent to which th"
+        ]
+      },
+      {
+        "pdf_page": 81,
+        "score": 12,
+        "signals": [
+          "risks and report back on any such actions taken. non-corporate commonwealth entities have not been held to account fo r not meeting mandatory cyber security requirements under pspf policy 10. 99 all port",
+          " cyber hygiene across australian government entities.100 3.114 the secretaries board did not adopt a similar approach for entities that had self-assessed a low maturity for cyber security and top four i",
+          " and report back on any such actions taken. non-corporate commonwealth entities have not been held to account fo r not meeting mandatory cyber security requirements under pspf policy 10. 99 all portfolio"
+        ]
+      },
+      {
+        "pdf_page": 80,
+        "score": 11,
+        "signals": [
+          "2021 . the provision of a consolidated pspf assessment report to portfolio ministers does not facilitate an increase in accountability for entities to improve their cyber security posture. cyber security",
+          "ies in implementing effective cyber security risk mitigation strategies due to their lack of capabilities . the committee agreed that home affairs and pm&c were to jointly develop a paper to the secr",
+          "t the 10 june 2020 meeting of the secretaries board. the issues identified include a lack of coordination for the uplift of government’s cyber security, lack of realisation of economies-of- scale, bu"
+        ]
+      },
+      {
+        "pdf_page": 46,
+        "score": 10,
+        "signals": [
+          " and recover from cyber se curity incidents. if top four cyber security requirements have not been fully implemented, have the entities established effective strategies and actions to manage cyber risks?",
+          "recover from cyber se curity incidents. if top four cyber security requirements have not been fully implemented, have the entities established effective strategies and actions to manage cyber risks? of t",
+          " strategies and actions to manage cyber risks? of the six entities that had reported not fully implementing all the top four mitigation strategies, five have established strategies and activities to progr"
+        ]
+      },
+      {
+        "pdf_page": 39,
+        "score": 9,
+        "signals": [
+          ".12 while pm&c has a process for validating privileged access on an annual basis, it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duti",
+          "ed versions. restrict administrative privileges 2.11 the anao assessed that pm&c has partially implemented the requirements for restricting administrative privileges. the anao’s assessment found that the following se",
+          "vileged access is restricted to personnel that require it to undertake their duties. weaknesses in pm&c’s validation processes increases the risk that a cyber intrusion could result in an adversary acqui"
+        ]
+      },
+      {
+        "pdf_page": 68,
+        "score": 9,
+        "signals": [
+          "lf- assessment reports and the asd’s acsc cyber security survey, the sharing of data has not yet resulted in obta ining assurance on the accuracy of the self-assessments and facilitating policy and tech",
+          "racy of entities’ self-assessed reporting? the cyber policy and operational entities have not developed processes to verify the accuracy of entities’ pspf policy 10 self -assessed reporting. asd has comm",
+          "d on the correlation of maturity levels. 3.47 home affairs informed the anao that it does not play a role in developing guidance to assist entities in cyber security self-assessments and reporting under "
+        ]
+      },
+      {
+        "pdf_page": 78,
+        "score": 8,
+        "signals": [
+          "firming if entities have improved their maturity within the advised timeframe.93 agd does not use the data from entities’ policy 10 self-assessments to hold entities accountable for their cyber security ",
+          "ecurity posture is not transparent. the aggregated public reporting from asd and agd does not provide details on individual entities’ implementation of mandatory pspf policy 10 requirements or effectiven",
+          "mentation of the essential eight mitigation strategies. consequently, the parliament does not 93 entities that have self-assessed an ‘ad hoc’ or ‘developing’ maturity for pspf policy 10 are required to d"
+        ]
+      },
+      {
+        "pdf_page": 71,
+        "score": 7,
+        "signals": [
+          "ially assist agd in obtaining assurance on the accuracy of the self-assessments. agd has not used the data to inform assurance activities on the self-assessed maturity ratings. assistance for entities w",
+          "o provide assistance to those entities with an ‘ad hoc’ maturity rating. 3.63 a plan has not been developed for the coordinated approach to offer agd’s policy assistance and asd’s technical support on c",
+          "ovide assistance to those entities with an ‘ad hoc’ maturity rating. 3.63 a plan has not been developed for the coordinated approach to offer agd’s policy assistance and asd’s technical support on cyber "
+        ]
+      },
+      {
+        "pdf_page": 35,
+        "score": 6,
+        "signals": [
+          "tities were cyber resilient. five of six selected entities that had self-assessed to have not fully implemented any of the top four mitigation strategies have established strategies and implemented activ",
+          "s were cyber resilient. five of six selected entities that had self-assessed to have not fully implemented any of the top four mitigation strategies have established strategies and implemented activities "
+        ]
+      },
+      {
+        "pdf_page": 42,
+        "score": 6,
+        "signals": [
+          " within the pspf and essential eight maturity model. the cyber resilience assessment does not include consideration of the other remaining strategies from asd’s strategies to mitigate cyber security inci",
+          "te commonwealth entities 42 table 2.2: definitions of security zones zone definition vulnerable high level of exposure and occurrence of disruptions to business operations due to cyber security incidents. "
+        ]
+      },
+      {
+        "pdf_page": 43,
+        "score": 6,
+        "signals": [
+          "figured to analyse logs from pm&c workstations and servers for security events. pm&c does not have a robust process to ensure that it is monitoring all security events relevant to its environment. this w",
+          "o ensure that it is monitoring all security events relevant to its environment. this weakness reduces pm&c’s ability to manage cyber security threats. "
+        ]
+      },
+      {
+        "pdf_page": 55,
+        "score": 6,
+        "signals": [
+          " management of risks related to the top four mitigation strategies. 2.89 future fund has not had independent assurance of its compliance with the top four mitigation strategies since its establishment. ",
+          "mitigation strategies since its establishment. future fund informed the anao that it does not have any exemptions against the top four mitigation strategies for reaching ‘maturity level three’. 2.90 the "
+        ]
+      },
+      {
+        "pdf_page": 58,
+        "score": 6,
+        "signals": [
+          "igation strategies: • the non-corporate commonwealth entities examined in that audit did not have access to comprehensive guidance or supporting tools in conducting their pspf self- assessments. there w",
+          ".4 auditor-general report no.53 2017–18 cyber resilience identified that there was a lack of guidance under the previous compliance-based pspf assessment model for entities to self-assess and report "
+        ]
+      },
+      {
+        "pdf_page": 64,
+        "score": 6,
+        "signals": [
+          "nd achieved a corresponding pspf maturity level of ‘managing’. however, the guidance does not clearly outline the alignment for the remaining maturity levels of the pspf maturity assessment model and the",
+          " maturity assessment model.73 asd removed ‘maturity level four’ on the basis that it did not follow the escalating pattern of maturity assessment reflected in the other maturity levels. ‘maturity level "
+        ]
+      },
+      {
+        "pdf_page": 65,
+        "score": 6,
+        "signals": [
+          " pspf policy 10 and the essential eight maturity model. 3.33 pspf policy 10 guidance does not elaborate on what an ‘excelled’ level of implementation entails for entities to achieve an ‘embedded’ pspf ma",
+          "reach ‘embedded’ maturity. this misalignment between the two maturity models and the lack of technical guidance reduces clarity for entities on how an ‘embedded’ maturity level could be achieved.75 3"
+        ]
+      },
+      {
+        "pdf_page": 66,
+        "score": 6,
+        "signals": [
+          "rom the policy 10 maturity calculation, the methodology for the maturity calculation has not been adequately explained in other pspf guidance.76 there is merit in clarifying the guidance on the scope of",
+          "the policy 10 maturity calculation, the methodology for the maturity calculation has not been adequately explained in other pspf guidance.76 there is merit in clarifying the guidance on the scope of the "
+        ]
+      },
+      {
+        "pdf_page": 76,
+        "score": 6,
+        "signals": [
+          "l entities’ cyber security maturity level. the cyber policy and operational entities have not established processes to improve the accountability of entities’ cyber security posture. the current framewor",
+          "public. auditor-general report no.53 2017–18 cyber resilience found that there was a lack of mechanisms to provide transparency and accountability fo r entities’ compliance with cyber security requir"
+        ]
+      },
+      {
+        "pdf_page": 59,
+        "score": 4,
+        "signals": [
+          "nment information security manual (ism). the previous essential eight maturity model did not provide a way for entities to accurately self-assess their top four compliance. 3.5 the report recommended th",
+          "pf reporting portal. 68 agd informed its audit and risk management committee that it did not report on the implementation of the recommendation at the time of completion because the 2017–18 auditor-gene"
+        ]
+      },
+      {
+        "pdf_page": 63,
+        "score": 4,
+        "signals": [
+          "tion for policy 10 on the ‘strategies and timeframes to improve your maturity level’ does not specify whether entities should provide details on proposed strategies for the top four only. the section cou",
+          "by the entities’ implementation of the four non-mandatory essential eight strategies does not contribute to the entity’s policy 10 maturity. maturity levels of the asd’s essential eight maturity model 3."
+        ]
+      },
+      {
+        "pdf_page": 69,
+        "score": 4,
+        "signals": [
+          "cy implementation and facilitate access to subject matter experts. agd noted that it does not have a regulatory role in relation to the pspf 78; its function is to ensure that the pspf policy is appropri",
+          " under the framework. reviews and analysis of pspf assessment reports 3.53 while agd does not verify the accuracy of entities’ pspf self-assessments, agd reviews and analyses the pspf assessment reports "
+        ]
+      },
+      {
+        "pdf_page": 70,
+        "score": 4,
+        "signals": [
+          "limited influence or control over the implementation of the mitigation strategies; • lack of prioritisation to implemen t the top four, whereby entities often targeted mitigation strategies that were",
+          "standing of the implementation requirements of the top four mitigation strategies; • lack of understanding of how the implementation level of the mitigation strategies relates to the entity’s risk en"
+        ]
+      },
+      {
+        "pdf_page": 77,
+        "score": 4,
+        "signals": [
+          "lidated pspf compliance reports, the 2018–19 report contains aggregated findings and does not disclose the security maturity level of individual entities. report on cyber security posture of australian g",
+          "entities’ cyber security posture contains anonymised and aggregated data. the report does not identify individual entities and the maturity level of their essential eight implementation. asd informed the"
+        ]
+      },
+      {
+        "pdf_page": 38,
+        "score": 3,
+        "signals": [
+          "ecovering from cyber security incidents. the essential eight to ism mapping guidance does not define the information security manual controls to be implemented for the mitigation strategy for continuous "
+        ]
+      },
+      {
+        "pdf_page": 44,
+        "score": 3,
+        "signals": [
+          "ps. under the c yber security framework, pm&c is therefore categorised to be in the ‘vulnerable’ zone, which indicates that it is susceptible to cyber security incidents. attorney-general’s department cont"
+        ]
+      },
+      {
+        "pdf_page": 45,
+        "score": 3,
+        "signals": [
+          "s for daily backups. under the framework, agd is therefore categorised to be in the ‘vulnerable’ zone, which indicates that it is susceptible to cyber security incidents. future fund management agency cont"
+        ]
+      },
+      {
+        "pdf_page": 48,
+        "score": 3,
+        "signals": [
+          " prioritised based on risks in its environment. 2.47 the cyber security work program does not include a set timeframe for austrade to achieve ‘managing’ maturity for pspf policy 10. austrade informed the"
+        ]
+      },
+      {
+        "pdf_page": 49,
+        "score": 3,
+        "signals": [
+          " essential eight mitigation strategies. the cyber security essential eight work plan does not include a set timeframe for dese to improve the maturity for each of the essential eight mitigation strategie"
+        ]
+      },
+      {
+        "pdf_page": 52,
+        "score": 3,
+        "signals": [
+          "eight program. there is no evidence in the meeting papers to indicate that health is not meeting the timeframe it has set for improving the maturity levels of its essential eight mitigation strategies. 2"
+        ]
+      },
+      {
+        "pdf_page": 60,
+        "score": 3,
+        "signals": [
+          "ent. entities have the choice to select the ‘not applicable’ option if this question does not apply to them. 70 pspf policy 5: reporting on security provides guidance on reporting under the new pspf matu"
+        ]
+      },
+      {
+        "pdf_page": 73,
+        "score": 3,
+        "signals": [
+          " the e8mvt can be run again to confirm the effectiveness of the changes. • the e8mvt does not assess three of the essential eight mitigation strategies — restricting administrative privileges, multi-fact"
+        ]
+      }
+    ],
+    "selected_pdf_pages": [
+      36,
+      54
+    ],
+    "limitations": "Heuristic triage, no completeness/recall guarantee; scores may include recommendations or agency responses."
+  },
+  "prompt_character_count": 8750,
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "run_utc": "2026-10-10T16:11:36.287021+00:00",
+  "duration_seconds": 6.56,
+  "atomic_prompt_rules": "Extract one independently remediable, explicitly observed weakness per record. If one audit observation reports several distinct failures, create separate records with specific evidence for each; do not collapse independent failures into a compound description. Conversely, do not split a single underlying deficiency into synonyms, consequences, or repeated wording. Treat a list of actions needed to fix one lifecycle control as one deficiency unless distinct independently testable control gaps are explicitly stated. Do not infer observations solely from recommendations, general standards, or agency responses. For findings in tables use the actual printed table identifier as observation_id. For numbered narrative findings use the actual paragraph identifier. Never invent or recycle a source identifier. The evidence quote must occur within the identified paragraph or table, not merely elsewhere on the PDF page. ",
+  "raw_predictions": [
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": "Security information and event management (SIEM) system",
+      "observation_id": "2.27",
+      "weakness": "No robust process ensures monitoring covers all security events relevant to PM&C’s environment.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "PM&C does not have a robust process to ensure that it is monitoring all security events relevant to its environment.",
+      "pdf_page": 43
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": "Security information and event management (SIEM)",
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM monitoring are not documented and formally approved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "there was no documentation and formal approval of reviews.",
+      "pdf_page": 44
+    }
+  ],
+  "numeric_ids_normalised": [],
+  "source_verified": [
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": "Security information and event management (SIEM) system",
+      "observation_id": "2.27",
+      "weakness": "No robust process ensures monitoring covers all security events relevant to PM&C’s environment.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "PM&C does not have a robust process to ensure that it is monitoring all security events relevant to its environment.",
+      "pdf_page": 43,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": "Security information and event management (SIEM)",
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM monitoring are not documented and formally approved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "there was no documentation and formal approval of reviews.",
+      "pdf_page": 44,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "atomic_review_flags": [
+    {
+      "index": 1,
+      "observation_id": "2.33",
+      "reason": "potential multi-part weakness; needs human atomicity review"
+    }
+  ],
+  "caution": "Heuristic discovery and valid page quotes are not exhaustive recall or auditor validation."
+}
