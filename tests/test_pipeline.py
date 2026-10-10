@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT / "src"))
 if (ROOT / ".deps").exists():
     sys.path.insert(0, str(ROOT / ".deps"))
 
-from audit_assurance.core import Page, candidate_pages, evaluate, normalise, read_report, validate_predictions
+from audit_assurance.core import Page, candidate_pages, evaluate, normalise, read_report, validate_predictions, normalise_observation_ids, selected_anchor_coverage
 
 
 def record(quote="Account review was incomplete across servers.", page=1):
@@ -58,6 +58,53 @@ class AuditPrototypeTests(unittest.TestCase):
     def test_candidate_discovery_not_a_completeness_claim(self):
         got = candidate_pages([Page(1, "1", "No technology issues"), Page(2, "2", "Privileged account access rights were excessive")])
         self.assertEqual(got[0]["pdf_page"], 2)
+
+    def test_numeric_observation_id_repair_is_narrow_and_auditable(self):
+        originals = [dict(record(), observation_id=78), dict(record(), observation_id=999),
+                     dict(record(), observation_id=True)]
+        converted, repaired = normalise_observation_ids(originals, {"78", "80"})
+        self.assertEqual(repaired, [0])
+        self.assertEqual(converted[0]["observation_id"], "78")
+        self.assertEqual(converted[1]["observation_id"], 999)
+        self.assertIs(converted[2]["observation_id"], True)
+        self.assertEqual(originals[0]["observation_id"], 78)
+
+    def test_selected_anchor_coverage_requires_matching_observation_and_category(self):
+        target = dict(record(), document_id="sample.pdf", label_id="L1", observation_id="36b")
+        proposal = dict(target, evidence_quote="Another valid excerpt", label_id=None)
+        result = selected_anchor_coverage([target], [proposal])
+        self.assertEqual(result["covered"], 1)
+        self.assertEqual(result["matched_labels"], ["L1"])
+        self.assertEqual(selected_anchor_coverage([target], [dict(proposal, observation_id="36a")])["covered"], 0)
+        self.assertEqual(selected_anchor_coverage([target, target], [proposal])["covered"], 1)
+
+    def test_recorded_luna_run_can_be_revalidated_without_model_call(self):
+        snapshot = ROOT / "data" / "evaluations" / "phase1-dev-gpt6-luna-20261010.json"
+        if not snapshot.exists():
+            self.skipTest("Live run snapshot not present")
+        data = json.loads(snapshot.read_text(encoding="utf-8"))
+        labels = json.loads((ROOT / "data" / "labels-dev.json").read_text(encoding="utf-8"))
+        total_good = total_repaired = strict_matches = covered = 0
+        for group in data["groups"]:
+            source = ROOT / "data" / "raw" / group["document_id"]
+            if not source.exists():
+                self.skipTest("Public AGO PDFs not downloaded")
+            adjusted, indices = normalise_observation_ids(
+                group["raw_model_records"], set(group["target_observations"])
+            )
+            self.assertEqual(indices, group["normalised_observation_indices"])
+            valid, rejected = validate_predictions(
+                adjusted, read_report(source), group["document_id"]
+            )
+            self.assertFalse(rejected)
+            gold = [x for x in labels if x["document_id"] == group["document_id"]
+                    and x["pdf_page"] in group["pdf_pages"]]
+            total_good += len(valid)
+            total_repaired += len(indices)
+            strict_matches += evaluate(gold, valid)["matched"]
+            covered += selected_anchor_coverage(gold, valid)["covered"]
+        self.assertEqual((total_good, total_repaired, strict_matches, covered),
+                         (17, 11, 8, 10))
 
     def test_manual_anchors_against_real_reports(self):
         path = ROOT / "data" / "labels-dev.json"

@@ -146,3 +146,39 @@ def evaluate(gold: list[dict], predicted: list[dict]) -> dict:
         "method": "exact document+PDF page+control area; nested evidence quotes; one-to-one",
         "caution": "Strict automated scores need manual adjudication when evidence spans differ or taxonomy labels are debatable.",
     }
+
+def normalise_observation_ids(items: list[dict], allowed: set[str]) -> tuple[list[dict], list[int]]:
+    """Repair only numeric paragraph identifiers already in the declared scope.
+
+    The raw model records should be preserved separately for auditability.
+    """
+    normalised, repaired_indices = [], []
+    for index, record in enumerate(items):
+        item = dict(record)
+        original = item.get("observation_id")
+        if type(original) is int and str(original) in allowed:
+            item["observation_id"] = str(original)
+            repaired_indices.append(index)
+        normalised.append(item)
+    return normalised, repaired_indices
+
+
+def selected_anchor_coverage(gold: list[dict], predicted: list[dict]) -> dict:
+    """Coverage of selective, non-exhaustive labels, independent of quote span.
+
+    This is NOT full-recall measurement; label taxonomy and target scope may be incomplete.
+    """
+    used = set()
+    hits = []
+    for reference in gold:
+        for index, candidate in enumerate(predicted):
+            if index in used:
+                continue
+            comparable = ("document_id", "pdf_page", "entity", "observation_id", "control_area")
+            if all(str(reference.get(k, "")).casefold() == str(candidate.get(k, "")).casefold()
+                   for k in comparable):
+                used.add(index)
+                hits.append(reference.get("label_id"))
+                break
+    return {"matched_labels": hits, "covered": len(hits), "total": len(gold),
+            "caution": "Selective reference-label coverage, not full extraction recall."}

@@ -1,0 +1,436 @@
+{
+  "experiment": "phase1-development-sample",
+  "as_of": "2026-10-10",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "interface": "Codex CLI 0.155.0 read-only ephemeral",
+  "independent_runs": 2,
+  "groups": [
+    {
+      "group": "psd",
+      "document_id": "ago-fy2022-23.pdf",
+      "pdf_pages": [
+        32,
+        33
+      ],
+      "target_observations": [
+        "30",
+        "32",
+        "33",
+        "36a",
+        "36b"
+      ],
+      "raw_model_records": [
+        {
+          "entity": "PSD",
+          "system": "HRP application and database servers",
+          "observation_id": "30",
+          "weakness": "Security software was misconfigured on all 8 servers, allowing 17 OS administrators to execute any command with root privileges while running 5 authorised commands.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the 17 OS administrators could execute any command with the privileges of the “root” account while executing 5 of the authorised commands",
+          "pdf_page": 32
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP DB",
+          "observation_id": "32",
+          "weakness": "The most privileged DB account in one DB component was active and used for routine system monitoring, contrary to guidance requiring it to remain deactivated unless needed for specific situations.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the most privileged DB account in 1 of the DB components was activated and last used on 31 October 2022 to perform general system monitoring",
+          "pdf_page": 32
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP DB",
+          "observation_id": "33",
+          "weakness": "The most privileged DB account was not configured to disable after multiple consecutive failed login attempts.",
+          "control_area": "authentication",
+          "evidence_quote": "the most privileged DB account was not configured to be disabled after multiple consecutive failed login attempts",
+          "pdf_page": 33
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP applications",
+          "observation_id": "36a",
+          "weakness": "Monthly reviews of privileged accounts had not been conducted.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "Monthly reviews had not been conducted on privileged accounts for HRP applications.",
+          "pdf_page": 33
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP servers",
+          "observation_id": "36b",
+          "weakness": "Three monthly reviews of server accounts were ineffective because the account list reviewed was incomplete; less than 14% of server accounts were reviewed.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "Less than 14% of the HRP server accounts and 4% of HRP database accounts were reviewed.",
+          "pdf_page": 33
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP database",
+          "observation_id": "36b",
+          "weakness": "One monthly review of privileged/service accounts was ineffective because the account list reviewed was incomplete; 4% of database accounts were reviewed.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "Less than 14% of the HRP server accounts and 4% of HRP database accounts were reviewed.",
+          "pdf_page": 33
+        }
+      ],
+      "normalised_observation_indices": [],
+      "source_validated": 6,
+      "source_rejected": 0,
+      "strict_quote_overlap_matches": 3,
+      "selected_gold_labels": 5,
+      "selected_anchor_coverage": 5,
+      "validated_predictions": [
+        {
+          "entity": "PSD",
+          "system": "HRP application and database servers",
+          "observation_id": "30",
+          "weakness": "Security software was misconfigured on all 8 servers, allowing 17 OS administrators to execute any command with root privileges while running 5 authorised commands.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the 17 OS administrators could execute any command with the privileges of the “root” account while executing 5 of the authorised commands",
+          "pdf_page": 32,
+          "document_id": "ago-fy2022-23.pdf",
+          "printed_page": "22",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP DB",
+          "observation_id": "32",
+          "weakness": "The most privileged DB account in one DB component was active and used for routine system monitoring, contrary to guidance requiring it to remain deactivated unless needed for specific situations.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the most privileged DB account in 1 of the DB components was activated and last used on 31 October 2022 to perform general system monitoring",
+          "pdf_page": 32,
+          "document_id": "ago-fy2022-23.pdf",
+          "printed_page": "22",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP DB",
+          "observation_id": "33",
+          "weakness": "The most privileged DB account was not configured to disable after multiple consecutive failed login attempts.",
+          "control_area": "authentication",
+          "evidence_quote": "the most privileged DB account was not configured to be disabled after multiple consecutive failed login attempts",
+          "pdf_page": 33,
+          "document_id": "ago-fy2022-23.pdf",
+          "printed_page": "23",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP applications",
+          "observation_id": "36a",
+          "weakness": "Monthly reviews of privileged accounts had not been conducted.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "Monthly reviews had not been conducted on privileged accounts for HRP applications.",
+          "pdf_page": 33,
+          "document_id": "ago-fy2022-23.pdf",
+          "printed_page": "23",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP servers",
+          "observation_id": "36b",
+          "weakness": "Three monthly reviews of server accounts were ineffective because the account list reviewed was incomplete; less than 14% of server accounts were reviewed.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "Less than 14% of the HRP server accounts and 4% of HRP database accounts were reviewed.",
+          "pdf_page": 33,
+          "document_id": "ago-fy2022-23.pdf",
+          "printed_page": "23",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "PSD",
+          "system": "HRP database",
+          "observation_id": "36b",
+          "weakness": "One monthly review of privileged/service accounts was ineffective because the account list reviewed was incomplete; 4% of database accounts were reviewed.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "Less than 14% of the HRP server accounts and 4% of HRP database accounts were reviewed.",
+          "pdf_page": 33,
+          "document_id": "ago-fy2022-23.pdf",
+          "printed_page": "23",
+          "review_status": "proposed"
+        }
+      ]
+    },
+    {
+      "group": "msf-ecda",
+      "document_id": "ago-fy2023-24.pdf",
+      "pdf_pages": [
+        84,
+        85,
+        105
+      ],
+      "target_observations": [
+        "78",
+        "80",
+        "81",
+        "144",
+        "145"
+      ],
+      "raw_model_records": [
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": 78,
+          "weakness": "There was no evidence of detailed assessment of privileged access granted to three OS user accounts, and the sudo configurations were not reviewed.",
+          "control_area": "privileged_access",
+          "evidence_quote": "there was no evidence of detailed assessment performed on privileged access granted to 3 OS user accounts",
+          "pdf_page": 84
+        },
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": 80,
+          "weakness": "A privileged account was shared between two users, preventing activities from being traced to the individual user who performed them.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the sharing of a privileged account between 2 users. The account sharing would mean that each privileged activity performed would not be traceable to the user",
+          "pdf_page": 84
+        },
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": 80,
+          "weakness": "The log reports used for monthly privileged activity reviews lacked sufficient detail.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "the log reports used for the reviews did not contain sufficient details on the privileged user activities carried out.",
+          "pdf_page": 84
+        },
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": 80,
+          "weakness": "The log reports did not capture privileged user activities in the critical system module.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "The log reports were also incomplete as they did not capture privileged user activities performed in a particular system module (i.e. the “critical” module)",
+          "pdf_page": 84
+        },
+        {
+          "entity": "MSF",
+          "system": "BBO",
+          "observation_id": 81,
+          "weakness": "Privileged users were granted access rights beyond what their job roles required.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the privileged users were granted access rights in excess of what they needed for their job roles",
+          "pdf_page": 85
+        },
+        {
+          "entity": "MSF",
+          "system": "BBO",
+          "observation_id": 81,
+          "weakness": "MSF did not review privileged user activities during the audit period.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "MSF did not perform any review on the privileged user activities during the audit period April 2021 to June 2023",
+          "pdf_page": 85
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": 144,
+          "weakness": "ECDA did not review privileged user activities.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "the absence of reviews conducted on privileged user activities since CMS was implemented in April 2019.",
+          "pdf_page": 105
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": 144,
+          "weakness": "ECDA could not provide supporting documents to establish whether one test-checked privileged activity was authorised.",
+          "control_area": "privileged_access",
+          "evidence_quote": "ECDA could not provide supporting documents for 1 of the 7 privileged activities test-checked by AGO to ascertain whether the activity performed had been authorised.",
+          "pdf_page": 105
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": 145,
+          "weakness": "Reviews of internal users' access rights were incomplete.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "incomplete review of access rights of internal users",
+          "pdf_page": 105
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": 145,
+          "weakness": "Follow-up on reviews of external users' access rights was inadequate.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "inadequate follow-up on reviews of access rights of external users",
+          "pdf_page": 105
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": 145,
+          "weakness": "Removal of seven CMS accounts was delayed.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "delays in removal of 7 CMS accounts",
+          "pdf_page": 105
+        }
+      ],
+      "normalised_observation_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_validated": 11,
+      "source_rejected": 0,
+      "strict_quote_overlap_matches": 5,
+      "selected_gold_labels": 5,
+      "selected_anchor_coverage": 5,
+      "validated_predictions": [
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": "78",
+          "weakness": "There was no evidence of detailed assessment of privileged access granted to three OS user accounts, and the sudo configurations were not reviewed.",
+          "control_area": "privileged_access",
+          "evidence_quote": "there was no evidence of detailed assessment performed on privileged access granted to 3 OS user accounts",
+          "pdf_page": 84,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "72",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": "80",
+          "weakness": "A privileged account was shared between two users, preventing activities from being traced to the individual user who performed them.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the sharing of a privileged account between 2 users. The account sharing would mean that each privileged activity performed would not be traceable to the user",
+          "pdf_page": 84,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "72",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": "80",
+          "weakness": "The log reports used for monthly privileged activity reviews lacked sufficient detail.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "the log reports used for the reviews did not contain sufficient details on the privileged user activities carried out.",
+          "pdf_page": 84,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "72",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "MSF",
+          "system": "GPLS",
+          "observation_id": "80",
+          "weakness": "The log reports did not capture privileged user activities in the critical system module.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "The log reports were also incomplete as they did not capture privileged user activities performed in a particular system module (i.e. the “critical” module)",
+          "pdf_page": 84,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "72",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "MSF",
+          "system": "BBO",
+          "observation_id": "81",
+          "weakness": "Privileged users were granted access rights beyond what their job roles required.",
+          "control_area": "privileged_access",
+          "evidence_quote": "the privileged users were granted access rights in excess of what they needed for their job roles",
+          "pdf_page": 85,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "73",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "MSF",
+          "system": "BBO",
+          "observation_id": "81",
+          "weakness": "MSF did not review privileged user activities during the audit period.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "MSF did not perform any review on the privileged user activities during the audit period April 2021 to June 2023",
+          "pdf_page": 85,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "73",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": "144",
+          "weakness": "ECDA did not review privileged user activities.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "the absence of reviews conducted on privileged user activities since CMS was implemented in April 2019.",
+          "pdf_page": 105,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "93",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": "144",
+          "weakness": "ECDA could not provide supporting documents to establish whether one test-checked privileged activity was authorised.",
+          "control_area": "privileged_access",
+          "evidence_quote": "ECDA could not provide supporting documents for 1 of the 7 privileged activities test-checked by AGO to ascertain whether the activity performed had been authorised.",
+          "pdf_page": 105,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "93",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": "145",
+          "weakness": "Reviews of internal users' access rights were incomplete.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "incomplete review of access rights of internal users",
+          "pdf_page": 105,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "93",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": "145",
+          "weakness": "Follow-up on reviews of external users' access rights was inadequate.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "inadequate follow-up on reviews of access rights of external users",
+          "pdf_page": 105,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "93",
+          "review_status": "proposed"
+        },
+        {
+          "entity": "ECDA",
+          "system": "CMS",
+          "observation_id": "145",
+          "weakness": "Removal of seven CMS accounts was delayed.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "delays in removal of 7 CMS accounts",
+          "pdf_page": 105,
+          "document_id": "ago-fy2023-24.pdf",
+          "printed_page": "93",
+          "review_status": "proposed"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Labels selective and non-exhaustive",
+    "Report subset intentionally targeted",
+    "Source-verified quotes do not guarantee semantic correctness",
+    "No held-out evaluation"
+  ]
+}

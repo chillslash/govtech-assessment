@@ -1,7 +1,7 @@
 # GovTech Assessment — LLM-Powered Audit Assurance — Assessment and Prototype Plan
 
 **Assessment:** Internship Take-Home Technical Assessment — *LLM-Powered Audit Assurance Solution Proposal*.  
-**State:** Proposal and prototype roadmap only; no LLM solution built or evaluated yet.  
+**State:** Proposal and source-grounded prototype; two live GPT-6 Luna development-sample extraction calls completed. A held-out benchmark and final assessment slides remain pending.
 **Expected submission:** 6–8 slides **or** a written plan of up to five pages (excluding optional appendices). AI assistant use must be disclosed.
 
 ## 1. What the assignment asks
@@ -141,15 +141,15 @@ Optionally create **synthetic rewrites** to test phrasing/layout robustness, but
 
 **Decision record:** Prioritise a lean, repeatable, evidence-linked extraction workflow over an attractive but unmeasured chatbot. Building the optional prototype is to strengthen the assessment, not to replace the required proposal.
 
-## Prototype status — 10 October 2026
+## Prototype status - 10 October 2026
 
-**Phase 0 and a minimal Phase 1 are implemented** in this repository. This is not an audit-grade product, and **no live LLM extraction or model accuracy evaluation has been performed**. See [Phase 0 notes](docs/phase0-findings.md) and [17 researcher labels](data/labels-dev.json).
+**Phase 0 and the initial Phase 1 development slice have been implemented and exercised with live model inference.** The [live evaluation note](docs/phase1-live-evaluation.md) and [saved raw model responses](data/evaluations/phase1-dev-gpt6-luna-20261010.json) document the experiment.
 
-Implemented: page-aware `pypdf` reading; candidate-page ranking for reconnaissance (not guaranteed exhaustive); optional structured-output LLM adapter; fixed control taxonomy; deterministic validation of verbatim evidence quotes against 1-based PDF pages; a source-linked provisional record export; conservative one-to-one evaluation; standard-library tests.
+The two GPT-6 Luna, Medium, read-only Codex CLI calls produced 17 proposed atomic weaknesses from five selected PDF pages. All 17 cited excerpts were verified against their PDF pages after normalising 11 numeric observation IDs to strings (the raw values are retained). The prototype matched **10/10 selected reference anchors** by observation/category and **8/10** under strict nested-quote matching. These figures are **not recall or precision** because our 17 researcher labels are non-exhaustive.
 
-### Run locally (PowerShell from this repository)
+Implemented: `pypdf` page-aware extraction, candidate page discovery, optional OpenAI Responses API structured extraction adapter (not exercised), Codex read-only extraction runner, strict source-quote validation, scoped numeric observation-ID repair, selective anchor comparison and unit tests. Source matches alone do not establish semantic correctness or coverage.
 
-Install requirements into an environment you control (for example, a project-local venv), then set `PYTHONPATH` to include `src`:
+### Local setup and tests (PowerShell)
 
 ```powershell
 python -m venv .venv
@@ -157,17 +157,15 @@ python -m venv .venv
 $env:PYTHONPATH = "$PWD\src"
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe -m audit_assurance check-labels --labels data/labels-dev.json
-.\.venv\Scripts\python.exe -m audit_assurance inspect --report data/raw/ago-fy2023-24.pdf --limit 10
 ```
 
-A live model call is **optional**, requires a separately authorised `OPENAI_API_KEY` and a provider-supported `--model` identifier, and should use only public reports:
+For a **new** live run, Codex must be logged in for the Windows execution account. Pass the actual executable path using `--codex`; the runner pins `gpt-6-luna`, Medium reasoning, an ephemeral read-only Codex session, and no filesystem tools:
 
 ```powershell
-python -m audit_assurance extract --report data/raw/ago-fy2023-24.pdf --pages 84,85 --model YOUR_SUPPORTED_MODEL_ID
+python scripts/run_codex_eval.py --group psd --codex "C:\Users\ryano\.codex\packages\standalone\current\bin\codex.exe"
+python scripts/run_codex_eval.py --group msf-ecda --codex "C:\Users\ryano\.codex\packages\standalone\current\bin\codex.exe"
 ```
 
-This adapter asks for **medium** reasoning by default and rejects unsupported quotes; it has **not** been exercised with live credentials. Existing ChatGPT/Codex login does not itself supply an API key.
+The independent Responses API adapter (`python -m audit_assurance extract ... --model ...`) instead requires `OPENAI_API_KEY`; Codex login does not provide that credential. All outputs are provisional, and public source data only is used.
 
-**Test status:** 7 unit/integration tests passed. 17/17 manually drafted labels matched exact source text on their cited PDF pages (12 FY2022/23; 5 FY2023/24). These are **evidence-linkage checks**, not measures of model precision or recall. Some PDF pages produce recoverable parser warnings; FY2025/26 needs separate parser investigation before full-corpus use.
-
-Next: adjudicate development labels and negative cases; obtain an authorised live inference route; run a real source-grounded extraction and baseline comparison; reserve genuinely untouched passages for held-out evaluation.
+**Next:** Finish exhaustive labels for the development paragraphs, manually adjudicate duplicates and classifications, freeze the extraction rules, then run a genuinely held-out FY2024/25 evaluation and compare a generic-chatbot baseline. The assessment deliverable remains the 6-8 slide proposal, with an AI-use disclosure.
