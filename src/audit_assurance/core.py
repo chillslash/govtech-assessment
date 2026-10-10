@@ -13,7 +13,8 @@ import unicodedata
 CONTROL_AREAS = (
     "access_lifecycle", "privileged_access", "authentication",
     "logging_monitoring", "change_management", "patch_configuration",
-    "data_integrity", "other_uncertain",
+    "data_integrity", "incident_response", "business_continuity",
+    "governance_assurance", "other_uncertain",
 )
 
 

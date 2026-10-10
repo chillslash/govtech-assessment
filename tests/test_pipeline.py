@@ -106,6 +106,43 @@ class AuditPrototypeTests(unittest.TestCase):
         self.assertEqual((total_good, total_repaired, strict_matches, covered),
                          (17, 11, 8, 10))
 
+    def test_anao_report_summaries_never_enter_prompt(self):
+        from scripts.run_anao_pilot import prepare_prompt
+        pages = [
+            Page(1, "1", "The Auditor-General summary has the SECRET REFERENCE ANSWER."),
+            Page(2, "2", "2.56 AUSTRAC has inadequate SIEM coverage."),
+        ]
+        prompt = prepare_prompt(pages, [2], [1])
+        self.assertIn("2.56 AUSTRAC has inadequate SIEM coverage", prompt)
+        self.assertNotIn("SECRET REFERENCE ANSWER", prompt)
+        with self.assertRaises(ValueError):
+            prepare_prompt(pages, [1], [1])
+
+    def test_anao_page_selection_and_response_shape(self):
+        from scripts.run_anao_pilot import page_numbers, parse_model_output
+        self.assertEqual(page_numbers("4, 2,4", 5), [2, 4])
+        with self.assertRaises(ValueError):
+            page_numbers("2-5", 9)
+        with self.assertRaises(ValueError):
+            page_numbers("0, 1", 9)
+        self.assertEqual(parse_model_output('{"weaknesses": []}'), [])
+        with self.assertRaises(ValueError):
+            parse_model_output('{"wrong": []}')
+
+    def test_anao_paragraph_number_repair_requires_source(self):
+        from scripts.run_anao_pilot import normalise_anao_ids
+        pages = [Page(21, "21", "2.56 AUSTRAC control deficiency.")]
+        original = [
+            dict(record(), pdf_page=21, observation_id=2.56),
+            dict(record(), pdf_page=21, observation_id=3.7),
+            dict(record(), pdf_page=21, observation_id="2.56"),
+        ]
+        fixed, corrected = normalise_anao_ids(original, pages)
+        self.assertEqual(corrected, [0])
+        self.assertEqual(fixed[0]["observation_id"], "2.56")
+        self.assertEqual(fixed[1]["observation_id"], 3.7)
+        self.assertEqual(original[0]["observation_id"], 2.56)
+
     def test_manual_anchors_against_real_reports(self):
         path = ROOT / "data" / "labels-dev.json"
         if not path.exists():

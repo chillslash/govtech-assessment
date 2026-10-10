@@ -169,3 +169,7 @@ python scripts/run_codex_eval.py --group msf-ecda --codex "C:\Users\ryano\.codex
 The independent Responses API adapter (`python -m audit_assurance extract ... --model ...`) instead requires `OPENAI_API_KEY`; Codex login does not provide that credential. All outputs are provisional, and public source data only is used.
 
 **Next:** Finish exhaustive labels for the development paragraphs, manually adjudicate duplicates and classifications, freeze the extraction rules, then run a genuinely held-out FY2024/25 evaluation and compare a generic-chatbot baseline. The assessment deliverable remains the 6-8 slide proposal, with an AI-use disclosure.
+
+## ANAO standalone audit-report pilot (prepared)
+
+A second, source-appropriate evaluation track uses individual published ANAO audits rather than using AGO annual summaries as if they were underlying audits. The [pilot protocol](docs/anao-pilot.md) explains official sources, how to withhold executive summaries, and an executable GPT-6 Luna Medium runner. The PDFs are not yet present in the workspace because ANAO blocked automated downloads; **no ANAO model scores exist yet**.
