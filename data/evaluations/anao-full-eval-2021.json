@@ -1,0 +1,76 @@
+{
+  "report_id": "2021",
+  "evaluation_method": "source-first-frozen-reference-AI-assisted-matching",
+  "reference_count": 6,
+  "holdout_count": 2,
+  "model_predictions_on_anchor_pages": 9,
+  "references": [
+    {
+      "label_id": "R025",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2021-F005"
+      ],
+      "reason": "Matches the missing SIEM review documentation and formal approval; AGD is supported by the reference scope."
+    },
+    {
+      "label_id": "R026",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2021-F008"
+      ],
+      "reason": "Matches the absent timeframe for reaching Managing maturity under PSPF Policy 10; AGD is supported."
+    },
+    {
+      "label_id": "R027",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2021-F009"
+      ],
+      "reason": "Matches the absent clear strategy for reaching Managing maturity; AGD is supported."
+    },
+    {
+      "label_id": "R028",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2021-F010"
+      ],
+      "reason": "Matches the lack of evidence demonstrating documented processes for maturity improvement; AGD is supported."
+    },
+    {
+      "label_id": "R029",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2021-F011"
+      ],
+      "reason": "Matches the lack of independent assurance of compliance with the Top Four mitigation strategies; AGD is supported."
+    },
+    {
+      "label_id": "R030",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2021-F012"
+      ],
+      "reason": "Matches the committee’s lack of security maturity progress reports; AGD is supported."
+    }
+  ],
+  "holdouts": [
+    {
+      "pdf_page": 56,
+      "verdict": "missed",
+      "matched_record_ids": [],
+      "reason": "No prediction on this page captures the Future Fund committee’s lack of work-in-progress status updates."
+    },
+    {
+      "pdf_page": 69,
+      "verdict": "detected",
+      "matched_record_ids": [
+        "2021-F015"
+      ],
+      "reason": "The prediction captures AGD’s lack of a framework to guide analysis of PSPF assessment reports, matching the cited assessment."
+    }
+  ],
+  "raw_model_response": "{\"references\":[{\"label_id\":\"R025\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2021-F005\"],\"reason\":\"Matches the missing SIEM review documentation and formal approval; AGD is supported by the reference scope.\"},{\"label_id\":\"R026\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2021-F008\"],\"reason\":\"Matches the absent timeframe for reaching Managing maturity under PSPF Policy 10; AGD is supported.\"},{\"label_id\":\"R027\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2021-F009\"],\"reason\":\"Matches the absent clear strategy for reaching Managing maturity; AGD is supported.\"},{\"label_id\":\"R028\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2021-F010\"],\"reason\":\"Matches the lack of evidence demonstrating documented processes for maturity improvement; AGD is supported.\"},{\"label_id\":\"R029\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2021-F011\"],\"reason\":\"Matches the lack of independent assurance of compliance with the Top Four mitigation strategies; AGD is supported.\"},{\"label_id\":\"R030\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2021-F012\"],\"reason\":\"Matches the committee’s lack of security maturity progress reports; AGD is supported.\"}],\"holdouts\":[{\"pdf_page\":56,\"verdict\":\"missed\",\"matched_record_ids\":[],\"reason\":\"No prediction on this page captures the Future Fund committee’s lack of work-in-progress status updates.\"},{\"pdf_page\":69,\"verdict\":\"detected\",\"matched_record_ids\":[\"2021-F015\"],\"reason\":\"The prediction captures AGD’s lack of a framework to guide analysis of PSPF assessment reports, matching the cited assessment.\"}]}",
+  "model_seconds": 7.45,
+  "limitations": "Unblinded AI judge without full source context; NOT expert adjudication or full-report recall."
+}

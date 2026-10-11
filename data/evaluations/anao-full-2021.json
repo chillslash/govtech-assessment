@@ -1,0 +1,1295 @@
+{
+  "document_id": "anao-2021-strategies.pdf",
+  "report_id": "2021",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T04:34:03.361640+00:00",
+  "method": "all-pages-llm-screened-no-topk",
+  "findings_section_physical_pages": [
+    35,
+    82
+  ],
+  "all_screened_pages": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "raw_output": "{\"candidates\":[]}",
+      "model_seconds": 5.12,
+      "accepted": [],
+      "rejected": []
+    },
+    {
+      "pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":43,\"evidence_quote\":\"PM&C does not have a robust process to ensure that it is monitoring all security events relevant to its environment.\",\"why\":\"Monitoring gaps reduce the department’s ability to manage cyber threats.\"},{\"pdf_page\":44,\"evidence_quote\":\"there was no documentation and formal approval of reviews.\",\"why\":\"Reviews of security event monitoring were not documented or formally approved, creating a risk of inconsistent handling.\"}]}",
+      "model_seconds": 6.53,
+      "accepted": [
+        {
+          "pdf_page": 43,
+          "evidence_quote": "PM&C does not have a robust process to ensure that it is monitoring all security events relevant to its environment.",
+          "why": "Monitoring gaps reduce the department’s ability to manage cyber threats."
+        },
+        {
+          "pdf_page": 44,
+          "evidence_quote": "there was no documentation and formal approval of reviews.",
+          "why": "Reviews of security event monitoring were not documented or formally approved, creating a risk of inconsistent handling."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":39,\"evidence_quote\":\"it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.\",\"why\":\"Privileged access validation did not ensure access was limited to personnel who needed it.\"},{\"pdf_page\":40,\"evidence_quote\":\"some operating system patches had not been applied within ISM timeframes.\",\"why\":\"Some server patches missed required timeframes, and AGD had not assessed the risk.\"},{\"pdf_page\":41,\"evidence_quote\":\"the ANAO’s assessment found that privileged user accounts could access the Internet.\",\"why\":\"Privileged accounts could access the Internet contrary to policy.\"}]}",
+      "model_seconds": 8.66,
+      "accepted": [
+        {
+          "pdf_page": 39,
+          "evidence_quote": "it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.",
+          "why": "Privileged access validation did not ensure access was limited to personnel who needed it."
+        },
+        {
+          "pdf_page": 40,
+          "evidence_quote": "some operating system patches had not been applied within ISM timeframes.",
+          "why": "Some server patches missed required timeframes, and AGD had not assessed the risk."
+        },
+        {
+          "pdf_page": 41,
+          "evidence_quote": "the ANAO’s assessment found that privileged user accounts could access the Internet.",
+          "why": "Privileged accounts could access the Internet contrary to policy."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":49,\"evidence_quote\":\"The Cyber Security Work Program does not include a set timeframe for Austrade to achieve ‘Managing’ maturity for PSPF Policy 10.\",\"why\":\"Austrade's cyber security improvement program lacks a defined timeframe for achieving the target maturity.\"},{\"pdf_page\":50,\"evidence_quote\":\"the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy\",\"why\":\"DESE monitors its cyber security work without agreed maturity improvement timeframes.\"}]}",
+      "model_seconds": 5.53,
+      "accepted": [
+        {
+          "pdf_page": 50,
+          "evidence_quote": "the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy",
+          "why": "DESE monitors its cyber security work without agreed maturity improvement timeframes."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 49,
+            "evidence_quote": "The Cyber Security Work Program does not include a set timeframe for Austrade to achieve ‘Managing’ maturity for PSPF Policy 10.",
+            "why": "Austrade's cyber security improvement program lacks a defined timeframe for achieving the target maturity."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":54,\"evidence_quote\":\"As at October 2020, AGD has not developed a clear strategy for achieving ‘Managing’ maturity.\",\"why\":\"AGD lacked a clear strategy and timeframe to improve its cyber security maturity.\"},{\"pdf_page\":54,\"evidence_quote\":\"AGD has not provided evidence to demonstrate  its processes to improve its maturity against Policy 10 to ‘Managing’.\",\"why\":\"AGD could not demonstrate processes for improving Policy 10 maturity.\"},{\"pdf_page\":54,\"evidence_quote\":\"AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.\",\"why\":\"AGD lacked independent assurance of compliance with key cyber security mitigations.\"},{\"pdf_page\":54,\"evidence_quote\":\"The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.\",\"why\":\"The committee lacked progress reporting and could not monitor implementation.\"}]}",
+      "model_seconds": 6.33,
+      "accepted": [
+        {
+          "pdf_page": 54,
+          "evidence_quote": "As at October 2020, AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+          "why": "AGD lacked a clear strategy and timeframe to improve its cyber security maturity."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "raw_output": "{\"candidates\":[]}",
+      "model_seconds": 5.66,
+      "accepted": [],
+      "rejected": []
+    },
+    {
+      "pages": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":55,\"evidence_quote\":\"Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.\",\"why\":\"Compliance with key mitigation strategies lacked independent assurance.\"},{\"pdf_page\":56,\"evidence_quote\":\"Future Fund informed the ANAO that the Management Committee does not receive updates through the dashboard on the progress of the Essential Eight improvement activities, but only of their completion.\",\"why\":\"Governance reporting did not track progress of improvement activities.\"}]}",
+      "model_seconds": 7.94,
+      "accepted": [
+        {
+          "pdf_page": 55,
+          "evidence_quote": "Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.",
+          "why": "Compliance with key mitigation strategies lacked independent assurance."
+        },
+        {
+          "pdf_page": 56,
+          "evidence_quote": "Future Fund informed the ANAO that the Management Committee does not receive updates through the dashboard on the progress of the Essential Eight improvement activities, but only of their completion.",
+          "why": "Governance reporting did not track progress of improvement activities."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "raw_output": "{\"candidates\":[]}",
+      "model_seconds": 5.94,
+      "accepted": [],
+      "rejected": []
+    },
+    {
+      "pages": [
+        75,
+        76,
+        77,
+        78
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":78,\"evidence_quote\":\"There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.\",\"why\":\"The auditor found no framework for Ministers to assess entities’ self-assessments, leaving cyber posture accountability unsupported.\"}]}",
+      "model_seconds": 7.19,
+      "accepted": [
+        {
+          "pdf_page": 78,
+          "evidence_quote": "There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.",
+          "why": "The auditor found no framework for Ministers to assess entities’ self-assessments, leaving cyber posture accountability unsupported."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":68,\"evidence_quote\":\"The cyber policy and operational entities have not developed processes to verify the accuracy of entities’ PSPF Policy 10 self-assessed reporting.\",\"why\":\"Entities’ cybersecurity self-assessments lacked a verification process.\"},{\"pdf_page\":69,\"evidence_quote\":\"AGD does not have a framework that it uses to guide the analysis.\",\"why\":\"AGD lacked a framework for analyzing entities’ PSPF assessment reports.\"}]}",
+      "model_seconds": 12.95,
+      "accepted": [
+        {
+          "pdf_page": 69,
+          "evidence_quote": "AGD does not have a framework that it uses to guide the analysis.",
+          "why": "AGD lacked a framework for analyzing entities’ PSPF assessment reports."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 68,
+            "evidence_quote": "The cyber policy and operational entities have not developed processes to verify the accuracy of entities’ PSPF Policy 10 self-assessed reporting.",
+            "why": "Entities’ cybersecurity self-assessments lacked a verification process."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":81,\"evidence_quote\":\"Non-corporate Commonwealth entities have not been held to account for not meeting mandatory cyber security requirements under PSPF Policy 10.\",\"why\":\"Entities with low cyber security maturity faced no required remediation or accountability for mandatory controls.\"}]}",
+      "model_seconds": 5.66,
+      "accepted": [],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 81,
+            "evidence_quote": "Non-corporate Commonwealth entities have not been held to account for not meeting mandatory cyber security requirements under PSPF Policy 10.",
+            "why": "Entities with low cyber security maturity faced no required remediation or accountability for mandatory controls."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":71,\"evidence_quote\":\"A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.\",\"why\":\"The planned assistance to improve entities’ cybersecurity had no coordinated implementation plan.\"},{\"pdf_page\":72,\"evidence_quote\":\"AGD has not returned to the Government Security Committee to discuss the moderation of self-assessments.\",\"why\":\"The assurance process for checking the accuracy of entities’ cybersecurity self-assessments remained incomplete.\"}]}",
+      "model_seconds": 21.98,
+      "accepted": [
+        {
+          "pdf_page": 71,
+          "evidence_quote": "A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.",
+          "why": "The planned assistance to improve entities’ cybersecurity had no coordinated implementation plan."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 72,
+            "evidence_quote": "AGD has not returned to the Government Security Committee to discuss the moderation of self-assessments.",
+            "why": "The assurance process for checking the accuracy of entities’ cybersecurity self-assessments remained incomplete."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    }
+  ],
+  "extraction_batches": [
+    {
+      "pages": [
+        41,
+        43
+      ],
+      "model_seconds": 6.39,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Future Fund\",\"system\":\"Privileged accounts\",\"observation_id\":\"2.24\",\"weakness\":\"Privileged user accounts could access the Internet despite policy prohibiting it.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"privileged user accounts could access the Internet\",\"pdf_page\":41},{\"entity\":\"Department of the Prime Minister and Cabinet (PM&C)\",\"system\":\"Security information and event management (SIEM) system\",\"observation_id\":\"2.27\",\"weakness\":\"PM&C lacked a robust process to ensure all security events relevant to its environment were monitored.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"does not have a robust process to ensure that it is monitoring all security events relevant to its environment\",\"pdf_page\":43}]}",
+      "raw_predictions": [
+        {
+          "entity": "Future Fund",
+          "system": "Privileged accounts",
+          "observation_id": "2.24",
+          "weakness": "Privileged user accounts could access the Internet despite policy prohibiting it.",
+          "control_area": "privileged_access",
+          "evidence_quote": "privileged user accounts could access the Internet",
+          "pdf_page": 41
+        },
+        {
+          "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+          "system": "Security information and event management (SIEM) system",
+          "observation_id": "2.27",
+          "weakness": "PM&C lacked a robust process to ensure all security events relevant to its environment were monitored.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "does not have a robust process to ensure that it is monitoring all security events relevant to its environment",
+          "pdf_page": 43
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Future Fund",
+          "system": "Privileged accounts",
+          "observation_id": "2.24",
+          "weakness": "Privileged user accounts could access the Internet despite policy prohibiting it.",
+          "control_area": "privileged_access",
+          "evidence_quote": "privileged user accounts could access the Internet",
+          "pdf_page": 41,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+          "system": "Security information and event management (SIEM) system",
+          "observation_id": "2.27",
+          "weakness": "PM&C lacked a robust process to ensure all security events relevant to its environment were monitored.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "does not have a robust process to ensure that it is monitoring all security events relevant to its environment",
+          "pdf_page": 43,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        39,
+        40
+      ],
+      "model_seconds": 6.77,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Department of the Prime Minister and Cabinet (PM&C)\",\"system\":null,\"observation_id\":\"2.12\",\"weakness\":\"Privileged-access validation does not sufficiently ensure access is limited to personnel who require it for their duties.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.\",\"pdf_page\":39},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"PDF page 40\",\"weakness\":\"Vulnerability scanning is not used across the whole environment, so missed patches may go undetected.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"it decided to not use a vulnerability scanning tool across its whole environment. As a result, there is a risk that missed patches will not be detected.\",\"pdf_page\":40},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"2.17\",\"weakness\":\"Some server operating-system patches were not applied within ISM timeframes, and the missed patches were not risk-assessed.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"some operating system patches had not been applied within ISM timeframes. [...] AGD did not perform risk assessments against the missed patches.\",\"pdf_page\":40}]}",
+      "raw_predictions": [
+        {
+          "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+          "system": null,
+          "observation_id": "2.12",
+          "weakness": "Privileged-access validation does not sufficiently ensure access is limited to personnel who require it for their duties.",
+          "control_area": "privileged_access",
+          "evidence_quote": "it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "PDF page 40",
+          "weakness": "Vulnerability scanning is not used across the whole environment, so missed patches may go undetected.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "it decided to not use a vulnerability scanning tool across its whole environment. As a result, there is a risk that missed patches will not be detected.",
+          "pdf_page": 40
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.17",
+          "weakness": "Some server operating-system patches were not applied within ISM timeframes, and the missed patches were not risk-assessed.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "some operating system patches had not been applied within ISM timeframes. [...] AGD did not perform risk assessments against the missed patches.",
+          "pdf_page": 40
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+          "system": null,
+          "observation_id": "2.12",
+          "weakness": "Privileged-access validation does not sufficiently ensure access is limited to personnel who require it for their duties.",
+          "control_area": "privileged_access",
+          "evidence_quote": "it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.",
+          "pdf_page": 39,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 1,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Attorney-General’s Department (AGD)",
+            "system": null,
+            "observation_id": "PDF page 40",
+            "weakness": "Vulnerability scanning is not used across the whole environment, so missed patches may go undetected.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "it decided to not use a vulnerability scanning tool across its whole environment. As a result, there is a risk that missed patches will not be detected.",
+            "pdf_page": 40
+          }
+        },
+        {
+          "index": 2,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Attorney-General’s Department (AGD)",
+            "system": null,
+            "observation_id": "2.17",
+            "weakness": "Some server operating-system patches were not applied within ISM timeframes, and the missed patches were not risk-assessed.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "some operating system patches had not been applied within ISM timeframes. [...] AGD did not perform risk assessments against the missed patches.",
+            "pdf_page": 40
+          }
+        }
+      ]
+    },
+    {
+      "pages": [
+        56,
+        69
+      ],
+      "model_seconds": 6.34,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.52\",\"weakness\":\"Lacks technical capability to verify entities’ Essential Eight assessments and does not technically verify assessments of other PSPF policies.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"it does not have the technical capability to verify the accuracy of entities’ Essential Eight assessment\",\"pdf_page\":69},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.53\",\"weakness\":\"Has no framework to guide its analysis of entities’ PSPF assessment reports.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD does not have a framework that it uses to guide the analysis.\",\"pdf_page\":69}]}",
+      "raw_predictions": [
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.52",
+          "weakness": "Lacks technical capability to verify entities’ Essential Eight assessments and does not technically verify assessments of other PSPF policies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "it does not have the technical capability to verify the accuracy of entities’ Essential Eight assessment",
+          "pdf_page": 69
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.53",
+          "weakness": "Has no framework to guide its analysis of entities’ PSPF assessment reports.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD does not have a framework that it uses to guide the analysis.",
+          "pdf_page": 69
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.52",
+          "weakness": "Lacks technical capability to verify entities’ Essential Eight assessments and does not technically verify assessments of other PSPF policies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "it does not have the technical capability to verify the accuracy of entities’ Essential Eight assessment",
+          "pdf_page": 69,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.53",
+          "weakness": "Has no framework to guide its analysis of entities’ PSPF assessment reports.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD does not have a framework that it uses to guide the analysis.",
+          "pdf_page": 69,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        54,
+        55
+      ],
+      "model_seconds": 8.19,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"2.80\",\"weakness\":\"AGD has not set a timeframe for reaching ‘Managing’ maturity for PSPF Policy 10.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD has not set a timeframe for achieving ‘Managing’ maturity for Policy 10.\",\"pdf_page\":54},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"2.80\",\"weakness\":\"AGD has not developed a clear strategy for achieving ‘Managing’ maturity.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD has not developed a clear strategy for achieving ‘Managing’ maturity.\",\"pdf_page\":54},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"2.81\",\"weakness\":\"AGD has not provided evidence of processes to improve its Policy 10 maturity to ‘Managing’.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD has not provided evidence to demonstrate  its processes to improve its maturity against Policy 10 to ‘Managing’.\",\"pdf_page\":54},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"2.82\",\"weakness\":\"AGD has not obtained independent assurance of its compliance with the Top Four mitigation strategies.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.\",\"pdf_page\":54},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":null,\"observation_id\":\"2.83\",\"weakness\":\"AGD’s Security and Risk Management Committee does not receive reports on the progress of its Essential Eight work, limiting its ability to monitor implementation.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.\",\"pdf_page\":54},{\"entity\":\"Future Fund\",\"system\":null,\"observation_id\":\"2.89\",\"weakness\":\"Future Fund has not obtained independent assurance of its compliance with the Top Four mitigation strategies.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.\",\"pdf_page\":55}]}",
+      "raw_predictions": [
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.80",
+          "weakness": "AGD has not set a timeframe for reaching ‘Managing’ maturity for PSPF Policy 10.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not set a timeframe for achieving ‘Managing’ maturity for Policy 10.",
+          "pdf_page": 54
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.80",
+          "weakness": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+          "pdf_page": 54
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.81",
+          "weakness": "AGD has not provided evidence of processes to improve its Policy 10 maturity to ‘Managing’.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not provided evidence to demonstrate  its processes to improve its maturity against Policy 10 to ‘Managing’.",
+          "pdf_page": 54
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.82",
+          "weakness": "AGD has not obtained independent assurance of its compliance with the Top Four mitigation strategies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.",
+          "pdf_page": 54
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.83",
+          "weakness": "AGD’s Security and Risk Management Committee does not receive reports on the progress of its Essential Eight work, limiting its ability to monitor implementation.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.",
+          "pdf_page": 54
+        },
+        {
+          "entity": "Future Fund",
+          "system": null,
+          "observation_id": "2.89",
+          "weakness": "Future Fund has not obtained independent assurance of its compliance with the Top Four mitigation strategies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.",
+          "pdf_page": 55
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.80",
+          "weakness": "AGD has not set a timeframe for reaching ‘Managing’ maturity for PSPF Policy 10.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not set a timeframe for achieving ‘Managing’ maturity for Policy 10.",
+          "pdf_page": 54,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.80",
+          "weakness": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+          "pdf_page": 54,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.81",
+          "weakness": "AGD has not provided evidence of processes to improve its Policy 10 maturity to ‘Managing’.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not provided evidence to demonstrate  its processes to improve its maturity against Policy 10 to ‘Managing’.",
+          "pdf_page": 54,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.82",
+          "weakness": "AGD has not obtained independent assurance of its compliance with the Top Four mitigation strategies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.",
+          "pdf_page": 54,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": null,
+          "observation_id": "2.83",
+          "weakness": "AGD’s Security and Risk Management Committee does not receive reports on the progress of its Essential Eight work, limiting its ability to monitor implementation.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.",
+          "pdf_page": 54,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Future Fund",
+          "system": null,
+          "observation_id": "2.89",
+          "weakness": "Future Fund has not obtained independent assurance of its compliance with the Top Four mitigation strategies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.",
+          "pdf_page": 55,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        44,
+        50
+      ],
+      "model_seconds": 15.36,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Department of the Prime Minister and Cabinet (PM&C)\",\"system\":null,\"observation_id\":\"2.29\",\"weakness\":\"Anomalies in security event reporting from the technical logging system were identified during the audit.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"Anomalies in our security event reporting (fro m our technical logging system) found by ANAO during the course of this audit\",\"pdf_page\":44},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":\"SIEM\",\"observation_id\":\"2.33\",\"weakness\":\"Reviews of SIEM controls lacked documentation and formal approval.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"there was no documentation and formal approval of reviews\",\"pdf_page\":44},{\"entity\":\"Department of Education, Skills and Employment (DESE)\",\"system\":null,\"observation_id\":\"2.61\",\"weakness\":\"Monitoring of Essential Eight maturity progress was not measured against an agreed timeframe for each mitigation strategy.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy\",\"pdf_page\":50},{\"entity\":\"Department of Education, Skills and Employment (DESE)\",\"system\":null,\"observation_id\":\"2.61\",\"weakness\":\"Monitoring was not measured against an agreed timeframe for achieving ‘Managing’ maturity for PSPF Policy 10.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"or achieving ‘Managing ’ maturity for PSPF Policy 10\",\"pdf_page\":50}]}",
+      "raw_predictions": [
+        {
+          "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+          "system": null,
+          "observation_id": "2.29",
+          "weakness": "Anomalies in security event reporting from the technical logging system were identified during the audit.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "Anomalies in our security event reporting (fro m our technical logging system) found by ANAO during the course of this audit",
+          "pdf_page": 44
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": "SIEM",
+          "observation_id": "2.33",
+          "weakness": "Reviews of SIEM controls lacked documentation and formal approval.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "there was no documentation and formal approval of reviews",
+          "pdf_page": 44
+        },
+        {
+          "entity": "Department of Education, Skills and Employment (DESE)",
+          "system": null,
+          "observation_id": "2.61",
+          "weakness": "Monitoring of Essential Eight maturity progress was not measured against an agreed timeframe for each mitigation strategy.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy",
+          "pdf_page": 50
+        },
+        {
+          "entity": "Department of Education, Skills and Employment (DESE)",
+          "system": null,
+          "observation_id": "2.61",
+          "weakness": "Monitoring was not measured against an agreed timeframe for achieving ‘Managing’ maturity for PSPF Policy 10.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "or achieving ‘Managing ’ maturity for PSPF Policy 10",
+          "pdf_page": 50
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+          "system": null,
+          "observation_id": "2.29",
+          "weakness": "Anomalies in security event reporting from the technical logging system were identified during the audit.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "Anomalies in our security event reporting (fro m our technical logging system) found by ANAO during the course of this audit",
+          "pdf_page": 44,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": "SIEM",
+          "observation_id": "2.33",
+          "weakness": "Reviews of SIEM controls lacked documentation and formal approval.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "there was no documentation and formal approval of reviews",
+          "pdf_page": 44,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Department of Education, Skills and Employment (DESE)",
+          "system": null,
+          "observation_id": "2.61",
+          "weakness": "Monitoring of Essential Eight maturity progress was not measured against an agreed timeframe for each mitigation strategy.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy",
+          "pdf_page": 50,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Department of Education, Skills and Employment (DESE)",
+          "system": null,
+          "observation_id": "2.61",
+          "weakness": "Monitoring was not measured against an agreed timeframe for achieving ‘Managing’ maturity for PSPF Policy 10.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "or achieving ‘Managing ’ maturity for PSPF Policy 10",
+          "pdf_page": 50,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        71,
+        78
+      ],
+      "model_seconds": 10.27,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.60\",\"weakness\":\"Did not use ACSC survey data to validate the accuracy of entities’ self-assessed maturity ratings.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD has not used the data to inform assurance activities on the self-assessed maturity ratings.\",\"pdf_page\":71},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.61\",\"weakness\":\"Meeting minutes did not record actions following discussions about assessment and survey results.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Minutes from the meetings indicate that AGD and ASD discuss the results of the PSPF assessment and ACSC C yber Security Survey, but do not record any actions taken following the meetings.\",\"pdf_page\":71},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.63\",\"weakness\":\"No plan had been developed for the coordinated policy and technical assistance approach.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.\",\"pdf_page\":71},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.96\",\"weakness\":\"No framework supported Ministers in determining whether entities’ self-assessment reports were appropriate.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.\",\"pdf_page\":78},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.97\",\"weakness\":\"Did not validate whether entities had undertaken reported cyber security measures or improved maturity within advised timeframes.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"The review was not for the purpose of validating whether entities had undertaken the cyber security measures or planned strategies detailed in their previous self-assessment, or confirming if entities have improved their maturity within the advised timeframe.\",\"pdf_page\":78},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.97\",\"weakness\":\"Did not use Policy 10 self-assessment data to hold entities accountable for their cyber security posture.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"AGD does not use the data from entities’ Policy 10 self-assessments to hold entities accountable for their cyber security postures.\",\"pdf_page\":78},{\"entity\":\"AGD\",\"system\":null,\"observation_id\":\"3.100\",\"weakness\":\"Aggregated public reporting did not disclose individual entities’ implementation of mandatory PSPF Policy 10 requirements or the effectiveness of Essential Eight implementation.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"The aggregated public reporting from ASD and AGD does not provide details on individual entities’ implementation of mandatory PSPF Policy 10 requirements or effectiveness of their implementation of the Essential Eight mitigation strategies.\",\"pdf_page\":78}]}",
+      "raw_predictions": [
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.60",
+          "weakness": "Did not use ACSC survey data to validate the accuracy of entities’ self-assessed maturity ratings.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not used the data to inform assurance activities on the self-assessed maturity ratings.",
+          "pdf_page": 71
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.61",
+          "weakness": "Meeting minutes did not record actions following discussions about assessment and survey results.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Minutes from the meetings indicate that AGD and ASD discuss the results of the PSPF assessment and ACSC C yber Security Survey, but do not record any actions taken following the meetings.",
+          "pdf_page": 71
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.63",
+          "weakness": "No plan had been developed for the coordinated policy and technical assistance approach.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.",
+          "pdf_page": 71
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.96",
+          "weakness": "No framework supported Ministers in determining whether entities’ self-assessment reports were appropriate.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.",
+          "pdf_page": 78
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.97",
+          "weakness": "Did not validate whether entities had undertaken reported cyber security measures or improved maturity within advised timeframes.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The review was not for the purpose of validating whether entities had undertaken the cyber security measures or planned strategies detailed in their previous self-assessment, or confirming if entities have improved their maturity within the advised timeframe.",
+          "pdf_page": 78
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.97",
+          "weakness": "Did not use Policy 10 self-assessment data to hold entities accountable for their cyber security posture.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD does not use the data from entities’ Policy 10 self-assessments to hold entities accountable for their cyber security postures.",
+          "pdf_page": 78
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.100",
+          "weakness": "Aggregated public reporting did not disclose individual entities’ implementation of mandatory PSPF Policy 10 requirements or the effectiveness of Essential Eight implementation.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The aggregated public reporting from ASD and AGD does not provide details on individual entities’ implementation of mandatory PSPF Policy 10 requirements or effectiveness of their implementation of the Essential Eight mitigation strategies.",
+          "pdf_page": 78
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.60",
+          "weakness": "Did not use ACSC survey data to validate the accuracy of entities’ self-assessed maturity ratings.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD has not used the data to inform assurance activities on the self-assessed maturity ratings.",
+          "pdf_page": 71,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.61",
+          "weakness": "Meeting minutes did not record actions following discussions about assessment and survey results.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Minutes from the meetings indicate that AGD and ASD discuss the results of the PSPF assessment and ACSC C yber Security Survey, but do not record any actions taken following the meetings.",
+          "pdf_page": 71,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.63",
+          "weakness": "No plan had been developed for the coordinated policy and technical assistance approach.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.",
+          "pdf_page": 71,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.96",
+          "weakness": "No framework supported Ministers in determining whether entities’ self-assessment reports were appropriate.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.",
+          "pdf_page": 78,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.97",
+          "weakness": "Did not use Policy 10 self-assessment data to hold entities accountable for their cyber security posture.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "AGD does not use the data from entities’ Policy 10 self-assessments to hold entities accountable for their cyber security postures.",
+          "pdf_page": 78,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "AGD",
+          "system": null,
+          "observation_id": "3.100",
+          "weakness": "Aggregated public reporting did not disclose individual entities’ implementation of mandatory PSPF Policy 10 requirements or the effectiveness of Essential Eight implementation.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The aggregated public reporting from ASD and AGD does not provide details on individual entities’ implementation of mandatory PSPF Policy 10 requirements or effectiveness of their implementation of the Essential Eight mitigation strategies.",
+          "pdf_page": 78,
+          "document_id": "anao-2021-strategies.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 4,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "AGD",
+            "system": null,
+            "observation_id": "3.97",
+            "weakness": "Did not validate whether entities had undertaken reported cyber security measures or improved maturity within advised timeframes.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "The review was not for the purpose of validating whether entities had undertaken the cyber security measures or planned strategies detailed in their previous self-assessment, or confirming if entities have improved their maturity within the advised timeframe.",
+            "pdf_page": 78
+          }
+        }
+      ]
+    }
+  ],
+  "status": "complete",
+  "limitations": "LLM page-screening and conditional extraction; not expert-adjudicated nor proven complete at weakness level.",
+  "updated_utc": "2026-10-11T04:35:05.354979+00:00",
+  "discovery_verified": [
+    {
+      "pdf_page": 39,
+      "evidence_quote": "it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.",
+      "why": "Privileged access validation did not ensure access was limited to personnel who needed it."
+    },
+    {
+      "pdf_page": 40,
+      "evidence_quote": "some operating system patches had not been applied within ISM timeframes.",
+      "why": "Some server patches missed required timeframes, and AGD had not assessed the risk."
+    },
+    {
+      "pdf_page": 41,
+      "evidence_quote": "the ANAO’s assessment found that privileged user accounts could access the Internet.",
+      "why": "Privileged accounts could access the Internet contrary to policy."
+    },
+    {
+      "pdf_page": 43,
+      "evidence_quote": "PM&C does not have a robust process to ensure that it is monitoring all security events relevant to its environment.",
+      "why": "Monitoring gaps reduce the department’s ability to manage cyber threats."
+    },
+    {
+      "pdf_page": 44,
+      "evidence_quote": "there was no documentation and formal approval of reviews.",
+      "why": "Reviews of security event monitoring were not documented or formally approved, creating a risk of inconsistent handling."
+    },
+    {
+      "pdf_page": 50,
+      "evidence_quote": "the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy",
+      "why": "DESE monitors its cyber security work without agreed maturity improvement timeframes."
+    },
+    {
+      "pdf_page": 54,
+      "evidence_quote": "As at October 2020, AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+      "why": "AGD lacked a clear strategy and timeframe to improve its cyber security maturity."
+    },
+    {
+      "pdf_page": 55,
+      "evidence_quote": "Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.",
+      "why": "Compliance with key mitigation strategies lacked independent assurance."
+    },
+    {
+      "pdf_page": 56,
+      "evidence_quote": "Future Fund informed the ANAO that the Management Committee does not receive updates through the dashboard on the progress of the Essential Eight improvement activities, but only of their completion.",
+      "why": "Governance reporting did not track progress of improvement activities."
+    },
+    {
+      "pdf_page": 69,
+      "evidence_quote": "AGD does not have a framework that it uses to guide the analysis.",
+      "why": "AGD lacked a framework for analyzing entities’ PSPF assessment reports."
+    },
+    {
+      "pdf_page": 71,
+      "evidence_quote": "A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.",
+      "why": "The planned assistance to improve entities’ cybersecurity had no coordinated implementation plan."
+    },
+    {
+      "pdf_page": 78,
+      "evidence_quote": "There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.",
+      "why": "The auditor found no framework for Ministers to assess entities’ self-assessments, leaving cyber posture accountability unsupported."
+    }
+  ],
+  "selected_pages": [
+    39,
+    40,
+    41,
+    43,
+    44,
+    50,
+    54,
+    55,
+    56,
+    69,
+    71,
+    78
+  ],
+  "discovery_errors": [],
+  "source_verified": [
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": null,
+      "observation_id": "2.12",
+      "weakness": "Privileged-access validation does not sufficiently ensure access is limited to personnel who require it for their duties.",
+      "control_area": "privileged_access",
+      "evidence_quote": "it does not sufficiently ensure that privileged access is restricted to personnel that require it to undertake their duties.",
+      "pdf_page": 39,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Future Fund",
+      "system": "Privileged accounts",
+      "observation_id": "2.24",
+      "weakness": "Privileged user accounts could access the Internet despite policy prohibiting it.",
+      "control_area": "privileged_access",
+      "evidence_quote": "privileged user accounts could access the Internet",
+      "pdf_page": 41,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": "Security information and event management (SIEM) system",
+      "observation_id": "2.27",
+      "weakness": "PM&C lacked a robust process to ensure all security events relevant to its environment were monitored.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not have a robust process to ensure that it is monitoring all security events relevant to its environment",
+      "pdf_page": 43,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Department of the Prime Minister and Cabinet (PM&C)",
+      "system": null,
+      "observation_id": "2.29",
+      "weakness": "Anomalies in security event reporting from the technical logging system were identified during the audit.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "Anomalies in our security event reporting (fro m our technical logging system) found by ANAO during the course of this audit",
+      "pdf_page": 44,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": "SIEM",
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM controls lacked documentation and formal approval.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "there was no documentation and formal approval of reviews",
+      "pdf_page": 44,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Department of Education, Skills and Employment (DESE)",
+      "system": null,
+      "observation_id": "2.61",
+      "weakness": "Monitoring of Essential Eight maturity progress was not measured against an agreed timeframe for each mitigation strategy.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the monitoring is not against an agreed timeframe for improving the maturity for each of the Essential Eight mitigation strategy",
+      "pdf_page": 50,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Department of Education, Skills and Employment (DESE)",
+      "system": null,
+      "observation_id": "2.61",
+      "weakness": "Monitoring was not measured against an agreed timeframe for achieving ‘Managing’ maturity for PSPF Policy 10.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "or achieving ‘Managing ’ maturity for PSPF Policy 10",
+      "pdf_page": 50,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": null,
+      "observation_id": "2.80",
+      "weakness": "AGD has not set a timeframe for reaching ‘Managing’ maturity for PSPF Policy 10.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not set a timeframe for achieving ‘Managing’ maturity for Policy 10.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": null,
+      "observation_id": "2.80",
+      "weakness": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": null,
+      "observation_id": "2.81",
+      "weakness": "AGD has not provided evidence of processes to improve its Policy 10 maturity to ‘Managing’.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not provided evidence to demonstrate  its processes to improve its maturity against Policy 10 to ‘Managing’.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": null,
+      "observation_id": "2.82",
+      "weakness": "AGD has not obtained independent assurance of its compliance with the Top Four mitigation strategies.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department (AGD)",
+      "system": null,
+      "observation_id": "2.83",
+      "weakness": "AGD’s Security and Risk Management Committee does not receive reports on the progress of its Essential Eight work, limiting its ability to monitor implementation.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Future Fund",
+      "system": null,
+      "observation_id": "2.89",
+      "weakness": "Future Fund has not obtained independent assurance of its compliance with the Top Four mitigation strategies.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Future Fund has not had independent assurance of its compliance with the Top Four mitigation strategies since its establishment.",
+      "pdf_page": 55,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.52",
+      "weakness": "Lacks technical capability to verify entities’ Essential Eight assessments and does not technically verify assessments of other PSPF policies.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "it does not have the technical capability to verify the accuracy of entities’ Essential Eight assessment",
+      "pdf_page": 69,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.53",
+      "weakness": "Has no framework to guide its analysis of entities’ PSPF assessment reports.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD does not have a framework that it uses to guide the analysis.",
+      "pdf_page": 69,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.60",
+      "weakness": "Did not use ACSC survey data to validate the accuracy of entities’ self-assessed maturity ratings.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not used the data to inform assurance activities on the self-assessed maturity ratings.",
+      "pdf_page": 71,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.61",
+      "weakness": "Meeting minutes did not record actions following discussions about assessment and survey results.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Minutes from the meetings indicate that AGD and ASD discuss the results of the PSPF assessment and ACSC C yber Security Survey, but do not record any actions taken following the meetings.",
+      "pdf_page": 71,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.63",
+      "weakness": "No plan had been developed for the coordinated policy and technical assistance approach.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "A plan has not been developed for the coordinated approach to offer AGD’s policy assistance and ASD’s technical support on cyber security.",
+      "pdf_page": 71,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.96",
+      "weakness": "No framework supported Ministers in determining whether entities’ self-assessment reports were appropriate.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "There is no framework to support Ministers to determine the appropriateness of entities’ self-assessment reports.",
+      "pdf_page": 78,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.97",
+      "weakness": "Did not use Policy 10 self-assessment data to hold entities accountable for their cyber security posture.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD does not use the data from entities’ Policy 10 self-assessments to hold entities accountable for their cyber security postures.",
+      "pdf_page": 78,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AGD",
+      "system": null,
+      "observation_id": "3.100",
+      "weakness": "Aggregated public reporting did not disclose individual entities’ implementation of mandatory PSPF Policy 10 requirements or the effectiveness of Essential Eight implementation.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "The aggregated public reporting from ASD and AGD does not provide details on individual entities’ implementation of mandatory PSPF Policy 10 requirements or effectiveness of their implementation of the Essential Eight mitigation strategies.",
+      "pdf_page": 78,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [
+    {
+      "index": 1,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Attorney-General’s Department (AGD)",
+        "system": null,
+        "observation_id": "PDF page 40",
+        "weakness": "Vulnerability scanning is not used across the whole environment, so missed patches may go undetected.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "it decided to not use a vulnerability scanning tool across its whole environment. As a result, there is a risk that missed patches will not be detected.",
+        "pdf_page": 40
+      }
+    },
+    {
+      "index": 2,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Attorney-General’s Department (AGD)",
+        "system": null,
+        "observation_id": "2.17",
+        "weakness": "Some server operating-system patches were not applied within ISM timeframes, and the missed patches were not risk-assessed.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "some operating system patches had not been applied within ISM timeframes. [...] AGD did not perform risk assessments against the missed patches.",
+        "pdf_page": 40
+      }
+    },
+    {
+      "index": 4,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "AGD",
+        "system": null,
+        "observation_id": "3.97",
+        "weakness": "Did not validate whether entities had undertaken reported cyber security measures or improved maturity within advised timeframes.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "The review was not for the purpose of validating whether entities had undertaken the cyber security measures or planned strategies detailed in their previous self-assessment, or confirming if entities have improved their maturity within the advised timeframe.",
+        "pdf_page": 78
+      }
+    }
+  ],
+  "extraction_errors": []
+}

@@ -1,0 +1,2564 @@
+{
+  "document_id": "ANAO_Report_2017-2018_53a.pdf",
+  "report_id": "2018",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T04:31:49.554436+00:00",
+  "method": "all-pages-llm-screened-no-topk",
+  "findings_section_physical_pages": [
+    21,
+    48
+  ],
+  "all_screened_pages": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":21,\"evidence_quote\":\"National Archives was not compliant with the Top Four mitigation strategies\",\"why\":\"National Archives failed to meet mandatory mitigation controls.\"},{\"pdf_page\":22,\"evidence_quote\":\"National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers\",\"why\":\"Application whitelisting was absent from National Archives servers.\"},{\"pdf_page\":23,\"evidence_quote\":\"None of the three entities had a documented and endorsed application whitelisting strategy.\",\"why\":\"The entities lacked a documented, endorsed strategy for application whitelisting.\"},{\"pdf_page\":24,\"evidence_quote\":\"National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches\",\"why\":\"They lacked procedures to verify patch installation.\"}]}",
+      "model_seconds": 7.41,
+      "accepted": [
+        {
+          "pdf_page": 21,
+          "evidence_quote": "National Archives was not compliant with the Top Four mitigation strategies",
+          "why": "National Archives failed to meet mandatory mitigation controls."
+        },
+        {
+          "pdf_page": 22,
+          "evidence_quote": "National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers",
+          "why": "Application whitelisting was absent from National Archives servers."
+        },
+        {
+          "pdf_page": 23,
+          "evidence_quote": "None of the three entities had a documented and endorsed application whitelisting strategy.",
+          "why": "The entities lacked a documented, endorsed strategy for application whitelisting."
+        },
+        {
+          "pdf_page": 24,
+          "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches",
+          "why": "They lacked procedures to verify patch installation."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":26,\"evidence_quote\":\"Geoscience Australia did not have effective ICT general controls due to weaknesses in logical access controls.\",\"why\":\"Logical access controls were ineffective.\"},{\"pdf_page\":26,\"evidence_quote\":\"user access controls were not effectively implemented at the database and operating system level.\",\"why\":\"Geoscience Australia failed to effectively implement user access controls.\"},{\"pdf_page\":26,\"evidence_quote\":\"regular reviews to revalidate privileged user accounts were not conducted which led to a high number of privileged accounts.\",\"why\":\"Treasury did not regularly review privileged accounts, resulting in excessive accounts.\"},{\"pdf_page\":26,\"evidence_quote\":\"The National Archives and Geoscience Australia did not effectively implement the administration of privileged user accounts\",\"why\":\"Privileged account administration was ineffective.\"},{\"pdf_page\":28,\"evidence_quote\":\"The Top Four mitigation strategies are not in place across the ICT systems, or are inconsistently implemented across the systems.\",\"why\":\"National Archives had absent or inconsistent cyber mitigation controls.\"},{\"pdf_page\":28,\"evidence_quote\":\"The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.\",\"why\":\"Geoscience Australia lacked or insufficiently implemented key cyber controls.\"}]}",
+      "model_seconds": 7.69,
+      "accepted": [
+        {
+          "pdf_page": 26,
+          "evidence_quote": "Geoscience Australia did not have effective ICT general controls due to weaknesses in logical access controls.",
+          "why": "Logical access controls were ineffective."
+        },
+        {
+          "pdf_page": 28,
+          "evidence_quote": "The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.",
+          "why": "Geoscience Australia lacked or insufficiently implemented key cyber controls."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 28,
+            "evidence_quote": "The Top Four mitigation strategies are not in place across the ICT systems, or are inconsistently implemented across the systems.",
+            "why": "National Archives had absent or inconsistent cyber mitigation controls."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":34,\"evidence_quote\":\"Treasury and National Archives could not provide the evidence used and analysis created to inform their compliance self-assessments.\",\"why\":\"Their reported security control compliance assessments were unsupported by evidence or analysis.\"}]}",
+      "model_seconds": 7.28,
+      "accepted": [],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 34,
+            "evidence_quote": "Treasury and National Archives could not provide the evidence used and analysis created to inform their compliance self-assessments.",
+            "why": "Their reported security control compliance assessments were unsupported by evidence or analysis."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":39,\"evidence_quote\":\"in total only four of the 14 entities assessed have been compliant.\",\"why\":\"The audit found widespread non-compliance with the Top Four mitigation strategies.\"},{\"pdf_page\":40,\"evidence_quote\":\"the current regulatory framework is not driving sufficient improvements in cyber security.\",\"why\":\"The auditor found the existing compliance framework was not producing sufficient cybersecurity improvements.\"}]}",
+      "model_seconds": 7.36,
+      "accepted": [
+        {
+          "pdf_page": 39,
+          "evidence_quote": "in total only four of the 14 entities assessed have been compliant.",
+          "why": "The audit found widespread non-compliance with the Top Four mitigation strategies."
+        },
+        {
+          "pdf_page": 40,
+          "evidence_quote": "the current regulatory framework is not driving sufficient improvements in cyber security.",
+          "why": "The auditor found the existing compliance framework was not producing sufficient cybersecurity improvements."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":29,\"evidence_quote\":\"users were able to bypass these restrictions to run a macro.\",\"why\":\"Macro restrictions could be bypassed, weakening malware controls.\"},{\"pdf_page\":30,\"evidence_quote\":\"Treasury and National Archives did not have in place multi- factor authentication for privileged user accounts\",\"why\":\"Privileged accounts lacked multi-factor authentication.\"},{\"pdf_page\":31,\"evidence_quote\":\"None of the three entities had formal procedures in place to test the restoration of backups.\",\"why\":\"Backup restoration lacked formal testing procedures.\"},{\"pdf_page\":32,\"evidence_quote\":\"National Archives incorrectly reported compliance against two strategies.\",\"why\":\"The entity inaccurately reported its cybersecurity control compliance.\"}]}",
+      "model_seconds": 11.72,
+      "accepted": [
+        {
+          "pdf_page": 29,
+          "evidence_quote": "users were able to bypass these restrictions to run a macro.",
+          "why": "Macro restrictions could be bypassed, weakening malware controls."
+        },
+        {
+          "pdf_page": 30,
+          "evidence_quote": "Treasury and National Archives did not have in place multi- factor authentication for privileged user accounts",
+          "why": "Privileged accounts lacked multi-factor authentication."
+        },
+        {
+          "pdf_page": 31,
+          "evidence_quote": "None of the three entities had formal procedures in place to test the restoration of backups.",
+          "why": "Backup restoration lacked formal testing procedures."
+        },
+        {
+          "pdf_page": 32,
+          "evidence_quote": "National Archives incorrectly reported compliance against two strategies.",
+          "why": "The entity inaccurately reported its cybersecurity control compliance."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":41,\"evidence_quote\":\"continued low level of compliance with the Top Four mitigation strategies\",\"why\":\"The auditor reports that compliance with the mitigation strategies remained low.\"},{\"pdf_page\":43,\"evidence_quote\":\"the entities did not adopt a risk -based approach to prioritise improvements to cyber security, with cyber security investments focused on short -term operational needs rather than long -term strategic objectives.\",\"why\":\"The auditor found that the entities did not prioritize cybersecurity improvements by risk and focused investment on short-term needs.\"}]}",
+      "model_seconds": 7.64,
+      "accepted": [
+        {
+          "pdf_page": 41,
+          "evidence_quote": "continued low level of compliance with the Top Four mitigation strategies",
+          "why": "The auditor reports that compliance with the mitigation strategies remained low."
+        },
+        {
+          "pdf_page": 43,
+          "evidence_quote": "the entities did not adopt a risk -based approach to prioritise improvements to cyber security, with cyber security investments focused on short -term operational needs rather than long -term strategic objectives.",
+          "why": "The auditor found that the entities did not prioritize cybersecurity improvements by risk and focused investment on short-term needs."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":45,\"evidence_quote\":\"The three entities had not adopted a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems\",\"why\":\"Cyber improvements were not prioritized through a systematic risk-based approach.\"},{\"pdf_page\":46,\"evidence_quote\":\"in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design\",\"why\":\"Two entities had architecture plans that were stale or inaccurate.\"},{\"pdf_page\":47,\"evidence_quote\":\"There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.\",\"why\":\"High-risk systems and other key assets lacked documented prioritization.\"},{\"pdf_page\":48,\"evidence_quote\":\"Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.\",\"why\":\"Scientific independence was allowed to override cyber resilience.\"}]}",
+      "model_seconds": 9.0,
+      "accepted": [
+        {
+          "pdf_page": 45,
+          "evidence_quote": "The three entities had not adopted a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems",
+          "why": "Cyber improvements were not prioritized through a systematic risk-based approach."
+        },
+        {
+          "pdf_page": 46,
+          "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+          "why": "Two entities had architecture plans that were stale or inaccurate."
+        },
+        {
+          "pdf_page": 47,
+          "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+          "why": "High-risk systems and other key assets lacked documented prioritization."
+        },
+        {
+          "pdf_page": 48,
+          "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+          "why": "Scientific independence was allowed to override cyber resilience."
+        }
+      ],
+      "rejected": []
+    }
+  ],
+  "extraction_batches": [
+    {
+      "pages": [
+        21,
+        22
+      ],
+      "model_seconds": 8.12,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"2.5\",\"weakness\":\"Application whitelisting covered desktops but not servers; no risk assessment had been completed and there were no plans to implement it on servers.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers\",\"pdf_page\":22},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.5\",\"weakness\":\"Application whitelisting was not in place across the ICT environment.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"Geoscience Australia did not have application whitelisting in place across its ICT environment at the time of audit fieldwork\",\"pdf_page\":22}]}",
+      "raw_predictions": [
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.5",
+          "weakness": "Application whitelisting covered desktops but not servers; no risk assessment had been completed and there were no plans to implement it on servers.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers",
+          "pdf_page": 22
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.5",
+          "weakness": "Application whitelisting was not in place across the ICT environment.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "Geoscience Australia did not have application whitelisting in place across its ICT environment at the time of audit fieldwork",
+          "pdf_page": 22
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.5",
+          "weakness": "Application whitelisting covered desktops but not servers; no risk assessment had been completed and there were no plans to implement it on servers.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers",
+          "pdf_page": 22,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.5",
+          "weakness": "Application whitelisting was not in place across the ICT environment.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "Geoscience Australia did not have application whitelisting in place across its ICT environment at the time of audit fieldwork",
+          "pdf_page": 22,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        23,
+        24
+      ],
+      "model_seconds": 9.27,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"2.10\",\"weakness\":\"Operating system patching was not implemented; fewer than 20% of critical operating system patches were deployed within 48 hours across the server fleet.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"not patching of operating systems. National Archives deployed security patches for applications on a monthly cycle for desktops; and, in general, also for servers, although there were instances where patches were installed on a quarterly cycle. Less than 20 percent of critical operating system patches were deployed within 48 hours from vendor release across the server fleet.\",\"pdf_page\":23},{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"2.10\",\"weakness\":\"Some servers ran operating systems that were out of vendor support, so vulnerability patches were no longer released.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"some servers were running operating systems that were out of vendor support, so that patches were no longer being released to address vulnerabilities.\",\"pdf_page\":24},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.10\",\"weakness\":\"Application and operating system patching was inconsistent; some patches were not installed and most critical patches were installed 7–30 days after release.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"installing some security patches on a monthly cycle but not installing other patches at all. Most critical patches were installed between 7 and 30 days after vendor release\",\"pdf_page\":24},{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"2.11\",\"weakness\":\"No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.\",\"pdf_page\":24},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.11\",\"weakness\":\"No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.\",\"pdf_page\":24},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.14\",\"weakness\":\"Privileged accounts on non-Windows application servers were not effectively managed, with limited visibility of user access and activity.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"Geoscience Australia did not effectively manage privileged accounts, in particular for non-Windows application servers, where there was limited visibility of user access and activities.\",\"pdf_page\":24},{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"2.14\",\"weakness\":\"Active monitoring of privileged user accounts could be improved.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.\",\"pdf_page\":24},{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"2.14\",\"weakness\":\"Active monitoring of privileged user accounts could be improved.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.\",\"pdf_page\":24},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.14\",\"weakness\":\"Active monitoring of privileged user accounts could be improved.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.\",\"pdf_page\":24}]}",
+      "raw_predictions": [
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.10",
+          "weakness": "Operating system patching was not implemented; fewer than 20% of critical operating system patches were deployed within 48 hours across the server fleet.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "not patching of operating systems. National Archives deployed security patches for applications on a monthly cycle for desktops; and, in general, also for servers, although there were instances where patches were installed on a quarterly cycle. Less than 20 percent of critical operating system patches were deployed within 48 hours from vendor release across the server fleet.",
+          "pdf_page": 23
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.10",
+          "weakness": "Some servers ran operating systems that were out of vendor support, so vulnerability patches were no longer released.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "some servers were running operating systems that were out of vendor support, so that patches were no longer being released to address vulnerabilities.",
+          "pdf_page": 24
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.10",
+          "weakness": "Application and operating system patching was inconsistent; some patches were not installed and most critical patches were installed 7–30 days after release.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "installing some security patches on a monthly cycle but not installing other patches at all. Most critical patches were installed between 7 and 30 days after vendor release",
+          "pdf_page": 24
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.11",
+          "weakness": "No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.",
+          "pdf_page": 24
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.11",
+          "weakness": "No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.",
+          "pdf_page": 24
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Privileged accounts on non-Windows application servers were not effectively managed, with limited visibility of user access and activity.",
+          "control_area": "privileged_access",
+          "evidence_quote": "Geoscience Australia did not effectively manage privileged accounts, in particular for non-Windows application servers, where there was limited visibility of user access and activities.",
+          "pdf_page": 24
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Active monitoring of privileged user accounts could be improved.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+          "pdf_page": 24
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Active monitoring of privileged user accounts could be improved.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+          "pdf_page": 24
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Active monitoring of privileged user accounts could be improved.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+          "pdf_page": 24
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.11",
+          "weakness": "No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.",
+          "pdf_page": 24,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.11",
+          "weakness": "No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.",
+          "pdf_page": 24,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Privileged accounts on non-Windows application servers were not effectively managed, with limited visibility of user access and activity.",
+          "control_area": "privileged_access",
+          "evidence_quote": "Geoscience Australia did not effectively manage privileged accounts, in particular for non-Windows application servers, where there was limited visibility of user access and activities.",
+          "pdf_page": 24,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Active monitoring of privileged user accounts could be improved.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+          "pdf_page": 24,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Active monitoring of privileged user accounts could be improved.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+          "pdf_page": 24,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.14",
+          "weakness": "Active monitoring of privileged user accounts could be improved.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+          "pdf_page": 24,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 0,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "National Archives of Australia",
+            "system": null,
+            "observation_id": "2.10",
+            "weakness": "Operating system patching was not implemented; fewer than 20% of critical operating system patches were deployed within 48 hours across the server fleet.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "not patching of operating systems. National Archives deployed security patches for applications on a monthly cycle for desktops; and, in general, also for servers, although there were instances where patches were installed on a quarterly cycle. Less than 20 percent of critical operating system patches were deployed within 48 hours from vendor release across the server fleet.",
+            "pdf_page": 23
+          }
+        },
+        {
+          "reason": "numbered paragraph identifier not found on cited page",
+          "item": {
+            "entity": "National Archives of Australia",
+            "system": null,
+            "observation_id": "2.10",
+            "weakness": "Some servers ran operating systems that were out of vendor support, so vulnerability patches were no longer released.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "some servers were running operating systems that were out of vendor support, so that patches were no longer being released to address vulnerabilities.",
+            "pdf_page": 24,
+            "document_id": "ANAO_Report_2017-2018_53a.pdf",
+            "printed_page": null,
+            "review_status": "proposed"
+          }
+        },
+        {
+          "reason": "numbered paragraph identifier not found on cited page",
+          "item": {
+            "entity": "Geoscience Australia",
+            "system": null,
+            "observation_id": "2.10",
+            "weakness": "Application and operating system patching was inconsistent; some patches were not installed and most critical patches were installed 7–30 days after release.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "installing some security patches on a monthly cycle but not installing other patches at all. Most critical patches were installed between 7 and 30 days after vendor release",
+            "pdf_page": 24,
+            "document_id": "ANAO_Report_2017-2018_53a.pdf",
+            "printed_page": null,
+            "review_status": "proposed"
+          }
+        }
+      ]
+    },
+    {
+      "pages": [
+        26,
+        28
+      ],
+      "model_seconds": 10.03,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"2.22\",\"weakness\":\"Regular reviews to revalidate privileged user accounts were not conducted, resulting in a high number of privileged accounts.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"regular reviews to revalidate privileged user accounts were not conducted which led to a high number of privileged accounts.\",\"pdf_page\":26},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"2.22\",\"weakness\":\"Privileged user account management had room for improvement.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"there was room for improvement in managing privileged user accounts.\",\"pdf_page\":26},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.22\",\"weakness\":\"User access controls were not effectively implemented at the database and operating system level.\",\"control_area\":\"access_lifecycle\",\"evidence_quote\":\"user access controls were not effectively implemented at the database and operating system level.\",\"pdf_page\":26},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"2.23\",\"weakness\":\"Administrative access was not effectively segregated based on job duties.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.\",\"pdf_page\":26},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.23\",\"weakness\":\"Administrative access was not effectively segregated based on job duties.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.\",\"pdf_page\":26},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"2.23\",\"weakness\":\"Some privileged user accounts were not blocked from accessing the Internet and email.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"In some instances, privileged user accounts were not blocked from accessing the Internet and emails\",\"pdf_page\":26},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.23\",\"weakness\":\"Some privileged user accounts were not blocked from accessing the Internet and email.\",\"control_area\":\"privileged_access\",\"evidence_quote\":\"In some instances, privileged user accounts were not blocked from accessing the Internet and emails\",\"pdf_page\":26},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"2.23\",\"weakness\":\"Some privileged user accounts were not adequately monitored.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"and were not adequately monitored.\",\"pdf_page\":26},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.23\",\"weakness\":\"Some privileged user accounts were not adequately monitored.\",\"control_area\":\"logging_monitoring\",\"evidence_quote\":\"and were not adequately monitored.\",\"pdf_page\":26},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"2.27\",\"weakness\":\"The Essential Eight Top Four mitigation strategies were absent across ICT systems or implemented inconsistently.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"The Top Four mitigation strategies are not in place across the ICT systems, or are inconsistently implemented across the systems\",\"pdf_page\":28},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.28\",\"weakness\":\"The Top Four mitigation strategies and ICT general controls were absent or insufficiently implemented across ICT systems.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.\",\"pdf_page\":28},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"PDF page 28\",\"weakness\":\"The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.\",\"pdf_page\":28},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"PDF page 28\",\"weakness\":\"The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.\",\"pdf_page\":28}]}",
+      "raw_predictions": [
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "2.22",
+          "weakness": "Regular reviews to revalidate privileged user accounts were not conducted, resulting in a high number of privileged accounts.",
+          "control_area": "privileged_access",
+          "evidence_quote": "regular reviews to revalidate privileged user accounts were not conducted which led to a high number of privileged accounts.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.22",
+          "weakness": "Privileged user account management had room for improvement.",
+          "control_area": "privileged_access",
+          "evidence_quote": "there was room for improvement in managing privileged user accounts.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.22",
+          "weakness": "User access controls were not effectively implemented at the database and operating system level.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "user access controls were not effectively implemented at the database and operating system level.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Administrative access was not effectively segregated based on job duties.",
+          "control_area": "privileged_access",
+          "evidence_quote": "did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Administrative access was not effectively segregated based on job duties.",
+          "control_area": "privileged_access",
+          "evidence_quote": "did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not blocked from accessing the Internet and email.",
+          "control_area": "privileged_access",
+          "evidence_quote": "In some instances, privileged user accounts were not blocked from accessing the Internet and emails",
+          "pdf_page": 26
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not blocked from accessing the Internet and email.",
+          "control_area": "privileged_access",
+          "evidence_quote": "In some instances, privileged user accounts were not blocked from accessing the Internet and emails",
+          "pdf_page": 26
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not adequately monitored.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "and were not adequately monitored.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not adequately monitored.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "and were not adequately monitored.",
+          "pdf_page": 26
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.27",
+          "weakness": "The Essential Eight Top Four mitigation strategies were absent across ICT systems or implemented inconsistently.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "The Top Four mitigation strategies are not in place across the ICT systems, or are inconsistently implemented across the systems",
+          "pdf_page": 28
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.28",
+          "weakness": "The Top Four mitigation strategies and ICT general controls were absent or insufficiently implemented across ICT systems.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.",
+          "pdf_page": 28
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "PDF page 28",
+          "weakness": "The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.",
+          "pdf_page": 28
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "PDF page 28",
+          "weakness": "The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.",
+          "pdf_page": 28
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "2.22",
+          "weakness": "Regular reviews to revalidate privileged user accounts were not conducted, resulting in a high number of privileged accounts.",
+          "control_area": "privileged_access",
+          "evidence_quote": "regular reviews to revalidate privileged user accounts were not conducted which led to a high number of privileged accounts.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.22",
+          "weakness": "Privileged user account management had room for improvement.",
+          "control_area": "privileged_access",
+          "evidence_quote": "there was room for improvement in managing privileged user accounts.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.22",
+          "weakness": "User access controls were not effectively implemented at the database and operating system level.",
+          "control_area": "access_lifecycle",
+          "evidence_quote": "user access controls were not effectively implemented at the database and operating system level.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Administrative access was not effectively segregated based on job duties.",
+          "control_area": "privileged_access",
+          "evidence_quote": "did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Administrative access was not effectively segregated based on job duties.",
+          "control_area": "privileged_access",
+          "evidence_quote": "did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not blocked from accessing the Internet and email.",
+          "control_area": "privileged_access",
+          "evidence_quote": "In some instances, privileged user accounts were not blocked from accessing the Internet and emails",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not blocked from accessing the Internet and email.",
+          "control_area": "privileged_access",
+          "evidence_quote": "In some instances, privileged user accounts were not blocked from accessing the Internet and emails",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not adequately monitored.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "and were not adequately monitored.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.23",
+          "weakness": "Some privileged user accounts were not adequately monitored.",
+          "control_area": "logging_monitoring",
+          "evidence_quote": "and were not adequately monitored.",
+          "pdf_page": 26,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "2.27",
+          "weakness": "The Essential Eight Top Four mitigation strategies were absent across ICT systems or implemented inconsistently.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "The Top Four mitigation strategies are not in place across the ICT systems, or are inconsistently implemented across the systems",
+          "pdf_page": 28,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.28",
+          "weakness": "The Top Four mitigation strategies and ICT general controls were absent or insufficiently implemented across ICT systems.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.",
+          "pdf_page": 28,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 11,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "National Archives",
+            "system": null,
+            "observation_id": "PDF page 28",
+            "weakness": "The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.",
+            "pdf_page": 28
+          }
+        },
+        {
+          "index": 12,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Geoscience Australia",
+            "system": null,
+            "observation_id": "PDF page 28",
+            "weakness": "The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.",
+            "control_area": "patch_configuration",
+            "evidence_quote": "National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.",
+            "pdf_page": 28
+          }
+        }
+      ]
+    },
+    {
+      "pages": [
+        29,
+        30
+      ],
+      "model_seconds": 5.3,
+      "raw_output": "{\"weaknesses\":[]}",
+      "raw_predictions": [],
+      "numeric_ids_normalised": [],
+      "accepted": [],
+      "rejected": []
+    },
+    {
+      "pages": [
+        31,
+        32
+      ],
+      "model_seconds": 12.7,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"2.46\",\"weakness\":\"No formal procedure was in place to test backup restoration.\",\"control_area\":\"business_continuity\",\"evidence_quote\":\"None of the three entities had formal procedures in place to test the restoration of backups.\",\"pdf_page\":31},{\"entity\":\"Department of the Treasury\",\"system\":null,\"observation_id\":\"2.46\",\"weakness\":\"No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.\",\"control_area\":\"business_continuity\",\"evidence_quote\":\"Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.\",\"pdf_page\":31},{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"2.46\",\"weakness\":\"No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.\",\"control_area\":\"business_continuity\",\"evidence_quote\":\"Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.\",\"pdf_page\":31},{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"PDF page 32\",\"weakness\":\"Incorrectly reported compliance against two mitigation strategies.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"National Archives incorrectly reported compliance against two strategies.\",\"pdf_page\":32},{\"entity\":\"ANAO Report No.53 2017–18\",\"system\":\"Essential Eight Maturity Model\",\"observation_id\":\"PDF page 32\",\"weakness\":\"The maturity model had shortcomings that limited its usefulness and could lead entities to overstate cyber security compliance in self-assessments.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"There are shortcomings in the Essential Eight Maturity Model that limits its usefulness in its current form\",\"pdf_page\":32},{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"PDF page 32\",\"weakness\":\"Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes\",\"pdf_page\":32},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"PDF page 32\",\"weakness\":\"Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes\",\"pdf_page\":32},{\"entity\":\"National Archives of Australia\",\"system\":null,\"observation_id\":\"PDF page 32\",\"weakness\":\"Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes\",\"pdf_page\":32}]}",
+      "raw_predictions": [
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.46",
+          "weakness": "No formal procedure was in place to test backup restoration.",
+          "control_area": "business_continuity",
+          "evidence_quote": "None of the three entities had formal procedures in place to test the restoration of backups.",
+          "pdf_page": 31
+        },
+        {
+          "entity": "Department of the Treasury",
+          "system": null,
+          "observation_id": "2.46",
+          "weakness": "No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.",
+          "control_area": "business_continuity",
+          "evidence_quote": "Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.",
+          "pdf_page": 31
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.46",
+          "weakness": "No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.",
+          "control_area": "business_continuity",
+          "evidence_quote": "Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.",
+          "pdf_page": 31
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Incorrectly reported compliance against two mitigation strategies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "National Archives incorrectly reported compliance against two strategies.",
+          "pdf_page": 32
+        },
+        {
+          "entity": "ANAO Report No.53 2017–18",
+          "system": "Essential Eight Maturity Model",
+          "observation_id": "PDF page 32",
+          "weakness": "The maturity model had shortcomings that limited its usefulness and could lead entities to overstate cyber security compliance in self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There are shortcomings in the Essential Eight Maturity Model that limits its usefulness in its current form",
+          "pdf_page": 32
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+          "pdf_page": 32
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+          "pdf_page": 32
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+          "pdf_page": 32
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "2.46",
+          "weakness": "No formal procedure was in place to test backup restoration.",
+          "control_area": "business_continuity",
+          "evidence_quote": "None of the three entities had formal procedures in place to test the restoration of backups.",
+          "pdf_page": 31,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Department of the Treasury",
+          "system": null,
+          "observation_id": "2.46",
+          "weakness": "No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.",
+          "control_area": "business_continuity",
+          "evidence_quote": "Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.",
+          "pdf_page": 31,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "2.46",
+          "weakness": "No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.",
+          "control_area": "business_continuity",
+          "evidence_quote": "Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.",
+          "pdf_page": 31,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Incorrectly reported compliance against two mitigation strategies.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "National Archives incorrectly reported compliance against two strategies.",
+          "pdf_page": 32,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "ANAO Report No.53 2017–18",
+          "system": "Essential Eight Maturity Model",
+          "observation_id": "PDF page 32",
+          "weakness": "The maturity model had shortcomings that limited its usefulness and could lead entities to overstate cyber security compliance in self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There are shortcomings in the Essential Eight Maturity Model that limits its usefulness in its current form",
+          "pdf_page": 32,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+          "pdf_page": 32,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+          "pdf_page": 32,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives of Australia",
+          "system": null,
+          "observation_id": "PDF page 32",
+          "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+          "pdf_page": 32,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        41,
+        43
+      ],
+      "model_seconds": 11.28,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Three audited entities\",\"system\":null,\"observation_id\":\"PDF page 43\",\"weakness\":\"Did not use a risk-based approach to prioritise cyber security improvements, with investments focused on short-term operational needs rather than long-term strategic objectives.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the entities did not adopt a risk-based approach to prioritise improvements to cyber security, with cyber security investments focused on short-term operational needs rather than long-term strategic objectives\",\"pdf_page\":43}]}",
+      "raw_predictions": [
+        {
+          "entity": "Three audited entities",
+          "system": null,
+          "observation_id": "PDF page 43",
+          "weakness": "Did not use a risk-based approach to prioritise cyber security improvements, with investments focused on short-term operational needs rather than long-term strategic objectives.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the entities did not adopt a risk-based approach to prioritise improvements to cyber security, with cyber security investments focused on short-term operational needs rather than long-term strategic objectives",
+          "pdf_page": 43
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [],
+      "rejected": [
+        {
+          "index": 0,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Three audited entities",
+            "system": null,
+            "observation_id": "PDF page 43",
+            "weakness": "Did not use a risk-based approach to prioritise cyber security improvements, with investments focused on short-term operational needs rather than long-term strategic objectives.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "the entities did not adopt a risk-based approach to prioritise improvements to cyber security, with cyber security investments focused on short-term operational needs rather than long-term strategic objectives",
+            "pdf_page": 43
+          }
+        }
+      ]
+    },
+    {
+      "pages": [
+        39,
+        40
+      ],
+      "model_seconds": 21.77,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Australian Signals Directorate (ASD)\",\"system\":\"Essential Eight Maturity Model\",\"observation_id\":\"3.27\",\"weakness\":\"The model does not enable entities to accurately assess compliance.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the Essential Eight Maturity Model does not provide a means for entities to accurately assess compliance\",\"pdf_page\":39},{\"entity\":\"Australian Signals Directorate (ASD)\",\"system\":\"Top Four mitigation strategies\",\"observation_id\":\"3.30\",\"weakness\":\"Entities lack guidance for self-assessing and reporting compliance.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"a lack of guidance for entities to self-assess and report against compliance with the Top Four mitigation strategies\",\"pdf_page\":39},{\"entity\":\"Attorney-General’s Department (AGD)\",\"system\":\"Protective Security Policy Framework\",\"observation_id\":\"3.32\",\"weakness\":\"Compliance relies on self-assessment; reports are not public and do not inform further ASD compliance activities.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Reports to the Secretary of the Attorney-General’s Department are not made public, and are not used to inform further compliance activities by the Australian Signals Directorate.\",\"pdf_page\":40},{\"entity\":\"Australian Signals Directorate (ASD)\",\"system\":\"Top Four Mitigation Strategies\",\"observation_id\":\"3.35\",\"weakness\":\"Technical guidance with detailed control assessment test plans aligned to the Top Four controls had not been developed.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"technical guidance has not yet been developed that would provide detailed control assessment test plans\",\"pdf_page\":40}]}",
+      "raw_predictions": [
+        {
+          "entity": "Australian Signals Directorate (ASD)",
+          "system": "Essential Eight Maturity Model",
+          "observation_id": "3.27",
+          "weakness": "The model does not enable entities to accurately assess compliance.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the Essential Eight Maturity Model does not provide a means for entities to accurately assess compliance",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Australian Signals Directorate (ASD)",
+          "system": "Top Four mitigation strategies",
+          "observation_id": "3.30",
+          "weakness": "Entities lack guidance for self-assessing and reporting compliance.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "a lack of guidance for entities to self-assess and report against compliance with the Top Four mitigation strategies",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Attorney-General’s Department (AGD)",
+          "system": "Protective Security Policy Framework",
+          "observation_id": "3.32",
+          "weakness": "Compliance relies on self-assessment; reports are not public and do not inform further ASD compliance activities.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Reports to the Secretary of the Attorney-General’s Department are not made public, and are not used to inform further compliance activities by the Australian Signals Directorate.",
+          "pdf_page": 40
+        },
+        {
+          "entity": "Australian Signals Directorate (ASD)",
+          "system": "Top Four Mitigation Strategies",
+          "observation_id": "3.35",
+          "weakness": "Technical guidance with detailed control assessment test plans aligned to the Top Four controls had not been developed.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "technical guidance has not yet been developed that would provide detailed control assessment test plans",
+          "pdf_page": 40
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Australian Signals Directorate (ASD)",
+          "system": "Top Four Mitigation Strategies",
+          "observation_id": "3.35",
+          "weakness": "Technical guidance with detailed control assessment test plans aligned to the Top Four controls had not been developed.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "technical guidance has not yet been developed that would provide detailed control assessment test plans",
+          "pdf_page": 40,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 0,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Australian Signals Directorate (ASD)",
+            "system": "Essential Eight Maturity Model",
+            "observation_id": "3.27",
+            "weakness": "The model does not enable entities to accurately assess compliance.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "the Essential Eight Maturity Model does not provide a means for entities to accurately assess compliance",
+            "pdf_page": 39
+          }
+        },
+        {
+          "index": 1,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Australian Signals Directorate (ASD)",
+            "system": "Top Four mitigation strategies",
+            "observation_id": "3.30",
+            "weakness": "Entities lack guidance for self-assessing and reporting compliance.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "a lack of guidance for entities to self-assess and report against compliance with the Top Four mitigation strategies",
+            "pdf_page": 39
+          }
+        },
+        {
+          "index": 2,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Attorney-General’s Department (AGD)",
+            "system": "Protective Security Policy Framework",
+            "observation_id": "3.32",
+            "weakness": "Compliance relies on self-assessment; reports are not public and do not inform further ASD compliance activities.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "Reports to the Secretary of the Attorney-General’s Department are not made public, and are not used to inform further compliance activities by the Australian Signals Directorate.",
+            "pdf_page": 40
+          }
+        }
+      ]
+    },
+    {
+      "pages": [
+        47,
+        48
+      ],
+      "model_seconds": 8.42,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Treasury; National Archives; Geoscience Australia\",\"system\":null,\"observation_id\":\"4.23\",\"weakness\":\"Did not use a systematic risk-based approach to prioritise cyber security improvements across ICT systems.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"The three entities did not adopt a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems.\",\"pdf_page\":47},{\"entity\":\"Treasury; National Archives; Geoscience Australia\",\"system\":null,\"observation_id\":\"4.23\",\"weakness\":\"Limited assessment and formal planning to prioritise other key enterprise assets and highly vulnerable systems.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.\",\"pdf_page\":47},{\"entity\":\"Treasury; Geoscience Australia\",\"system\":null,\"observation_id\":\"4.24\",\"weakness\":\"Cyber security investment initiatives did not address long-term strategic needs and focused on short-term operational responses.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"In all three entities, cyber security investment initiatives were not addressing long-term strategic initiatives, instead being focused on short-term operational responses to identified cyber risks.\",\"pdf_page\":47},{\"entity\":\"Treasury; National Archives; Geoscience Australia\",\"system\":null,\"observation_id\":\"4.24\",\"weakness\":\"Had no documented cyber initiatives beyond 2017–18 or proposed investment budget for cyber security initiatives.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Entities did not have documented cyber initiatives beyond 2017–18 or a proposed investment budget for cyber security initiatives.\",\"pdf_page\":47},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.27\",\"weakness\":\"Scientific independence was allowed to override cyber resilience considerations, with little priority given to security implications of staff-run applications.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.\",\"pdf_page\":48}]}",
+      "raw_predictions": [
+        {
+          "entity": "Treasury; National Archives; Geoscience Australia",
+          "system": null,
+          "observation_id": "4.23",
+          "weakness": "Did not use a systematic risk-based approach to prioritise cyber security improvements across ICT systems.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "The three entities did not adopt a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems.",
+          "pdf_page": 47
+        },
+        {
+          "entity": "Treasury; National Archives; Geoscience Australia",
+          "system": null,
+          "observation_id": "4.23",
+          "weakness": "Limited assessment and formal planning to prioritise other key enterprise assets and highly vulnerable systems.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+          "pdf_page": 47
+        },
+        {
+          "entity": "Treasury; Geoscience Australia",
+          "system": null,
+          "observation_id": "4.24",
+          "weakness": "Cyber security investment initiatives did not address long-term strategic needs and focused on short-term operational responses.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "In all three entities, cyber security investment initiatives were not addressing long-term strategic initiatives, instead being focused on short-term operational responses to identified cyber risks.",
+          "pdf_page": 47
+        },
+        {
+          "entity": "Treasury; National Archives; Geoscience Australia",
+          "system": null,
+          "observation_id": "4.24",
+          "weakness": "Had no documented cyber initiatives beyond 2017–18 or proposed investment budget for cyber security initiatives.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Entities did not have documented cyber initiatives beyond 2017–18 or a proposed investment budget for cyber security initiatives.",
+          "pdf_page": 47
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.27",
+          "weakness": "Scientific independence was allowed to override cyber resilience considerations, with little priority given to security implications of staff-run applications.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+          "pdf_page": 48
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Treasury; National Archives; Geoscience Australia",
+          "system": null,
+          "observation_id": "4.23",
+          "weakness": "Limited assessment and formal planning to prioritise other key enterprise assets and highly vulnerable systems.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+          "pdf_page": 47,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.27",
+          "weakness": "Scientific independence was allowed to override cyber resilience considerations, with little priority given to security implications of staff-run applications.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+          "pdf_page": 48,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 0,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Treasury; National Archives; Geoscience Australia",
+            "system": null,
+            "observation_id": "4.23",
+            "weakness": "Did not use a systematic risk-based approach to prioritise cyber security improvements across ICT systems.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "The three entities did not adopt a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems.",
+            "pdf_page": 47
+          }
+        },
+        {
+          "index": 2,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Treasury; Geoscience Australia",
+            "system": null,
+            "observation_id": "4.24",
+            "weakness": "Cyber security investment initiatives did not address long-term strategic needs and focused on short-term operational responses.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "In all three entities, cyber security investment initiatives were not addressing long-term strategic initiatives, instead being focused on short-term operational responses to identified cyber risks.",
+            "pdf_page": 47
+          }
+        },
+        {
+          "index": 3,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Treasury; National Archives; Geoscience Australia",
+            "system": null,
+            "observation_id": "4.24",
+            "weakness": "Had no documented cyber initiatives beyond 2017–18 or proposed investment budget for cyber security initiatives.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "Entities did not have documented cyber initiatives beyond 2017–18 or a proposed investment budget for cyber security initiatives.",
+            "pdf_page": 47
+          }
+        }
+      ]
+    },
+    {
+      "pages": [
+        45,
+        46
+      ],
+      "model_seconds": 14.36,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"Table 4.1\",\"weakness\":\"Did not have an integrated and documented architecture for data, systems and security controls.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Integrated and documented architecture for data, systems and security controls\",\"pdf_page\":45},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"Table 4.1\",\"weakness\":\"Did not have an integrated and documented architecture for data, systems and security controls.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Integrated and documented architecture for data, systems and security controls\",\"pdf_page\":45},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design\",\"pdf_page\":46},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design\",\"pdf_page\":46},{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls\",\"pdf_page\":46},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls\",\"pdf_page\":46},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls\",\"pdf_page\":46},{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"No endorsed storage strategy specified data ownership, business importance and security classification.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored\",\"pdf_page\":46},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"No endorsed storage strategy specified data ownership, business importance and security classification.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored\",\"pdf_page\":46},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.15\",\"weakness\":\"No endorsed storage strategy specified data ownership, business importance and security classification.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored\",\"pdf_page\":46},{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"4.18\",\"weakness\":\"Audit and risk committee did not review vulnerabilities and cyber threats.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"There was no evidence that these committees reviewed vulnerabilities and cyber threats.\",\"pdf_page\":46},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"4.18\",\"weakness\":\"Audit and risk committee did not review vulnerabilities and cyber threats.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"There was no evidence that these committees reviewed vulnerabilities and cyber threats.\",\"pdf_page\":46},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.18\",\"weakness\":\"Audit and risk committee did not review vulnerabilities and cyber threats.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"There was no evidence that these committees reviewed vulnerabilities and cyber threats.\",\"pdf_page\":46},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"4.18\",\"weakness\":\"Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments\",\"pdf_page\":46},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.18\",\"weakness\":\"Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments\",\"pdf_page\":46},{\"entity\":\"Treasury\",\"system\":null,\"observation_id\":\"4.19\",\"weakness\":\"Assigned information security roles were not all filled.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the positions were not all filled\",\"pdf_page\":46},{\"entity\":\"Geoscience Australia\",\"system\":null,\"observation_id\":\"4.19\",\"weakness\":\"Assigned information security roles were not all filled.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the positions were not all filled\",\"pdf_page\":46},{\"entity\":\"National Archives\",\"system\":null,\"observation_id\":\"4.19\",\"weakness\":\"Assigned information security roles were not all filled.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"the positions were not all filled\",\"pdf_page\":46}]}",
+      "raw_predictions": [
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "Table 4.1",
+          "weakness": "Did not have an integrated and documented architecture for data, systems and security controls.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Integrated and documented architecture for data, systems and security controls",
+          "pdf_page": 45
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "Table 4.1",
+          "weakness": "Did not have an integrated and documented architecture for data, systems and security controls.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Integrated and documented architecture for data, systems and security controls",
+          "pdf_page": 45
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+          "pdf_page": 46
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+          "pdf_page": 46
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+          "pdf_page": 46
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+          "pdf_page": 46
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+          "pdf_page": 46
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.19",
+          "weakness": "Assigned information security roles were not all filled.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the positions were not all filled",
+          "pdf_page": 46
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.19",
+          "weakness": "Assigned information security roles were not all filled.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the positions were not all filled",
+          "pdf_page": 46
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.19",
+          "weakness": "Assigned information security roles were not all filled.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the positions were not all filled",
+          "pdf_page": 46
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "Table 4.1",
+          "weakness": "Did not have an integrated and documented architecture for data, systems and security controls.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Integrated and documented architecture for data, systems and security controls",
+          "pdf_page": 45,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "Table 4.1",
+          "weakness": "Did not have an integrated and documented architecture for data, systems and security controls.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Integrated and documented architecture for data, systems and security controls",
+          "pdf_page": 45,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.15",
+          "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.18",
+          "weakness": "Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Treasury",
+          "system": null,
+          "observation_id": "4.19",
+          "weakness": "Assigned information security roles were not all filled.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the positions were not all filled",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Geoscience Australia",
+          "system": null,
+          "observation_id": "4.19",
+          "weakness": "Assigned information security roles were not all filled.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the positions were not all filled",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "National Archives",
+          "system": null,
+          "observation_id": "4.19",
+          "weakness": "Assigned information security roles were not all filled.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "the positions were not all filled",
+          "pdf_page": 46,
+          "document_id": "ANAO_Report_2017-2018_53a.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": [
+        {
+          "index": 10,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Treasury",
+            "system": null,
+            "observation_id": "4.18",
+            "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+            "pdf_page": 46
+          }
+        },
+        {
+          "index": 11,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "National Archives",
+            "system": null,
+            "observation_id": "4.18",
+            "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+            "pdf_page": 46
+          }
+        },
+        {
+          "index": 12,
+          "errors": [
+            "evidence quote not found on cited PDF page"
+          ],
+          "item": {
+            "entity": "Geoscience Australia",
+            "system": null,
+            "observation_id": "4.18",
+            "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+            "control_area": "governance_assurance",
+            "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+            "pdf_page": 46
+          }
+        }
+      ]
+    }
+  ],
+  "status": "complete",
+  "limitations": "LLM page-screening and conditional extraction; not expert-adjudicated nor proven complete at weakness level.",
+  "updated_utc": "2026-10-11T04:32:49.971370+00:00",
+  "discovery_verified": [
+    {
+      "pdf_page": 21,
+      "evidence_quote": "National Archives was not compliant with the Top Four mitigation strategies",
+      "why": "National Archives failed to meet mandatory mitigation controls."
+    },
+    {
+      "pdf_page": 22,
+      "evidence_quote": "National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers",
+      "why": "Application whitelisting was absent from National Archives servers."
+    },
+    {
+      "pdf_page": 23,
+      "evidence_quote": "None of the three entities had a documented and endorsed application whitelisting strategy.",
+      "why": "The entities lacked a documented, endorsed strategy for application whitelisting."
+    },
+    {
+      "pdf_page": 24,
+      "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches",
+      "why": "They lacked procedures to verify patch installation."
+    },
+    {
+      "pdf_page": 26,
+      "evidence_quote": "Geoscience Australia did not have effective ICT general controls due to weaknesses in logical access controls.",
+      "why": "Logical access controls were ineffective."
+    },
+    {
+      "pdf_page": 28,
+      "evidence_quote": "The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.",
+      "why": "Geoscience Australia lacked or insufficiently implemented key cyber controls."
+    },
+    {
+      "pdf_page": 29,
+      "evidence_quote": "users were able to bypass these restrictions to run a macro.",
+      "why": "Macro restrictions could be bypassed, weakening malware controls."
+    },
+    {
+      "pdf_page": 30,
+      "evidence_quote": "Treasury and National Archives did not have in place multi- factor authentication for privileged user accounts",
+      "why": "Privileged accounts lacked multi-factor authentication."
+    },
+    {
+      "pdf_page": 31,
+      "evidence_quote": "None of the three entities had formal procedures in place to test the restoration of backups.",
+      "why": "Backup restoration lacked formal testing procedures."
+    },
+    {
+      "pdf_page": 32,
+      "evidence_quote": "National Archives incorrectly reported compliance against two strategies.",
+      "why": "The entity inaccurately reported its cybersecurity control compliance."
+    },
+    {
+      "pdf_page": 39,
+      "evidence_quote": "in total only four of the 14 entities assessed have been compliant.",
+      "why": "The audit found widespread non-compliance with the Top Four mitigation strategies."
+    },
+    {
+      "pdf_page": 40,
+      "evidence_quote": "the current regulatory framework is not driving sufficient improvements in cyber security.",
+      "why": "The auditor found the existing compliance framework was not producing sufficient cybersecurity improvements."
+    },
+    {
+      "pdf_page": 41,
+      "evidence_quote": "continued low level of compliance with the Top Four mitigation strategies",
+      "why": "The auditor reports that compliance with the mitigation strategies remained low."
+    },
+    {
+      "pdf_page": 43,
+      "evidence_quote": "the entities did not adopt a risk -based approach to prioritise improvements to cyber security, with cyber security investments focused on short -term operational needs rather than long -term strategic objectives.",
+      "why": "The auditor found that the entities did not prioritize cybersecurity improvements by risk and focused investment on short-term needs."
+    },
+    {
+      "pdf_page": 45,
+      "evidence_quote": "The three entities had not adopted a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems",
+      "why": "Cyber improvements were not prioritized through a systematic risk-based approach."
+    },
+    {
+      "pdf_page": 46,
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "why": "Two entities had architecture plans that were stale or inaccurate."
+    },
+    {
+      "pdf_page": 47,
+      "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+      "why": "High-risk systems and other key assets lacked documented prioritization."
+    },
+    {
+      "pdf_page": 48,
+      "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+      "why": "Scientific independence was allowed to override cyber resilience."
+    }
+  ],
+  "selected_pages": [
+    21,
+    22,
+    23,
+    24,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    39,
+    40,
+    41,
+    43,
+    45,
+    46,
+    47,
+    48
+  ],
+  "discovery_errors": [],
+  "source_verified": [
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "2.5",
+      "weakness": "Application whitelisting covered desktops but not servers; no risk assessment had been completed and there were no plans to implement it on servers.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "National Archives had only implemented application whitelisting on desktops. At the time of the audit, it had not completed a risk assessment nor had plans to implement application whitelisting on its servers",
+      "pdf_page": 22,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.5",
+      "weakness": "Application whitelisting was not in place across the ICT environment.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "Geoscience Australia did not have application whitelisting in place across its ICT environment at the time of audit fieldwork",
+      "pdf_page": 22,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "2.11",
+      "weakness": "No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.",
+      "pdf_page": 24,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.11",
+      "weakness": "No procedures were in place to verify security patch installation, investigate and resolve failures, or reinstall patches.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "National Archives and Geoscience Australia had no procedures in place to verify the installation of security patches, including documented processes to investigate, resolve and reinstall security patches to applications, operating systems and devices.",
+      "pdf_page": 24,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Privileged accounts on non-Windows application servers were not effectively managed, with limited visibility of user access and activity.",
+      "control_area": "privileged_access",
+      "evidence_quote": "Geoscience Australia did not effectively manage privileged accounts, in particular for non-Windows application servers, where there was limited visibility of user access and activities.",
+      "pdf_page": 24,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Active monitoring of privileged user accounts could be improved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+      "pdf_page": 24,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Active monitoring of privileged user accounts could be improved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+      "pdf_page": 24,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Active monitoring of privileged user accounts could be improved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "For all entities, while event logs were captured and stored, there was room to improve the active monitoring of privileged user accounts.",
+      "pdf_page": 24,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "2.22",
+      "weakness": "Regular reviews to revalidate privileged user accounts were not conducted, resulting in a high number of privileged accounts.",
+      "control_area": "privileged_access",
+      "evidence_quote": "regular reviews to revalidate privileged user accounts were not conducted which led to a high number of privileged accounts.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "2.22",
+      "weakness": "Privileged user account management had room for improvement.",
+      "control_area": "privileged_access",
+      "evidence_quote": "there was room for improvement in managing privileged user accounts.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.22",
+      "weakness": "User access controls were not effectively implemented at the database and operating system level.",
+      "control_area": "access_lifecycle",
+      "evidence_quote": "user access controls were not effectively implemented at the database and operating system level.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Administrative access was not effectively segregated based on job duties.",
+      "control_area": "privileged_access",
+      "evidence_quote": "did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Administrative access was not effectively segregated based on job duties.",
+      "control_area": "privileged_access",
+      "evidence_quote": "did not effectively implement the administration of privileged user accounts, particularly in segregating administrative access based on job duties.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Some privileged user accounts were not blocked from accessing the Internet and email.",
+      "control_area": "privileged_access",
+      "evidence_quote": "In some instances, privileged user accounts were not blocked from accessing the Internet and emails",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Some privileged user accounts were not blocked from accessing the Internet and email.",
+      "control_area": "privileged_access",
+      "evidence_quote": "In some instances, privileged user accounts were not blocked from accessing the Internet and emails",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Some privileged user accounts were not adequately monitored.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "and were not adequately monitored.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Some privileged user accounts were not adequately monitored.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "and were not adequately monitored.",
+      "pdf_page": 26,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "2.27",
+      "weakness": "The Essential Eight Top Four mitigation strategies were absent across ICT systems or implemented inconsistently.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "The Top Four mitigation strategies are not in place across the ICT systems, or are inconsistently implemented across the systems",
+      "pdf_page": 28,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.28",
+      "weakness": "The Top Four mitigation strategies and ICT general controls were absent or insufficiently implemented across ICT systems.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "The Top Four mitigation strategies and ICT general controls are not in place or insufficiently implemented across the ICT systems.",
+      "pdf_page": 28,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "2.46",
+      "weakness": "No formal procedure was in place to test backup restoration.",
+      "control_area": "business_continuity",
+      "evidence_quote": "None of the three entities had formal procedures in place to test the restoration of backups.",
+      "pdf_page": 31,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Department of the Treasury",
+      "system": null,
+      "observation_id": "2.46",
+      "weakness": "No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.",
+      "control_area": "business_continuity",
+      "evidence_quote": "Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.",
+      "pdf_page": 31,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "2.46",
+      "weakness": "No formal procedure was in place to test backup restoration; operational restoration requests were used as the testing mechanism.",
+      "control_area": "business_continuity",
+      "evidence_quote": "Treasury and National Archives relied on operational restoration requests as a testing mechanism for their backups.",
+      "pdf_page": 31,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "PDF page 32",
+      "weakness": "Incorrectly reported compliance against two mitigation strategies.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "National Archives incorrectly reported compliance against two strategies.",
+      "pdf_page": 32,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ANAO Report No.53 2017–18",
+      "system": "Essential Eight Maturity Model",
+      "observation_id": "PDF page 32",
+      "weakness": "The maturity model had shortcomings that limited its usefulness and could lead entities to overstate cyber security compliance in self-assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "There are shortcomings in the Essential Eight Maturity Model that limits its usefulness in its current form",
+      "pdf_page": 32,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "PDF page 32",
+      "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+      "pdf_page": 32,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "PDF page 32",
+      "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+      "pdf_page": 32,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "PDF page 32",
+      "weakness": "Entities lacked comprehensive guidance or supporting tools to help ensure accurate self-assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the entities did not have access to comprehensive guidance or supporting tools, such as control assessment test plans or grading schemes",
+      "pdf_page": 32,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Signals Directorate (ASD)",
+      "system": "Top Four Mitigation Strategies",
+      "observation_id": "3.35",
+      "weakness": "Technical guidance with detailed control assessment test plans aligned to the Top Four controls had not been developed.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "technical guidance has not yet been developed that would provide detailed control assessment test plans",
+      "pdf_page": 40,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "Table 4.1",
+      "weakness": "Did not have an integrated and documented architecture for data, systems and security controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Integrated and documented architecture for data, systems and security controls",
+      "pdf_page": 45,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "Table 4.1",
+      "weakness": "Did not have an integrated and documented architecture for data, systems and security controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Integrated and documented architecture for data, systems and security controls",
+      "pdf_page": 45,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Its high-level ICT systems architecture plan was out of date and/or did not reflect the actual systems design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or assess control effectiveness.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy specified data ownership, business importance and security classification.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Division and branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "Assigned information security roles were not all filled.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the positions were not all filled",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "Assigned information security roles were not all filled.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the positions were not all filled",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "Assigned information security roles were not all filled.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the positions were not all filled",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury; National Archives; Geoscience Australia",
+      "system": null,
+      "observation_id": "4.23",
+      "weakness": "Limited assessment and formal planning to prioritise other key enterprise assets and highly vulnerable systems.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+      "pdf_page": 47,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.27",
+      "weakness": "Scientific independence was allowed to override cyber resilience considerations, with little priority given to security implications of staff-run applications.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+      "pdf_page": 48,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [
+    {
+      "index": 0,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "National Archives of Australia",
+        "system": null,
+        "observation_id": "2.10",
+        "weakness": "Operating system patching was not implemented; fewer than 20% of critical operating system patches were deployed within 48 hours across the server fleet.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "not patching of operating systems. National Archives deployed security patches for applications on a monthly cycle for desktops; and, in general, also for servers, although there were instances where patches were installed on a quarterly cycle. Less than 20 percent of critical operating system patches were deployed within 48 hours from vendor release across the server fleet.",
+        "pdf_page": 23
+      }
+    },
+    {
+      "reason": "numbered paragraph identifier not found on cited page",
+      "item": {
+        "entity": "National Archives of Australia",
+        "system": null,
+        "observation_id": "2.10",
+        "weakness": "Some servers ran operating systems that were out of vendor support, so vulnerability patches were no longer released.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "some servers were running operating systems that were out of vendor support, so that patches were no longer being released to address vulnerabilities.",
+        "pdf_page": 24,
+        "document_id": "ANAO_Report_2017-2018_53a.pdf",
+        "printed_page": null,
+        "review_status": "proposed"
+      }
+    },
+    {
+      "reason": "numbered paragraph identifier not found on cited page",
+      "item": {
+        "entity": "Geoscience Australia",
+        "system": null,
+        "observation_id": "2.10",
+        "weakness": "Application and operating system patching was inconsistent; some patches were not installed and most critical patches were installed 7–30 days after release.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "installing some security patches on a monthly cycle but not installing other patches at all. Most critical patches were installed between 7 and 30 days after vendor release",
+        "pdf_page": 24,
+        "document_id": "ANAO_Report_2017-2018_53a.pdf",
+        "printed_page": null,
+        "review_status": "proposed"
+      }
+    },
+    {
+      "index": 11,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "National Archives",
+        "system": null,
+        "observation_id": "PDF page 28",
+        "weakness": "The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.",
+        "pdf_page": 28
+      }
+    },
+    {
+      "index": 12,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Geoscience Australia",
+        "system": null,
+        "observation_id": "PDF page 28",
+        "weakness": "The entity had not implemented the Essential Eight strategies for disabling untrusted Microsoft Office macros, user application hardening, and multi-factor authentication.",
+        "control_area": "patch_configuration",
+        "evidence_quote": "National Archives and Geoscience Australia had made limited progress in implementing the other three non-mandatory strategies—disabling untrusted Microsoft Office macros, user application hardening and multi-factor authentication.",
+        "pdf_page": 28
+      }
+    },
+    {
+      "index": 0,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Australian Signals Directorate (ASD)",
+        "system": "Essential Eight Maturity Model",
+        "observation_id": "3.27",
+        "weakness": "The model does not enable entities to accurately assess compliance.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "the Essential Eight Maturity Model does not provide a means for entities to accurately assess compliance",
+        "pdf_page": 39
+      }
+    },
+    {
+      "index": 1,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Australian Signals Directorate (ASD)",
+        "system": "Top Four mitigation strategies",
+        "observation_id": "3.30",
+        "weakness": "Entities lack guidance for self-assessing and reporting compliance.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "a lack of guidance for entities to self-assess and report against compliance with the Top Four mitigation strategies",
+        "pdf_page": 39
+      }
+    },
+    {
+      "index": 2,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Attorney-General’s Department (AGD)",
+        "system": "Protective Security Policy Framework",
+        "observation_id": "3.32",
+        "weakness": "Compliance relies on self-assessment; reports are not public and do not inform further ASD compliance activities.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "Reports to the Secretary of the Attorney-General’s Department are not made public, and are not used to inform further compliance activities by the Australian Signals Directorate.",
+        "pdf_page": 40
+      }
+    },
+    {
+      "index": 0,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Three audited entities",
+        "system": null,
+        "observation_id": "PDF page 43",
+        "weakness": "Did not use a risk-based approach to prioritise cyber security improvements, with investments focused on short-term operational needs rather than long-term strategic objectives.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "the entities did not adopt a risk-based approach to prioritise improvements to cyber security, with cyber security investments focused on short-term operational needs rather than long-term strategic objectives",
+        "pdf_page": 43
+      }
+    },
+    {
+      "index": 10,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Treasury",
+        "system": null,
+        "observation_id": "4.18",
+        "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+        "pdf_page": 46
+      }
+    },
+    {
+      "index": 11,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "National Archives",
+        "system": null,
+        "observation_id": "4.18",
+        "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+        "pdf_page": 46
+      }
+    },
+    {
+      "index": 12,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Geoscience Australia",
+        "system": null,
+        "observation_id": "4.18",
+        "weakness": "Audit and risk committee did not review vulnerabilities and cyber threats.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+        "pdf_page": 46
+      }
+    },
+    {
+      "index": 0,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Treasury; National Archives; Geoscience Australia",
+        "system": null,
+        "observation_id": "4.23",
+        "weakness": "Did not use a systematic risk-based approach to prioritise cyber security improvements across ICT systems.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "The three entities did not adopt a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems.",
+        "pdf_page": 47
+      }
+    },
+    {
+      "index": 2,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Treasury; Geoscience Australia",
+        "system": null,
+        "observation_id": "4.24",
+        "weakness": "Cyber security investment initiatives did not address long-term strategic needs and focused on short-term operational responses.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "In all three entities, cyber security investment initiatives were not addressing long-term strategic initiatives, instead being focused on short-term operational responses to identified cyber risks.",
+        "pdf_page": 47
+      }
+    },
+    {
+      "index": 3,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Treasury; National Archives; Geoscience Australia",
+        "system": null,
+        "observation_id": "4.24",
+        "weakness": "Had no documented cyber initiatives beyond 2017–18 or proposed investment budget for cyber security initiatives.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "Entities did not have documented cyber initiatives beyond 2017–18 or a proposed investment budget for cyber security initiatives.",
+        "pdf_page": 47
+      }
+    }
+  ],
+  "extraction_errors": []
+}

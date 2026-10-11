@@ -1,0 +1,104 @@
+{
+  "report_id": "2026",
+  "evaluation_method": "source-first-frozen-reference-AI-assisted-matching",
+  "reference_count": 11,
+  "holdout_count": 2,
+  "model_predictions_on_anchor_pages": 8,
+  "references": [
+    {
+      "label_id": "R048",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 25 captures unsynchronized reassessment of overlapping strategic and programme risks."
+    },
+    {
+      "label_id": "R049",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 25 captures missing ratings or proximity dates in cyber risk registers."
+    },
+    {
+      "label_id": "R050",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 25 captures the lack of seniority or expertise criteria for assigning risk officers."
+    },
+    {
+      "label_id": "R051",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 25 captures undocumented owners for PR3 and PR6."
+    },
+    {
+      "label_id": "R052",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 25 captures missing procedures for the timing and content of risk updates."
+    },
+    {
+      "label_id": "R053",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 26 captures PR3 receiving fewer periodic reassessments than overlapping risks."
+    },
+    {
+      "label_id": "R054",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2026-F001"
+      ],
+      "reason": "The record specifically captures three requested risk updates with no documented response and attributes the issue to ABS."
+    },
+    {
+      "label_id": "R055",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 26 captures most updates omitting documented cybersecurity progress."
+    },
+    {
+      "label_id": "R056",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2026-F002"
+      ],
+      "reason": "The record captures risk updates averaging 31 days old at oversight committee reporting and attributes the issue to ABS."
+    },
+    {
+      "label_id": "R057",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2026-F009"
+      ],
+      "reason": "The record specifically captures Census planning that did not address risks across the ABS ICT environment."
+    },
+    {
+      "label_id": "R058",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2026-F010"
+      ],
+      "reason": "The record explicitly captures failure to implement all key cybersecurity mitigation controls."
+    }
+  ],
+  "holdouts": [
+    {
+      "pdf_page": 33,
+      "verdict": "missed",
+      "matched_record_ids": [],
+      "reason": "No prediction is listed on page 33; the holdout annotation identifies no explicit observed deficiency."
+    },
+    {
+      "pdf_page": 39,
+      "verdict": "partial",
+      "matched_record_ids": [
+        "2026-F005",
+        "2026-F006",
+        "2026-F007"
+      ],
+      "reason": "Predictions capture the unheld workshops, missing PGA sign-off, and missing completion evidence; the holdout annotation also identifies missing supporting evidence, while the late activities are a separate finding."
+    }
+  ],
+  "raw_model_response": "{\n  \"references\": [\n    {\n      \"label_id\": \"R048\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 25 captures unsynchronized reassessment of overlapping strategic and programme risks.\"\n    },\n    {\n      \"label_id\": \"R049\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 25 captures missing ratings or proximity dates in cyber risk registers.\"\n    },\n    {\n      \"label_id\": \"R050\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 25 captures the lack of seniority or expertise criteria for assigning risk officers.\"\n    },\n    {\n      \"label_id\": \"R051\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 25 captures undocumented owners for PR3 and PR6.\"\n    },\n    {\n      \"label_id\": \"R052\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 25 captures missing procedures for the timing and content of risk updates.\"\n    },\n    {\n      \"label_id\": \"R053\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 26 captures PR3 receiving fewer periodic reassessments than overlapping risks.\"\n    },\n    {\n      \"label_id\": \"R054\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2026-F001\"],\n      \"reason\": \"The record specifically captures three requested risk updates with no documented response and attributes the issue to ABS.\"\n    },\n    {\n      \"label_id\": \"R055\",\n      \"verdict\": \"absent\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction on page 26 captures most updates omitting documented cybersecurity progress.\"\n    },\n    {\n      \"label_id\": \"R056\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2026-F002\"],\n      \"reason\": \"The record captures risk updates averaging 31 days old at oversight committee reporting and attributes the issue to ABS.\"\n    },\n    {\n      \"label_id\": \"R057\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2026-F009\"],\n      \"reason\": \"The record specifically captures Census planning that did not address risks across the ABS ICT environment.\"\n    },\n    {\n      \"label_id\": \"R058\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2026-F010\"],\n      \"reason\": \"The record explicitly captures failure to implement all key cybersecurity mitigation controls.\"\n    }\n  ],\n  \"holdouts\": [\n    {\n      \"pdf_page\": 33,\n      \"verdict\": \"missed\",\n      \"matched_record_ids\": [],\n      \"reason\": \"No prediction is listed on page 33; the holdout annotation identifies no explicit observed deficiency.\"\n    },\n    {\n      \"pdf_page\": 39,\n      \"verdict\": \"partial\",\n      \"matched_record_ids\": [\"2026-F005\", \"2026-F006\", \"2026-F007\"],\n      \"reason\": \"Predictions capture the unheld workshops, missing PGA sign-off, and missing completion evidence; the holdout annotation also identifies missing supporting evidence, while the late activities are a separate finding.\"\n    }\n  ]\n}",
+  "model_seconds": 10.41,
+  "limitations": "Unblinded AI judge without full source context; NOT expert adjudication or full-report recall."
+}

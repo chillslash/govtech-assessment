@@ -1,0 +1,98 @@
+{
+  "report_id": "2018",
+  "evaluation_method": "source-first-frozen-reference-AI-assisted-matching",
+  "reference_count": 9,
+  "holdout_count": 2,
+  "model_predictions_on_anchor_pages": 17,
+  "references": [
+    {
+      "label_id": "R001",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction on page 45 captures non-risk-based prioritisation of cyber improvements."
+    },
+    {
+      "label_id": "R002",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction captures the lack of identified and documented cyber initiatives beyond FY2017–18."
+    },
+    {
+      "label_id": "R003",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2018-F031",
+        "2018-F032"
+      ],
+      "reason": "Both records capture outdated or inaccurate architecture plans and name the two entities in the reference scope."
+    },
+    {
+      "label_id": "R004",
+      "verdict": "attribution_uncertain",
+      "matched_record_ids": [
+        "2018-F033",
+        "2018-F034",
+        "2018-F035"
+      ],
+      "reason": "The records capture the documentation weakness, but assign it to specific agencies where the reference scope is unclear."
+    },
+    {
+      "label_id": "R005",
+      "verdict": "attribution_uncertain",
+      "matched_record_ids": [
+        "2018-F036",
+        "2018-F037",
+        "2018-F038"
+      ],
+      "reason": "The records capture the missing storage strategy, but assign it to specific agencies where the reference scope is unclear."
+    },
+    {
+      "label_id": "R006",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No prediction captures audit or risk committees failing to review vulnerabilities and cyber threats."
+    },
+    {
+      "label_id": "R007",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2018-F039"
+      ],
+      "reason": "The record captures the lack of enterprise consolidation of divisional risk registers for National Archives."
+    },
+    {
+      "label_id": "R008",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2018-F040"
+      ],
+      "reason": "The record captures the lack of enterprise consolidation of divisional risk registers for Geoscience Australia."
+    },
+    {
+      "label_id": "R009",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "The unfilled information security roles finding does not establish that the National Archives CIO role was unfilled."
+    }
+  ],
+  "holdouts": [
+    {
+      "pdf_page": 28,
+      "verdict": "detected",
+      "matched_record_ids": [
+        "2018-F018",
+        "2018-F019"
+      ],
+      "reason": "Both records capture absent or insufficient Top Four mitigation strategies for the entities identified in the source anchor."
+    },
+    {
+      "pdf_page": 35,
+      "verdict": "scope_uncertain",
+      "matched_record_ids": [],
+      "reason": "The source anchor concerns common assessment guidance, not a specific agency implementation finding."
+    }
+  ],
+  "raw_model_response": "{\"references\":[{\"label_id\":\"R001\",\"verdict\":\"absent\",\"matched_record_ids\":[],\"reason\":\"No prediction on page 45 captures non-risk-based prioritisation of cyber improvements.\"},{\"label_id\":\"R002\",\"verdict\":\"absent\",\"matched_record_ids\":[],\"reason\":\"No prediction captures the lack of identified and documented cyber initiatives beyond FY2017–18.\"},{\"label_id\":\"R003\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2018-F031\",\"2018-F032\"],\"reason\":\"Both records capture outdated or inaccurate architecture plans and name the two entities in the reference scope.\"},{\"label_id\":\"R004\",\"verdict\":\"attribution_uncertain\",\"matched_record_ids\":[\"2018-F033\",\"2018-F034\",\"2018-F035\"],\"reason\":\"The records capture the documentation weakness, but assign it to specific agencies where the reference scope is unclear.\"},{\"label_id\":\"R005\",\"verdict\":\"attribution_uncertain\",\"matched_record_ids\":[\"2018-F036\",\"2018-F037\",\"2018-F038\"],\"reason\":\"The records capture the missing storage strategy, but assign it to specific agencies where the reference scope is unclear.\"},{\"label_id\":\"R006\",\"verdict\":\"absent\",\"matched_record_ids\":[],\"reason\":\"No prediction captures audit or risk committees failing to review vulnerabilities and cyber threats.\"},{\"label_id\":\"R007\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2018-F039\"],\"reason\":\"The record captures the lack of enterprise consolidation of divisional risk registers for National Archives.\"},{\"label_id\":\"R008\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2018-F040\"],\"reason\":\"The record captures the lack of enterprise consolidation of divisional risk registers for Geoscience Australia.\"},{\"label_id\":\"R009\",\"verdict\":\"absent\",\"matched_record_ids\":[],\"reason\":\"The unfilled information security roles finding does not establish that the National Archives CIO role was unfilled.\"}],\"holdouts\":[{\"pdf_page\":28,\"verdict\":\"detected\",\"matched_record_ids\":[\"2018-F018\",\"2018-F019\"],\"reason\":\"Both records capture absent or insufficient Top Four mitigation strategies for the entities identified in the source anchor.\"},{\"pdf_page\":35,\"verdict\":\"scope_uncertain\",\"matched_record_ids\":[],\"reason\":\"The source anchor concerns common assessment guidance, not a specific agency implementation finding.\"}]}",
+  "model_seconds": 9.17,
+  "limitations": "Unblinded AI judge without full source context; NOT expert adjudication or full-report recall."
+}

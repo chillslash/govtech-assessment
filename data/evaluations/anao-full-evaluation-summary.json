@@ -1,0 +1,238 @@
+{
+  "protocol": "All physical pages in pre-inspected substantive findings bounds LLM-screened; extraction of nominated pages; source/locator checks; frozen source-first reference matching.",
+  "per_report": [
+    {
+      "year": "2018",
+      "screened": 28,
+      "nominated": 18,
+      "verified": 45,
+      "rejected": 15,
+      "invalid_discovery_quotes": 2,
+      "ref_total": 9,
+      "clear": 3,
+      "merged": 0,
+      "attribution_uncertain": 2,
+      "absent": 4
+    },
+    {
+      "year": "2019",
+      "screened": 28,
+      "nominated": 19,
+      "verified": 54,
+      "rejected": 1,
+      "invalid_discovery_quotes": 2,
+      "ref_total": 15,
+      "clear": 15,
+      "merged": 0,
+      "attribution_uncertain": 0,
+      "absent": 0
+    },
+    {
+      "year": "2021",
+      "screened": 48,
+      "nominated": 12,
+      "verified": 21,
+      "rejected": 3,
+      "invalid_discovery_quotes": 4,
+      "ref_total": 6,
+      "clear": 6,
+      "merged": 0,
+      "attribution_uncertain": 0,
+      "absent": 0
+    },
+    {
+      "year": "2024",
+      "screened": 59,
+      "nominated": 44,
+      "verified": 153,
+      "rejected": 15,
+      "invalid_discovery_quotes": 11,
+      "ref_total": 17,
+      "clear": 15,
+      "merged": 1,
+      "attribution_uncertain": 0,
+      "absent": 1
+    },
+    {
+      "year": "2026",
+      "screened": 26,
+      "nominated": 9,
+      "verified": 13,
+      "rejected": 0,
+      "invalid_discovery_quotes": 5,
+      "ref_total": 11,
+      "clear": 4,
+      "merged": 0,
+      "attribution_uncertain": 0,
+      "absent": 7
+    }
+  ],
+  "totals": {
+    "screened": 189,
+    "nominated": 102,
+    "verified": 286,
+    "rejected": 34,
+    "invalid_discovery_quotes": 24,
+    "ref_total": 58,
+    "clear": 43,
+    "merged": 1,
+    "attribution_uncertain": 2,
+    "absent": 12
+  },
+  "holdouts": [
+    {
+      "year": "2018",
+      "pdf_page": 28,
+      "source_classification": "positive",
+      "original_assessor_verdict": "detected",
+      "reviewed_verdict": "detected",
+      "record_ids": [
+        "2018-F018",
+        "2018-F019"
+      ],
+      "correction_explanation": null
+    },
+    {
+      "year": "2018",
+      "pdf_page": 35,
+      "source_classification": "scope_uncertain",
+      "original_assessor_verdict": "scope_uncertain",
+      "reviewed_verdict": "scope_uncertain",
+      "record_ids": [],
+      "correction_explanation": null
+    },
+    {
+      "year": "2019",
+      "pdf_page": 32,
+      "source_classification": "positive",
+      "original_assessor_verdict": "detected",
+      "reviewed_verdict": "detected",
+      "record_ids": [
+        "2019-F022"
+      ],
+      "correction_explanation": null
+    },
+    {
+      "year": "2019",
+      "pdf_page": 40,
+      "source_classification": "positive",
+      "original_assessor_verdict": "scope_uncertain",
+      "reviewed_verdict": "detected",
+      "record_ids": [
+        "2019-F041"
+      ],
+      "correction_explanation": "Reference positive, prediction matches ASC data ownership; original assessor inconsistently called scope uncertain."
+    },
+    {
+      "year": "2021",
+      "pdf_page": 56,
+      "source_classification": "positive",
+      "original_assessor_verdict": "missed",
+      "reviewed_verdict": "missed",
+      "record_ids": [],
+      "correction_explanation": null
+    },
+    {
+      "year": "2021",
+      "pdf_page": 69,
+      "source_classification": "positive",
+      "original_assessor_verdict": "detected",
+      "reviewed_verdict": "detected",
+      "record_ids": [
+        "2021-F015"
+      ],
+      "correction_explanation": null
+    },
+    {
+      "year": "2024",
+      "pdf_page": 49,
+      "source_classification": "positive",
+      "original_assessor_verdict": "partial",
+      "reviewed_verdict": "partial",
+      "record_ids": [
+        "2024-F047",
+        "2024-F048",
+        "2024-F049",
+        "2024-F050"
+      ],
+      "correction_explanation": null
+    },
+    {
+      "year": "2024",
+      "pdf_page": 72,
+      "source_classification": "scope_uncertain",
+      "original_assessor_verdict": "scope_uncertain",
+      "reviewed_verdict": "scope_uncertain",
+      "record_ids": [],
+      "correction_explanation": null
+    },
+    {
+      "year": "2026",
+      "pdf_page": 33,
+      "source_classification": "negative",
+      "original_assessor_verdict": "missed",
+      "reviewed_verdict": "not_applicable",
+      "record_ids": [],
+      "correction_explanation": "Original reference contains no observed failure; absence is appropriate."
+    },
+    {
+      "year": "2026",
+      "pdf_page": 39,
+      "source_classification": "positive",
+      "original_assessor_verdict": "partial",
+      "reviewed_verdict": "partial",
+      "record_ids": [
+        "2026-F005",
+        "2026-F006",
+        "2026-F007"
+      ],
+      "correction_explanation": null
+    }
+  ],
+  "positive_holdout_outcomes": {
+    "detected": 4,
+    "missed": 1,
+    "partial": 2
+  },
+  "theme_proposals": [
+    {
+      "name": "Application whitelisting gaps",
+      "report_count": 2,
+      "agency_count": 3,
+      "finding_ids": [
+        "F001",
+        "F002",
+        "F058",
+        "F071"
+      ]
+    },
+    {
+      "name": "Patch management weaknesses",
+      "report_count": 2,
+      "agency_count": 5,
+      "finding_ids": [
+        "F003",
+        "F004",
+        "F060",
+        "F061",
+        "F062",
+        "F063"
+      ]
+    }
+  ],
+  "previous_mvp": {
+    "verified_records": 50,
+    "extracted_pages": 14,
+    "reference_concepts": 58,
+    "supported_atomic_records": 40,
+    "source_concepts_covered_clear_or_merged": 44
+  },
+  "cautions": [
+    "Neither page screening nor source quotes guarantee semantic recall or correctness.",
+    "Evaluation uses frozen AI-created references and an unblinded AI assessor, not auditor ground truth.",
+    "The selected-page matched-concept result is not a full-report recall estimate.",
+    "Two holdout judge inconsistencies are transparently corrected without rewriting its raw output.",
+    "Cross-report themes are unapproved semantic proposals, not independently validated.",
+    "The corpus comprises Australian ANAO rather than Singapore AGO reports."
+  ]
+}

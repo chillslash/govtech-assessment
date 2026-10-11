@@ -1,0 +1,784 @@
+{
+  "document_id": "Auditor-General_Report_2025-26_34.pdf",
+  "report_id": "2026",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T04:37:26.474224+00:00",
+  "method": "all-pages-llm-screened-no-topk",
+  "findings_section_physical_pages": [
+    22,
+    47
+  ],
+  "all_screened_pages": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":25,\"evidence_quote\":\"risk owners for PR3 and PR6 are not documented\",\"why\":\"Owners were not documented for two program-level cybersecurity risks, weakening risk governance.\"}]}",
+      "model_seconds": 6.19,
+      "accepted": [],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 25,
+            "evidence_quote": "risk owners for PR3 and PR6 are not documented",
+            "why": "Owners were not documented for two program-level cybersecurity risks, weakening risk governance."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":26,\"evidence_quote\":\"Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness\",\"why\":\"Risk updates lacked documented assessment of key cyber risk and control factors.\"},{\"pdf_page\":27,\"evidence_quote\":\"a lack of integration with the ABS’ Security and Information Assurance Branch was ‘impacting the visibility of security considerations in decision‑making, delaying or reducing the accuracy of risk assessments, and contributing to some inconsistency in approval processes’\",\"why\":\"Security assurance was poorly integrated, weakening visibility and the accuracy and consistency of risk decisions.\"},{\"pdf_page\":28,\"evidence_quote\":\"This did not support effective monitoring of this key risk by the CPB.\",\"why\":\"The Program Board did not receive updates on a key out-of-tolerance risk for most of the period.\"},{\"pdf_page\":29,\"evidence_quote\":\"as at March 2026, sources of risk across the entirety of the ABS ICT environment remain a significant concern for the ABS and work is required to remediate the vulnerabilities.\",\"why\":\"Vulnerabilities across the broader ABS ICT environment remained unresolved.\"}]}",
+      "model_seconds": 8.81,
+      "accepted": [
+        {
+          "pdf_page": 26,
+          "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness",
+          "why": "Risk updates lacked documented assessment of key cyber risk and control factors."
+        },
+        {
+          "pdf_page": 28,
+          "evidence_quote": "This did not support effective monitoring of this key risk by the CPB.",
+          "why": "The Program Board did not receive updates on a key out-of-tolerance risk for most of the period."
+        },
+        {
+          "pdf_page": 29,
+          "evidence_quote": "as at March 2026, sources of risk across the entirety of the ABS ICT environment remain a significant concern for the ABS and work is required to remediate the vulnerabilities.",
+          "why": "Vulnerabilities across the broader ABS ICT environment remained unresolved."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 27,
+            "evidence_quote": "a lack of integration with the ABS’ Security and Information Assurance Branch was ‘impacting the visibility of security considerations in decision‑making, delaying or reducing the accuracy of risk assessments, and contributing to some inconsistency in approval processes’",
+            "why": "Security assurance was poorly integrated, weakening visibility and the accuracy and consistency of risk decisions."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":31,\"evidence_quote\":\"key remaining cyber security vulnerabilities must be addressed in time for the 2026 Census.\",\"why\":\"The audit identifies unresolved cybersecurity vulnerabilities ahead of the Census.\"}]}",
+      "model_seconds": 9.88,
+      "accepted": [
+        {
+          "pdf_page": 31,
+          "evidence_quote": "key remaining cyber security vulnerabilities must be addressed in time for the 2026 Census.",
+          "why": "The audit identifies unresolved cybersecurity vulnerabilities ahead of the Census."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":35,\"evidence_quote\":\"Gaps were identified in architecture and design reviews.\",\"why\":\"The audit identified gaps in security architecture and design reviews.\"},{\"pdf_page\":37,\"evidence_quote\":\"some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation, which limited the ability to assess security design.\",\"why\":\"Incomplete architecture documentation limited assessors’ ability to evaluate security design.\"}]}",
+      "model_seconds": 7.28,
+      "accepted": [
+        {
+          "pdf_page": 35,
+          "evidence_quote": "Gaps were identified in architecture and design reviews.",
+          "why": "The audit identified gaps in security architecture and design reviews."
+        },
+        {
+          "pdf_page": 37,
+          "evidence_quote": "some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation, which limited the ability to assess security design.",
+          "why": "Incomplete architecture documentation limited assessors’ ability to evaluate security design."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":39,\"evidence_quote\":\"These workshops were not held and the rationale was not documented.\",\"why\":\"Planned quality gate review workshops were missed without a documented rationale.\"},{\"pdf_page\":39,\"evidence_quote\":\"one gate was missing the required sign off to confirm a PGA had been completed, three gates were missing evidence supporting the activity’s completion, and three gates had activities that were completed after the due date.\",\"why\":\"Quality gate post-activity controls had missing sign-offs and evidence, and overdue work.\"}]}",
+      "model_seconds": 7.44,
+      "accepted": [
+        {
+          "pdf_page": 39,
+          "evidence_quote": "These workshops were not held and the rationale was not documented.",
+          "why": "Planned quality gate review workshops were missed without a documented rationale."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 39,
+            "evidence_quote": "one gate was missing the required sign off to confirm a PGA had been completed, three gates were missing evidence supporting the activity’s completion, and three gates had activities that were completed after the due date.",
+            "why": "Quality gate post-activity controls had missing sign-offs and evidence, and overdue work."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":44,\"evidence_quote\":\"the plan outlined the following actions but did not specify timeframes or assign responsibilities\",\"why\":\"The security uplift plan lacked deadlines and accountable owners for its actions.\"},{\"pdf_page\":45,\"evidence_quote\":\"The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.\",\"why\":\"Key cyber security mitigation controls remained unimplemented, and compliance was below target levels.\"}]}",
+      "model_seconds": 7.44,
+      "accepted": [
+        {
+          "pdf_page": 45,
+          "evidence_quote": "The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.",
+          "why": "Key cyber security mitigation controls remained unimplemented, and compliance was below target levels."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 44,
+            "evidence_quote": "the plan outlined the following actions but did not specify timeframes or assign responsibilities",
+            "why": "The security uplift plan lacked deadlines and accountable owners for its actions."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    },
+    {
+      "pages": [
+        46,
+        47
+      ],
+      "raw_output": "{\"candidates\":[{\"pdf_page\":46,\"evidence_quote\":\"The justification for the lower risk ratings was not evident as all risk factors that previously warranted a higher rating remained relevant.\",\"why\":\"Risk ratings were lowered without an evident justification despite the underlying risk factors remaining.\"},{\"pdf_page\":47,\"evidence_quote\":\"IRAP assessments that should have been completed had not yet commenced\",\"why\":\"Required security assessments had not started, with insufficient time potentially remaining to address their findings before the Census.\"}]}",
+      "model_seconds": 9.41,
+      "accepted": [
+        {
+          "pdf_page": 47,
+          "evidence_quote": "IRAP assessments that should have been completed had not yet commenced",
+          "why": "Required security assessments had not started, with insufficient time potentially remaining to address their findings before the Census."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 46,
+            "evidence_quote": "The justification for the lower risk ratings was not evident as all risk factors that previously warranted a higher rating remained relevant.",
+            "why": "Risk ratings were lowered without an evident justification despite the underlying risk factors remaining."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ]
+    }
+  ],
+  "extraction_batches": [
+    {
+      "pages": [
+        29,
+        31
+      ],
+      "model_seconds": 7.08,
+      "raw_output": "{\"weaknesses\":[]}",
+      "raw_predictions": [],
+      "numeric_ids_normalised": [],
+      "accepted": [],
+      "rejected": []
+    },
+    {
+      "pages": [
+        35,
+        37
+      ],
+      "model_seconds": 7.38,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"2026 Census ICT systems\",\"observation_id\":\"2.61\",\"weakness\":\"Some systems submitted for security assessment had limited high-level architecture documentation, restricting assessment of security design.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation\",\"pdf_page\":37}]}",
+      "raw_predictions": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census ICT systems",
+          "observation_id": "2.61",
+          "weakness": "Some systems submitted for security assessment had limited high-level architecture documentation, restricting assessment of security design.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation",
+          "pdf_page": 37
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census ICT systems",
+          "observation_id": "2.61",
+          "weakness": "Some systems submitted for security assessment had limited high-level architecture documentation, restricting assessment of security design.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation",
+          "pdf_page": 37,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        26,
+        28
+      ],
+      "model_seconds": 8.31,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":null,\"observation_id\":\"2.15\",\"weakness\":\"Three requested cyber security risk updates had no documented response, leaving no documented consideration of residual risk severity or control effectiveness for oversight reporting.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness\",\"pdf_page\":26},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":null,\"observation_id\":\"2.15\",\"weakness\":\"Cyber security risk updates were not current when reported to oversight committees, averaging 31 days old.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting\",\"pdf_page\":26},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":null,\"observation_id\":\"2.25\",\"weakness\":\"The Census Program Board did not receive updates on PR3 while it was outside risk tolerance for most of the period, limiting monitoring of the risk.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"This did not support effective monitoring of this key risk by the CPB.\",\"pdf_page\":28}]}",
+      "raw_predictions": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": null,
+          "observation_id": "2.15",
+          "weakness": "Three requested cyber security risk updates had no documented response, leaving no documented consideration of residual risk severity or control effectiveness for oversight reporting.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness",
+          "pdf_page": 26
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": null,
+          "observation_id": "2.15",
+          "weakness": "Cyber security risk updates were not current when reported to oversight committees, averaging 31 days old.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting",
+          "pdf_page": 26
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": null,
+          "observation_id": "2.25",
+          "weakness": "The Census Program Board did not receive updates on PR3 while it was outside risk tolerance for most of the period, limiting monitoring of the risk.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "This did not support effective monitoring of this key risk by the CPB.",
+          "pdf_page": 28
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": null,
+          "observation_id": "2.15",
+          "weakness": "Three requested cyber security risk updates had no documented response, leaving no documented consideration of residual risk severity or control effectiveness for oversight reporting.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness",
+          "pdf_page": 26,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": null,
+          "observation_id": "2.15",
+          "weakness": "Cyber security risk updates were not current when reported to oversight committees, averaging 31 days old.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting",
+          "pdf_page": 26,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": null,
+          "observation_id": "2.25",
+          "weakness": "The Census Program Board did not receive updates on PR3 while it was outside risk tolerance for most of the period, limiting monitoring of the risk.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "This did not support effective monitoring of this key risk by the CPB.",
+          "pdf_page": 28,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        39,
+        45
+      ],
+      "model_seconds": 7.95,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"2026 Census quality gates\",\"observation_id\":\"2.73\",\"weakness\":\"Scheduled review workshops to assess quality gate relevance and effectiveness were not held, and the reason was not documented.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"These workshops were not held and the rationale was not documented.\",\"pdf_page\":39},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"2026 Census quality gates\",\"observation_id\":\"2.74\",\"weakness\":\"One post gate activity lacked the required sign-off confirming completion.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"one gate was missing the required sign off to confirm a PGA had been completed\",\"pdf_page\":39},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"2026 Census quality gates\",\"observation_id\":\"2.74\",\"weakness\":\"Three post gate activities lacked evidence supporting their completion.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"three gates were missing evidence supporting the activity’s completion\",\"pdf_page\":39},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"2026 Census quality gates\",\"observation_id\":\"2.74\",\"weakness\":\"Three post gate activities were completed after their due dates.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"three gates had activities that were completed after the due date\",\"pdf_page\":39},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"ABS ICT environment\",\"observation_id\":\"2.98\",\"weakness\":\"Holistic cyber security planning for the 2026 Census did not address risks across the entirety of the ABS ICT environment.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"it did not address risks across the entirety of the ABS ICT environment.\",\"pdf_page\":45},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"ABS ICT environment\",\"observation_id\":\"2.99\",\"weakness\":\"The ABS did not implement all key cyber security mitigation controls.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"however, did not implement all key mitigation controls.\",\"pdf_page\":45}]}",
+      "raw_predictions": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.73",
+          "weakness": "Scheduled review workshops to assess quality gate relevance and effectiveness were not held, and the reason was not documented.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "These workshops were not held and the rationale was not documented.",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.74",
+          "weakness": "One post gate activity lacked the required sign-off confirming completion.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "one gate was missing the required sign off to confirm a PGA had been completed",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.74",
+          "weakness": "Three post gate activities lacked evidence supporting their completion.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "three gates were missing evidence supporting the activity’s completion",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.74",
+          "weakness": "Three post gate activities were completed after their due dates.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "three gates had activities that were completed after the due date",
+          "pdf_page": 39
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "ABS ICT environment",
+          "observation_id": "2.98",
+          "weakness": "Holistic cyber security planning for the 2026 Census did not address risks across the entirety of the ABS ICT environment.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "it did not address risks across the entirety of the ABS ICT environment.",
+          "pdf_page": 45
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "ABS ICT environment",
+          "observation_id": "2.99",
+          "weakness": "The ABS did not implement all key cyber security mitigation controls.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "however, did not implement all key mitigation controls.",
+          "pdf_page": 45
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.73",
+          "weakness": "Scheduled review workshops to assess quality gate relevance and effectiveness were not held, and the reason was not documented.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "These workshops were not held and the rationale was not documented.",
+          "pdf_page": 39,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.74",
+          "weakness": "One post gate activity lacked the required sign-off confirming completion.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "one gate was missing the required sign off to confirm a PGA had been completed",
+          "pdf_page": 39,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.74",
+          "weakness": "Three post gate activities lacked evidence supporting their completion.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "three gates were missing evidence supporting the activity’s completion",
+          "pdf_page": 39,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "2026 Census quality gates",
+          "observation_id": "2.74",
+          "weakness": "Three post gate activities were completed after their due dates.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "three gates had activities that were completed after the due date",
+          "pdf_page": 39,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "ABS ICT environment",
+          "observation_id": "2.98",
+          "weakness": "Holistic cyber security planning for the 2026 Census did not address risks across the entirety of the ABS ICT environment.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "it did not address risks across the entirety of the ABS ICT environment.",
+          "pdf_page": 45,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "ABS ICT environment",
+          "observation_id": "2.99",
+          "weakness": "The ABS did not implement all key cyber security mitigation controls.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "however, did not implement all key mitigation controls.",
+          "pdf_page": 45,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "pages": [
+        47
+      ],
+      "model_seconds": 8.89,
+      "raw_output": "{\"weaknesses\":[{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"Broader ABS ICT environment\",\"observation_id\":\"2.110\",\"weakness\":\"IRAP assessments were incompletely scheduled and assessments that should have been completed had not commenced.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"IRAP assessments that should have been completed had not yet commenced\",\"pdf_page\":47},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"Broader ABS ICT environment\",\"observation_id\":\"2.110\",\"weakness\":\"Gaps in information and documentation delayed assurance activities.\",\"control_area\":\"governance_assurance\",\"evidence_quote\":\"gaps in information and documentation were delaying some assurance activities\",\"pdf_page\":47},{\"entity\":\"Australian Bureau of Statistics (ABS)\",\"system\":\"Broader ABS ICT environment\",\"observation_id\":\"2.111\",\"weakness\":\"Deadlines for addressing cyber security components of the Essential Eight mitigation strategies were repeatedly missed.\",\"control_area\":\"patch_configuration\",\"evidence_quote\":\"has repeatedly missed deadlines for achievement\",\"pdf_page\":47}]}",
+      "raw_predictions": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "Broader ABS ICT environment",
+          "observation_id": "2.110",
+          "weakness": "IRAP assessments were incompletely scheduled and assessments that should have been completed had not commenced.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "IRAP assessments that should have been completed had not yet commenced",
+          "pdf_page": 47
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "Broader ABS ICT environment",
+          "observation_id": "2.110",
+          "weakness": "Gaps in information and documentation delayed assurance activities.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "gaps in information and documentation were delaying some assurance activities",
+          "pdf_page": 47
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "Broader ABS ICT environment",
+          "observation_id": "2.111",
+          "weakness": "Deadlines for addressing cyber security components of the Essential Eight mitigation strategies were repeatedly missed.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "has repeatedly missed deadlines for achievement",
+          "pdf_page": 47
+        }
+      ],
+      "numeric_ids_normalised": [],
+      "accepted": [
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "Broader ABS ICT environment",
+          "observation_id": "2.110",
+          "weakness": "IRAP assessments were incompletely scheduled and assessments that should have been completed had not commenced.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "IRAP assessments that should have been completed had not yet commenced",
+          "pdf_page": 47,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "Broader ABS ICT environment",
+          "observation_id": "2.110",
+          "weakness": "Gaps in information and documentation delayed assurance activities.",
+          "control_area": "governance_assurance",
+          "evidence_quote": "gaps in information and documentation were delaying some assurance activities",
+          "pdf_page": 47,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        },
+        {
+          "entity": "Australian Bureau of Statistics (ABS)",
+          "system": "Broader ABS ICT environment",
+          "observation_id": "2.111",
+          "weakness": "Deadlines for addressing cyber security components of the Essential Eight mitigation strategies were repeatedly missed.",
+          "control_area": "patch_configuration",
+          "evidence_quote": "has repeatedly missed deadlines for achievement",
+          "pdf_page": 47,
+          "document_id": "Auditor-General_Report_2025-26_34.pdf",
+          "printed_page": null,
+          "review_status": "proposed"
+        }
+      ],
+      "rejected": []
+    }
+  ],
+  "status": "complete",
+  "limitations": "LLM page-screening and conditional extraction; not expert-adjudicated nor proven complete at weakness level.",
+  "updated_utc": "2026-10-11T04:38:05.649658+00:00",
+  "discovery_verified": [
+    {
+      "pdf_page": 26,
+      "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness",
+      "why": "Risk updates lacked documented assessment of key cyber risk and control factors."
+    },
+    {
+      "pdf_page": 28,
+      "evidence_quote": "This did not support effective monitoring of this key risk by the CPB.",
+      "why": "The Program Board did not receive updates on a key out-of-tolerance risk for most of the period."
+    },
+    {
+      "pdf_page": 29,
+      "evidence_quote": "as at March 2026, sources of risk across the entirety of the ABS ICT environment remain a significant concern for the ABS and work is required to remediate the vulnerabilities.",
+      "why": "Vulnerabilities across the broader ABS ICT environment remained unresolved."
+    },
+    {
+      "pdf_page": 31,
+      "evidence_quote": "key remaining cyber security vulnerabilities must be addressed in time for the 2026 Census.",
+      "why": "The audit identifies unresolved cybersecurity vulnerabilities ahead of the Census."
+    },
+    {
+      "pdf_page": 35,
+      "evidence_quote": "Gaps were identified in architecture and design reviews.",
+      "why": "The audit identified gaps in security architecture and design reviews."
+    },
+    {
+      "pdf_page": 37,
+      "evidence_quote": "some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation, which limited the ability to assess security design.",
+      "why": "Incomplete architecture documentation limited assessors’ ability to evaluate security design."
+    },
+    {
+      "pdf_page": 39,
+      "evidence_quote": "These workshops were not held and the rationale was not documented.",
+      "why": "Planned quality gate review workshops were missed without a documented rationale."
+    },
+    {
+      "pdf_page": 45,
+      "evidence_quote": "The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.",
+      "why": "Key cyber security mitigation controls remained unimplemented, and compliance was below target levels."
+    },
+    {
+      "pdf_page": 47,
+      "evidence_quote": "IRAP assessments that should have been completed had not yet commenced",
+      "why": "Required security assessments had not started, with insufficient time potentially remaining to address their findings before the Census."
+    }
+  ],
+  "selected_pages": [
+    26,
+    28,
+    29,
+    31,
+    35,
+    37,
+    39,
+    45,
+    47
+  ],
+  "discovery_errors": [],
+  "source_verified": [
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": null,
+      "observation_id": "2.15",
+      "weakness": "Three requested cyber security risk updates had no documented response, leaving no documented consideration of residual risk severity or control effectiveness for oversight reporting.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness",
+      "pdf_page": 26,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": null,
+      "observation_id": "2.15",
+      "weakness": "Cyber security risk updates were not current when reported to oversight committees, averaging 31 days old.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting",
+      "pdf_page": 26,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": null,
+      "observation_id": "2.25",
+      "weakness": "The Census Program Board did not receive updates on PR3 while it was outside risk tolerance for most of the period, limiting monitoring of the risk.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "This did not support effective monitoring of this key risk by the CPB.",
+      "pdf_page": 28,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census ICT systems",
+      "observation_id": "2.61",
+      "weakness": "Some systems submitted for security assessment had limited high-level architecture documentation, restricting assessment of security design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "some systems presented for security assessment contained limited architectural detail, relying on security context documents rather than full architecture documentation",
+      "pdf_page": 37,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census quality gates",
+      "observation_id": "2.73",
+      "weakness": "Scheduled review workshops to assess quality gate relevance and effectiveness were not held, and the reason was not documented.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "These workshops were not held and the rationale was not documented.",
+      "pdf_page": 39,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census quality gates",
+      "observation_id": "2.74",
+      "weakness": "One post gate activity lacked the required sign-off confirming completion.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "one gate was missing the required sign off to confirm a PGA had been completed",
+      "pdf_page": 39,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census quality gates",
+      "observation_id": "2.74",
+      "weakness": "Three post gate activities lacked evidence supporting their completion.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "three gates were missing evidence supporting the activity’s completion",
+      "pdf_page": 39,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census quality gates",
+      "observation_id": "2.74",
+      "weakness": "Three post gate activities were completed after their due dates.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "three gates had activities that were completed after the due date",
+      "pdf_page": 39,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "ABS ICT environment",
+      "observation_id": "2.98",
+      "weakness": "Holistic cyber security planning for the 2026 Census did not address risks across the entirety of the ABS ICT environment.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "it did not address risks across the entirety of the ABS ICT environment.",
+      "pdf_page": 45,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "ABS ICT environment",
+      "observation_id": "2.99",
+      "weakness": "The ABS did not implement all key cyber security mitigation controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "however, did not implement all key mitigation controls.",
+      "pdf_page": 45,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "Broader ABS ICT environment",
+      "observation_id": "2.110",
+      "weakness": "IRAP assessments were incompletely scheduled and assessments that should have been completed had not commenced.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "IRAP assessments that should have been completed had not yet commenced",
+      "pdf_page": 47,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "Broader ABS ICT environment",
+      "observation_id": "2.110",
+      "weakness": "Gaps in information and documentation delayed assurance activities.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "gaps in information and documentation were delaying some assurance activities",
+      "pdf_page": 47,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "Broader ABS ICT environment",
+      "observation_id": "2.111",
+      "weakness": "Deadlines for addressing cyber security components of the Essential Eight mitigation strategies were repeatedly missed.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "has repeatedly missed deadlines for achievement",
+      "pdf_page": 47,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "extraction_errors": []
+}

@@ -1,0 +1,151 @@
+{
+  "report_id": "2019",
+  "evaluation_method": "source-first-frozen-reference-AI-assisted-matching",
+  "reference_count": 15,
+  "holdout_count": 2,
+  "model_predictions_on_anchor_pages": 23,
+  "references": [
+    {
+      "label_id": "R010",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F001"
+      ],
+      "reason": "Explicitly identifies Australia Post reports and assessments that excluded some critical systems."
+    },
+    {
+      "label_id": "R011",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F002"
+      ],
+      "reason": "Explicitly identifies ASC's failure to document all vulnerabilities found."
+    },
+    {
+      "label_id": "R012",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F003"
+      ],
+      "reason": "Explicitly identifies ASC's failure to separately identify critical ICT assets."
+    },
+    {
+      "label_id": "R013",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F004"
+      ],
+      "reason": "Explicitly identifies the lack of tailored threat and risk profiles for specific assets."
+    },
+    {
+      "label_id": "R014",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F005"
+      ],
+      "reason": "Explicitly identifies ASC's strategy as not updated since 2016."
+    },
+    {
+      "label_id": "R015",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F006"
+      ],
+      "reason": "Explicitly identifies Australia Post's undocumented threats, risks, and mitigations for critical assets."
+    },
+    {
+      "label_id": "R016",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F009",
+        "2019-F010"
+      ],
+      "reason": "Together these records capture the three partly implemented and two unimplemented sampled controls."
+    },
+    {
+      "label_id": "R017",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F011"
+      ],
+      "reason": "Explicitly identifies the missing approval documentation and risk assessment for framework deviations."
+    },
+    {
+      "label_id": "R018",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F015"
+      ],
+      "reason": "Captures missed patch timeframes, including extreme-risk patches, and identifies ASC."
+    },
+    {
+      "label_id": "R019",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F016"
+      ],
+      "reason": "Captures missed patch timeframes, including extreme-risk patches, and identifies Australia Post."
+    },
+    {
+      "label_id": "R020",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F017"
+      ],
+      "reason": "Captures missed timeframes for non-extreme-risk patches at the Reserve Bank."
+    },
+    {
+      "label_id": "R021",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F018"
+      ],
+      "reason": "Explicitly identifies the restriction of server patch remediation to extreme- and high-risk patches."
+    },
+    {
+      "label_id": "R022",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F019"
+      ],
+      "reason": "Explicitly identifies that other controls were generally insufficient to address patch remediation risks."
+    },
+    {
+      "label_id": "R023",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F020"
+      ],
+      "reason": "Explicitly identifies ASC's lack of regular network password assessments."
+    },
+    {
+      "label_id": "R024",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2019-F021"
+      ],
+      "reason": "Explicitly identifies Australia Post's lack of regular network password assessments."
+    }
+  ],
+  "holdouts": [
+    {
+      "pdf_page": 32,
+      "verdict": "detected",
+      "matched_record_ids": [
+        "2019-F022"
+      ],
+      "reason": "The record captures the specific weakness of unconfigured desktop logging at Australia Post."
+    },
+    {
+      "pdf_page": 40,
+      "verdict": "scope_uncertain",
+      "matched_record_ids": [
+        "2019-F041"
+      ],
+      "reason": "The prediction matches the original ASC data ownership anchor, which is marked as a positive source anchor."
+    }
+  ],
+  "raw_model_response": "{\n  \"references\": [\n    {\n      \"label_id\": \"R010\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F001\"],\n      \"reason\": \"Explicitly identifies Australia Post reports and assessments that excluded some critical systems.\"\n    },\n    {\n      \"label_id\": \"R011\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F002\"],\n      \"reason\": \"Explicitly identifies ASC's failure to document all vulnerabilities found.\"\n    },\n    {\n      \"label_id\": \"R012\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F003\"],\n      \"reason\": \"Explicitly identifies ASC's failure to separately identify critical ICT assets.\"\n    },\n    {\n      \"label_id\": \"R013\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F004\"],\n      \"reason\": \"Explicitly identifies the lack of tailored threat and risk profiles for specific assets.\"\n    },\n    {\n      \"label_id\": \"R014\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F005\"],\n      \"reason\": \"Explicitly identifies ASC's strategy as not updated since 2016.\"\n    },\n    {\n      \"label_id\": \"R015\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F006\"],\n      \"reason\": \"Explicitly identifies Australia Post's undocumented threats, risks, and mitigations for critical assets.\"\n    },\n    {\n      \"label_id\": \"R016\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F009\", \"2019-F010\"],\n      \"reason\": \"Together these records capture the three partly implemented and two unimplemented sampled controls.\"\n    },\n    {\n      \"label_id\": \"R017\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F011\"],\n      \"reason\": \"Explicitly identifies the missing approval documentation and risk assessment for framework deviations.\"\n    },\n    {\n      \"label_id\": \"R018\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F015\"],\n      \"reason\": \"Captures missed patch timeframes, including extreme-risk patches, and identifies ASC.\"\n    },\n    {\n      \"label_id\": \"R019\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F016\"],\n      \"reason\": \"Captures missed patch timeframes, including extreme-risk patches, and identifies Australia Post.\"\n    },\n    {\n      \"label_id\": \"R020\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F017\"],\n      \"reason\": \"Captures missed timeframes for non-extreme-risk patches at the Reserve Bank.\"\n    },\n    {\n      \"label_id\": \"R021\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F018\"],\n      \"reason\": \"Explicitly identifies the restriction of server patch remediation to extreme- and high-risk patches.\"\n    },\n    {\n      \"label_id\": \"R022\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F019\"],\n      \"reason\": \"Explicitly identifies that other controls were generally insufficient to address patch remediation risks.\"\n    },\n    {\n      \"label_id\": \"R023\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F020\"],\n      \"reason\": \"Explicitly identifies ASC's lack of regular network password assessments.\"\n    },\n    {\n      \"label_id\": \"R024\",\n      \"verdict\": \"clear\",\n      \"matched_record_ids\": [\"2019-F021\"],\n      \"reason\": \"Explicitly identifies Australia Post's lack of regular network password assessments.\"\n    }\n  ],\n  \"holdouts\": [\n    {\n      \"pdf_page\": 32,\n      \"verdict\": \"detected\",\n      \"matched_record_ids\": [\"2019-F022\"],\n      \"reason\": \"The record captures the specific weakness of unconfigured desktop logging at Australia Post.\"\n    },\n    {\n      \"pdf_page\": 40,\n      \"verdict\": \"scope_uncertain\",\n      \"matched_record_ids\": [\"2019-F041\"],\n      \"reason\": \"The prediction matches the original ASC data ownership anchor, which is marked as a positive source anchor.\"\n    }\n  ]\n}",
+  "model_seconds": 22.17,
+  "limitations": "Unblinded AI judge without full source context; NOT expert adjudication or full-report recall."
+}

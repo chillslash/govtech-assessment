@@ -1,0 +1,167 @@
+{
+  "report_id": "2024",
+  "evaluation_method": "source-first-frozen-reference-AI-assisted-matching",
+  "reference_count": 17,
+  "holdout_count": 2,
+  "model_predictions_on_anchor_pages": 24,
+  "references": [
+    {
+      "label_id": "R031",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F001"
+      ],
+      "reason": "Explicitly captures undocumented CISO responsibilities and identifies AUSTRAC."
+    },
+    {
+      "label_id": "R032",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F002"
+      ],
+      "reason": "Explicitly captures the undocumented continuous monitoring and improvement-reporting approach for AUSTRAC."
+    },
+    {
+      "label_id": "R033",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F003"
+      ],
+      "reason": "Explicitly captures undefined stakeholder reporting timeframes for AUSTRAC."
+    },
+    {
+      "label_id": "R034",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F004"
+      ],
+      "reason": "Captures event-log coverage not conforming to ASD guidance for AUSTRAC."
+    },
+    {
+      "label_id": "R035",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F005"
+      ],
+      "reason": "Explicitly captures the absence of AUSTRAC's event-logging policy."
+    },
+    {
+      "label_id": "R036",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F006"
+      ],
+      "reason": "Explicitly captures undocumented analysis of all cyber security events for AUSTRAC."
+    },
+    {
+      "label_id": "R037",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F007"
+      ],
+      "reason": "Explicitly captures missing backup security and testing in recovery procedures for AUSTRAC."
+    },
+    {
+      "label_id": "R038",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F008"
+      ],
+      "reason": "Explicitly captures missing identification of critical supporting systems, applications and servers for AUSTRAC."
+    },
+    {
+      "label_id": "R039",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F020"
+      ],
+      "reason": "Captures AUSTRAC's undocumented threat and vulnerability assessment approach."
+    },
+    {
+      "label_id": "R040",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F021"
+      ],
+      "reason": "Explicitly captures the absence of critical information and asset registers for AUSTRAC."
+    },
+    {
+      "label_id": "R041",
+      "verdict": "absent",
+      "matched_record_ids": [],
+      "reason": "No page 38 prediction captures the missing documented lifecycle plan to review or update security documentation."
+    },
+    {
+      "label_id": "R042",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F022"
+      ],
+      "reason": "Captures that AUSTRAC's incident-management procedures were not reviewed, updated or tested."
+    },
+    {
+      "label_id": "R043",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F023"
+      ],
+      "reason": "Captures the missing documented triage and response approach for the monitored central email address."
+    },
+    {
+      "label_id": "R044",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F024"
+      ],
+      "reason": "Explicitly captures AUSTRAC's lack of a security maturity monitoring plan."
+    },
+    {
+      "label_id": "R045",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F066"
+      ],
+      "reason": "Captures the absence of complete system disaster testing for AUSTRAC."
+    },
+    {
+      "label_id": "R046",
+      "verdict": "clear",
+      "matched_record_ids": [
+        "2024-F067"
+      ],
+      "reason": "Explicitly captures AUSTRAC's lack of a process to extract and analyse production and archived backup data."
+    },
+    {
+      "label_id": "R047",
+      "verdict": "merged",
+      "matched_record_ids": [
+        "2024-F069",
+        "2024-F070",
+        "2024-F071"
+      ],
+      "reason": "Captures the failure to use incident-report findings for control improvement, alongside separate maturity-plan, procedure-update and learning-sharing issues."
+    }
+  ],
+  "holdouts": [
+    {
+      "pdf_page": 49,
+      "verdict": "partial",
+      "matched_record_ids": [
+        "2024-F047",
+        "2024-F048",
+        "2024-F049",
+        "2024-F050"
+      ],
+      "reason": "The prediction captures verbal-only reporting of non-significant alerts, but the holdout also identifies absent timeliness and archived-log procedures."
+    },
+    {
+      "pdf_page": 72,
+      "verdict": "scope_uncertain",
+      "matched_record_ids": [],
+      "reason": "The source anchor describes partly or unimplemented controls without specifying the entity or control gaps, so a specific match cannot be assessed."
+    }
+  ],
+  "raw_model_response": "{\"references\":[{\"label_id\":\"R031\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F001\"],\"reason\":\"Explicitly captures undocumented CISO responsibilities and identifies AUSTRAC.\"},{\"label_id\":\"R032\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F002\"],\"reason\":\"Explicitly captures the undocumented continuous monitoring and improvement-reporting approach for AUSTRAC.\"},{\"label_id\":\"R033\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F003\"],\"reason\":\"Explicitly captures undefined stakeholder reporting timeframes for AUSTRAC.\"},{\"label_id\":\"R034\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F004\"],\"reason\":\"Captures event-log coverage not conforming to ASD guidance for AUSTRAC.\"},{\"label_id\":\"R035\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F005\"],\"reason\":\"Explicitly captures the absence of AUSTRAC's event-logging policy.\"},{\"label_id\":\"R036\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F006\"],\"reason\":\"Explicitly captures undocumented analysis of all cyber security events for AUSTRAC.\"},{\"label_id\":\"R037\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F007\"],\"reason\":\"Explicitly captures missing backup security and testing in recovery procedures for AUSTRAC.\"},{\"label_id\":\"R038\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F008\"],\"reason\":\"Explicitly captures missing identification of critical supporting systems, applications and servers for AUSTRAC.\"},{\"label_id\":\"R039\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F020\"],\"reason\":\"Captures AUSTRAC's undocumented threat and vulnerability assessment approach.\"},{\"label_id\":\"R040\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F021\"],\"reason\":\"Explicitly captures the absence of critical information and asset registers for AUSTRAC.\"},{\"label_id\":\"R041\",\"verdict\":\"absent\",\"matched_record_ids\":[],\"reason\":\"No page 38 prediction captures the missing documented lifecycle plan to review or update security documentation.\"},{\"label_id\":\"R042\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F022\"],\"reason\":\"Captures that AUSTRAC's incident-management procedures were not reviewed, updated or tested.\"},{\"label_id\":\"R043\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F023\"],\"reason\":\"Captures the missing documented triage and response approach for the monitored central email address.\"},{\"label_id\":\"R044\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F024\"],\"reason\":\"Explicitly captures AUSTRAC's lack of a security maturity monitoring plan.\"},{\"label_id\":\"R045\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F066\"],\"reason\":\"Captures the absence of complete system disaster testing for AUSTRAC.\"},{\"label_id\":\"R046\",\"verdict\":\"clear\",\"matched_record_ids\":[\"2024-F067\"],\"reason\":\"Explicitly captures AUSTRAC's lack of a process to extract and analyse production and archived backup data.\"},{\"label_id\":\"R047\",\"verdict\":\"merged\",\"matched_record_ids\":[\"2024-F069\",\"2024-F070\",\"2024-F071\"],\"reason\":\"Captures the failure to use incident-report findings for control improvement, alongside separate maturity-plan, procedure-update and learning-sharing issues.\"}],\"holdouts\":[{\"pdf_page\":49,\"verdict\":\"partial\",\"matched_record_ids\":[\"2024-F047\",\"2024-F048\",\"2024-F049\",\"2024-F050\"],\"reason\":\"The prediction captures verbal-only reporting of non-significant alerts, but the holdout also identifies absent timeliness and archived-log procedures.\"},{\"pdf_page\":72,\"verdict\":\"scope_uncertain\",\"matched_record_ids\":[],\"reason\":\"The source anchor describes partly or unimplemented controls without specifying the entity or control gaps, so a specific match cannot be assessed.\"}]}",
+  "model_seconds": 10.7,
+  "limitations": "Unblinded AI judge without full source context; NOT expert adjudication or full-report recall."
+}
