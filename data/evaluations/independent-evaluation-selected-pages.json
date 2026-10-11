@@ -1,0 +1,657 @@
+{
+  "method": "AI manual semantic source review of 14 automatically selected pages. References frozen before mapping saved predictions; evaluator had earlier broad exposure, so not blind. No professional auditor. Interpret scores as exploratory sample coverage, not full-report precision/recall.",
+  "reference_count": 58,
+  "source_verified_model_records": 50,
+  "verdict_counts": {
+    "clear_atomic": 40,
+    "attribution_uncertain": 7,
+    "unsupported": 1,
+    "merged": 2
+  },
+  "strict_clear_or_merged_reference_coverage": {
+    "count": 44,
+    "denominator": 58
+  },
+  "permissive_reference_coverage": {
+    "count": 46,
+    "denominator": 58
+  },
+  "uncovered_reference_ids": [
+    "R002",
+    "R006",
+    "R014",
+    "R016",
+    "R017",
+    "R023",
+    "R024",
+    "R026",
+    "R047",
+    "R050",
+    "R053",
+    "R057"
+  ],
+  "strict_uncovered_reference_ids": [
+    "R002",
+    "R004",
+    "R005",
+    "R006",
+    "R014",
+    "R016",
+    "R017",
+    "R023",
+    "R024",
+    "R026",
+    "R047",
+    "R050",
+    "R053",
+    "R057"
+  ],
+  "per_report": [
+    {
+      "year": "2018",
+      "reference_count": 9,
+      "prediction_count": 14,
+      "clear_atomic": 6,
+      "merged": 0,
+      "attribution_uncertain": 7,
+      "unsupported": 1,
+      "reference_detected_strict": 5,
+      "reference_detected_permissive": 7
+    },
+    {
+      "year": "2019",
+      "reference_count": 15,
+      "prediction_count": 8,
+      "clear_atomic": 7,
+      "merged": 1,
+      "attribution_uncertain": 0,
+      "unsupported": 0,
+      "reference_detected_strict": 10,
+      "reference_detected_permissive": 10
+    },
+    {
+      "year": "2021",
+      "reference_count": 6,
+      "prediction_count": 5,
+      "clear_atomic": 5,
+      "merged": 0,
+      "attribution_uncertain": 0,
+      "unsupported": 0,
+      "reference_detected_strict": 5,
+      "reference_detected_permissive": 5
+    },
+    {
+      "year": "2024",
+      "reference_count": 17,
+      "prediction_count": 16,
+      "clear_atomic": 16,
+      "merged": 0,
+      "attribution_uncertain": 0,
+      "unsupported": 0,
+      "reference_detected_strict": 16,
+      "reference_detected_permissive": 16
+    },
+    {
+      "year": "2026",
+      "reference_count": 11,
+      "prediction_count": 7,
+      "clear_atomic": 6,
+      "merged": 1,
+      "attribution_uncertain": 0,
+      "unsupported": 0,
+      "reference_detected_strict": 8,
+      "reference_detected_permissive": 8
+    }
+  ],
+  "prediction_reviews": [
+    {
+      "prediction_id": "P2018-01",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R003"
+      ],
+      "review_note": "Architecture deficiency supported; one of the two identified affected agencies.",
+      "model_weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design."
+    },
+    {
+      "prediction_id": "P2018-02",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R003"
+      ],
+      "review_note": "Architecture deficiency supported; second affected agency.",
+      "model_weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design."
+    },
+    {
+      "prediction_id": "P2018-03",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [
+        "R004"
+      ],
+      "review_note": "Control-documentation gap is real, but source does not clearly assign it specifically to Treasury.",
+      "model_weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls."
+    },
+    {
+      "prediction_id": "P2018-04",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [
+        "R004"
+      ],
+      "review_note": "Scope of missing supporting documentation is not explicitly allocated per agency.",
+      "model_weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls."
+    },
+    {
+      "prediction_id": "P2018-05",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [
+        "R004"
+      ],
+      "review_note": "Scope of missing supporting documentation is not explicitly allocated per agency.",
+      "model_weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls."
+    },
+    {
+      "prediction_id": "P2018-06",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [
+        "R005"
+      ],
+      "review_note": "Absence of endorsed storage strategy not clearly attributed specifically to Treasury.",
+      "model_weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications."
+    },
+    {
+      "prediction_id": "P2018-07",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [
+        "R005"
+      ],
+      "review_note": "Storage-strategy omission is not explicitly allocated to named agencies.",
+      "model_weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications."
+    },
+    {
+      "prediction_id": "P2018-08",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [
+        "R005"
+      ],
+      "review_note": "Storage-strategy omission is not explicitly allocated to named agencies.",
+      "model_weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications."
+    },
+    {
+      "prediction_id": "P2018-09",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R001"
+      ],
+      "review_note": "Report describes a shared nonsystematic cyber risk approach; related to the explicit summary deficiency.",
+      "model_weakness": "Cyber risk management approaches across operations were non-systematic and did not always align with enterprise strategic initiatives."
+    },
+    {
+      "prediction_id": "P2018-10",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R007"
+      ],
+      "review_note": "National Archives enterprise-register consolidation gap expressly named.",
+      "model_weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions."
+    },
+    {
+      "prediction_id": "P2018-11",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R008"
+      ],
+      "review_note": "Geoscience Australia enterprise-register consolidation gap expressly named.",
+      "model_weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions."
+    },
+    {
+      "prediction_id": "P2018-12",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "unsupported",
+      "reference_ids": [],
+      "review_note": "Treasury had recently appointed a CIO to take CISO responsibilities; source does not establish CISO post unfilled at assessment.",
+      "model_weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the CIO had only recently assumed its responsibilities."
+    },
+    {
+      "prediction_id": "P2018-13",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "attribution_uncertain",
+      "reference_ids": [],
+      "review_note": "Geoscience COO was assigned CISO responsibility; describing this as an unfilled position is not demonstrated.",
+      "model_weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the COO had responsibility for that role."
+    },
+    {
+      "prediction_id": "P2018-14",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "pdf_page": 46,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R009"
+      ],
+      "review_note": "National Archives was explicitly recruiting a CIO at time of audit.",
+      "model_weakness": "The Chief Information Officer position was vacant at the time of the audit."
+    },
+    {
+      "prediction_id": "P2019-01",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 24,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R010"
+      ],
+      "review_note": "Correct critical-system vulnerability assessment gap.",
+      "model_weakness": "Vulnerability reports and risk assessments did not cover all critical systems."
+    },
+    {
+      "prediction_id": "P2019-02",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 24,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R011"
+      ],
+      "review_note": "Correct incomplete vulnerability documentation.",
+      "model_weakness": "Did not document all vulnerabilities identified from its assessments."
+    },
+    {
+      "prediction_id": "P2019-03",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 24,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R012"
+      ],
+      "review_note": "Correct critical asset identification gap.",
+      "model_weakness": "Did not identify critical ICT assets separately, instead treating all information assets as critical."
+    },
+    {
+      "prediction_id": "P2019-04",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 24,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R013"
+      ],
+      "review_note": "Correct lack of tailored risk profiles.",
+      "model_weakness": "Threat and risk profiles were not tailored to specific information assets."
+    },
+    {
+      "prediction_id": "P2019-05",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 24,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R015"
+      ],
+      "review_note": "Correct incomplete critical-asset risk documentation.",
+      "model_weakness": "Threats, risks and mitigations were not documented for all critical ICT assets."
+    },
+    {
+      "prediction_id": "P2019-06",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 31,
+      "verdict": "merged",
+      "reference_ids": [
+        "R018",
+        "R019",
+        "R020"
+      ],
+      "review_note": "Three distinct entities' patch-delay findings compressed into one record.",
+      "model_weakness": "Did not always patch applications and operating systems within required timeframes, including some extreme risk patches at ASC and Australia Post and some non-extreme risk patches at the Reserve Bank."
+    },
+    {
+      "prediction_id": "P2019-07",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 31,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R021"
+      ],
+      "review_note": "Correct restricted server patch remediation scope.",
+      "model_weakness": "Patch remediation in server environments was limited to extreme and high risk patches."
+    },
+    {
+      "prediction_id": "P2019-08",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "pdf_page": 31,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R022"
+      ],
+      "review_note": "Correct insufficient compensating controls.",
+      "model_weakness": "Monitoring and other controls used to mitigate patch remediation risks were generally insufficient."
+    },
+    {
+      "prediction_id": "P2021-01",
+      "document_id": "anao-2021-strategies.pdf",
+      "pdf_page": 44,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R025"
+      ],
+      "review_note": "Correct missing documentation and approval of SIEM reviews.",
+      "model_weakness": "Reviews of SIEM controls were not documented or formally approved."
+    },
+    {
+      "prediction_id": "P2021-02",
+      "document_id": "anao-2021-strategies.pdf",
+      "pdf_page": 54,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R027"
+      ],
+      "review_note": "Correct unclear strategy for maturity.",
+      "model_weakness": "AGD had no clear strategy for achieving Managing maturity against Policy 10."
+    },
+    {
+      "prediction_id": "P2021-03",
+      "document_id": "anao-2021-strategies.pdf",
+      "pdf_page": 54,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R028"
+      ],
+      "review_note": "Correct absence of demonstrable maturity improvement processes.",
+      "model_weakness": "AGD had not provided evidence of processes to improve its maturity against Policy 10 to Managing."
+    },
+    {
+      "prediction_id": "P2021-04",
+      "document_id": "anao-2021-strategies.pdf",
+      "pdf_page": 54,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R029"
+      ],
+      "review_note": "Correct lack of independent Top Four assurance.",
+      "model_weakness": "AGD had not obtained independent assurance of compliance with the Top Four mitigation strategies."
+    },
+    {
+      "prediction_id": "P2021-05",
+      "document_id": "anao-2021-strategies.pdf",
+      "pdf_page": 54,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R030"
+      ],
+      "review_note": "Correct absent progress reporting to committee.",
+      "model_weakness": "The Security and Risk Management Committee did not receive progress reports on work to improve Essential Eight maturity, limiting its ability to monitor implementation."
+    },
+    {
+      "prediction_id": "P2024-01",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 38,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R039"
+      ],
+      "review_note": "Correct undocumented threat/vulnerability approach.",
+      "model_weakness": "Has not documented its approach to cyber security threat and vulnerability assessments."
+    },
+    {
+      "prediction_id": "P2024-02",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 38,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R040"
+      ],
+      "review_note": "Correct absent critical information and asset registers.",
+      "model_weakness": "Has not established critical information and asset registers."
+    },
+    {
+      "prediction_id": "P2024-03",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 38,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R041"
+      ],
+      "review_note": "Correct missing security documentation lifecycle plan.",
+      "model_weakness": "Has no documented plan to review, update and test its security documentation."
+    },
+    {
+      "prediction_id": "P2024-04",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 38,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R042"
+      ],
+      "review_note": "Correct unreviewed/untested incident-management procedure framework.",
+      "model_weakness": "Has not reviewed, updated or tested its cyber security incident management procedures and has no documented plan to do so."
+    },
+    {
+      "prediction_id": "P2024-05",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 38,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R043"
+      ],
+      "review_note": "Correct missing monitored-email triage procedure.",
+      "model_weakness": "Has no documented approach for triaging and responding to security issues through its monitored email address."
+    },
+    {
+      "prediction_id": "P2024-06",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 38,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R044"
+      ],
+      "review_note": "Correct absence of security maturity plan.",
+      "model_weakness": "Has no security maturity monitoring plan."
+    },
+    {
+      "prediction_id": "P2024-07",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R031"
+      ],
+      "review_note": "Correct CISO role documentation gap.",
+      "model_weakness": "Has not documented assigned responsibilities for its Chief Information Security Officer."
+    },
+    {
+      "prediction_id": "P2024-08",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R032"
+      ],
+      "review_note": "Correct continuous monitoring documentation gap.",
+      "model_weakness": "Has not documented its approach to continuous monitoring and improvement reporting."
+    },
+    {
+      "prediction_id": "P2024-09",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R033"
+      ],
+      "review_note": "Correct undefined reporting timeframes.",
+      "model_weakness": "Has not defined timeframes for reporting to stakeholders."
+    },
+    {
+      "prediction_id": "P2024-10",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R034"
+      ],
+      "review_note": "Correct insufficient log coverage.",
+      "model_weakness": "Event log coverage does not conform to ASD Cyber Security Guidelines."
+    },
+    {
+      "prediction_id": "P2024-11",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R035"
+      ],
+      "review_note": "Correct absent event logging policy.",
+      "model_weakness": "Has no event logging policy."
+    },
+    {
+      "prediction_id": "P2024-12",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R036"
+      ],
+      "review_note": "Correct incomplete documented event analysis.",
+      "model_weakness": "Does not document its analysis of all cyber security events."
+    },
+    {
+      "prediction_id": "P2024-13",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R037"
+      ],
+      "review_note": "Correct recovery procedures omit security/testing backups.",
+      "model_weakness": "Recovery procedures do not include security and testing requirements for backup solutions."
+    },
+    {
+      "prediction_id": "P2024-14",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 30,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R038"
+      ],
+      "review_note": "Correct incomplete critical-system recovery mapping.",
+      "model_weakness": "Recovery procedures do not detail the systems, applications and servers supporting critical business processes."
+    },
+    {
+      "prediction_id": "P2024-15",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 56,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R045"
+      ],
+      "review_note": "Correct lack of routine disaster recovery testing.",
+      "model_weakness": "Does not regularly test backup recovery as part of disaster recovery exercises."
+    },
+    {
+      "prediction_id": "P2024-16",
+      "document_id": "anao-2024-incidents.pdf",
+      "pdf_page": 56,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R046"
+      ],
+      "review_note": "Correct absent backup data extraction and analysis process.",
+      "model_weakness": "Has no process for extracting and analysing production and archived backup data."
+    },
+    {
+      "prediction_id": "P2026-01",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 25,
+      "verdict": "merged",
+      "reference_ids": [
+        "R048",
+        "R049"
+      ],
+      "review_note": "Combined unlinked risk assessment and missing risk-register fields in one finding.",
+      "model_weakness": "Overlapping strategic and program risks were monitored and reported separately, with assessments not automatically shared and key information missing from some risk registers."
+    },
+    {
+      "prediction_id": "P2026-02",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 25,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R051"
+      ],
+      "review_note": "Correct risk owners undocumented.",
+      "model_weakness": "Risk owners for program-level risks PR3 and PR6 were not documented."
+    },
+    {
+      "prediction_id": "P2026-03",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 25,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R052"
+      ],
+      "review_note": "Correct missing guidance for timing/detail of risk updates.",
+      "model_weakness": "Documented procedures did not specify the timing or level of detail for risk updates."
+    },
+    {
+      "prediction_id": "P2026-04",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 26,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R054"
+      ],
+      "review_note": "Correct missing documented response to three risk requests.",
+      "model_weakness": "Three requested risk updates had no documented response, leaving no documented consideration of key factors for committee reporting."
+    },
+    {
+      "prediction_id": "P2026-05",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 26,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R055"
+      ],
+      "review_note": "Correct missing cybersecurity detail in most updates.",
+      "model_weakness": "Risk updates were not consistently documented with cyber security content or reflection on progress strengthening cyber security controls."
+    },
+    {
+      "prediction_id": "P2026-06",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 26,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R056"
+      ],
+      "review_note": "Correct stale reporting data.",
+      "model_weakness": "Documented risk updates were completed an average of 31 days before the oversight committee meeting, so committees did not always receive current information."
+    },
+    {
+      "prediction_id": "P2026-07",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "pdf_page": 45,
+      "verdict": "clear_atomic",
+      "reference_ids": [
+        "R058"
+      ],
+      "review_note": "Correct controls incompletely implemented.",
+      "model_weakness": "The ABS did not implement all key cyber security mitigation controls."
+    }
+  ]
+}

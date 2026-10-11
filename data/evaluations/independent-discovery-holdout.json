@@ -1,0 +1,75 @@
+{
+  "sampling": "Two predetermined positions (one-third, two-thirds) among findings pages excluded by top-eight heuristic ranking; not representative of all audit pages.",
+  "reviews": [
+    {
+      "report": "2018",
+      "pdf_page": 28,
+      "classification": "positive",
+      "source_anchor": "The Top Four mitigation strategies are not in place across the ICT systems",
+      "assessment": "NAA missing Top Four mitigations and Geoscience insufficient controls"
+    },
+    {
+      "report": "2018",
+      "pdf_page": 35,
+      "classification": "scope_uncertain",
+      "source_anchor": "There is no similar guidance or supporting information",
+      "assessment": "Common assessment guidance deficiencies rather than specific agency IT implementation"
+    },
+    {
+      "report": "2019",
+      "pdf_page": 32,
+      "classification": "positive",
+      "source_anchor": "logging has not been configured for Australia Post’s desktops",
+      "assessment": "Unconfigured desktop logging at Australia Post"
+    },
+    {
+      "report": "2019",
+      "pdf_page": 40,
+      "classification": "positive",
+      "source_anchor": "ASC had not clearly assigned the ownership of data",
+      "assessment": "ASC data ownership and Australia Post stale critical-systems risk assessments"
+    },
+    {
+      "report": "2021",
+      "pdf_page": 56,
+      "classification": "positive",
+      "source_anchor": "does not receive updates through the dashboard on the progress",
+      "assessment": "Future Fund committee did not receive work-in-progress status reports"
+    },
+    {
+      "report": "2021",
+      "pdf_page": 69,
+      "classification": "positive",
+      "source_anchor": "AGD does not have a framework that it uses to guide the analysis",
+      "assessment": "AGD reporting assessment without a defined review framework"
+    },
+    {
+      "report": "2024",
+      "pdf_page": 49,
+      "classification": "positive",
+      "source_anchor": "Security alerts that have not been determined as",
+      "assessment": "Non-significant alerts only verbal; absent timeliness and archived logs procedures"
+    },
+    {
+      "report": "2024",
+      "pdf_page": 72,
+      "classification": "scope_uncertain",
+      "source_anchor": "two were partly implemented and one was not implemented",
+      "assessment": "Unspecified Services Australia control compliance gaps"
+    },
+    {
+      "report": "2026",
+      "pdf_page": 33,
+      "classification": "negative",
+      "source_anchor": null,
+      "assessment": "No explicit currently observed deficiency in incident monitoring description"
+    },
+    {
+      "report": "2026",
+      "pdf_page": 39,
+      "classification": "positive",
+      "source_anchor": "These workshops were not held and the rationale was not documented",
+      "assessment": "Unheld quality-gate workshops, missing PGA signoffs and supporting evidence"
+    }
+  ]
+}
