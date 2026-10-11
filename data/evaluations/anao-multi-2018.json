@@ -1,0 +1,460 @@
+{
+  "document_id": "ANAO_Report_2017-2018_53a.pdf",
+  "report_id": "2018",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T03:18:38.413044+00:00",
+  "method": "hybrid: bounded heuristic shortlist + LLM discovery",
+  "findings_section_physical_pages": [
+    21,
+    48
+  ],
+  "candidate_pages": [
+    {
+      "pdf_page": 45,
+      "score": 31
+    },
+    {
+      "pdf_page": 46,
+      "score": 31
+    },
+    {
+      "pdf_page": 48,
+      "score": 30
+    },
+    {
+      "pdf_page": 44,
+      "score": 29
+    },
+    {
+      "pdf_page": 43,
+      "score": 28
+    },
+    {
+      "pdf_page": 25,
+      "score": 27
+    },
+    {
+      "pdf_page": 36,
+      "score": 27
+    },
+    {
+      "pdf_page": 47,
+      "score": 27
+    }
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        45,
+        46,
+        48,
+        44
+      ],
+      "accepted": [
+        {
+          "pdf_page": 45,
+          "evidence_quote": "The three entities had not adopted a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems",
+          "why": "Auditors found no systematic risk-based prioritisation of cybersecurity improvements."
+        },
+        {
+          "pdf_page": 46,
+          "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+          "why": "Auditors found outdated or inaccurate ICT architecture plans."
+        },
+        {
+          "pdf_page": 48,
+          "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+          "why": "Auditors found cyber resilience considerations were overridden by the agency’s culture."
+        }
+      ],
+      "rejected": [],
+      "model_seconds": 6.34,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":45,\"evidence_quote\":\"The three entities had not adopted a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems\",\"why\":\"Auditors found no systematic risk-based prioritisation of cybersecurity improvements.\"},{\"pdf_page\":46,\"evidence_quote\":\"in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design\",\"why\":\"Auditors found outdated or inaccurate ICT architecture plans.\"},{\"pdf_page\":48,\"evidence_quote\":\"Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.\",\"why\":\"Auditors found cyber resilience considerations were overridden by the agency’s culture.\"}]}"
+    },
+    {
+      "pages": [
+        43,
+        25,
+        36,
+        47
+      ],
+      "accepted": [
+        {
+          "pdf_page": 25,
+          "evidence_quote": "Geoscience Australia was assessed as vulnerable, with a high level of exposure and opportunity for external attacks and internal breaches and unauthorised disclosures of information.",
+          "why": "Auditors found Geoscience Australia vulnerable to external attacks and internal breaches."
+        },
+        {
+          "pdf_page": 47,
+          "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+          "why": "Auditors found limited assessment and formal planning to prioritize cyber security improvements."
+        }
+      ],
+      "rejected": [],
+      "model_seconds": 6.2,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":25,\"evidence_quote\":\"Geoscience Australia was assessed as vulnerable, with a high level of exposure and opportunity for external attacks and internal breaches and unauthorised disclosures of information.\",\"why\":\"Auditors found Geoscience Australia vulnerable to external attacks and internal breaches.\"},{\"pdf_page\":47,\"evidence_quote\":\"There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.\",\"why\":\"Auditors found limited assessment and formal planning to prioritize cyber security improvements.\"}]}"
+    }
+  ],
+  "discovery_errors": [],
+  "discovery_verified": [
+    {
+      "pdf_page": 45,
+      "evidence_quote": "The three entities had not adopted a systematic risk-based approach to prioritise improvements to cyber security across their ICT systems",
+      "why": "Auditors found no systematic risk-based prioritisation of cybersecurity improvements."
+    },
+    {
+      "pdf_page": 46,
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "why": "Auditors found outdated or inaccurate ICT architecture plans."
+    },
+    {
+      "pdf_page": 48,
+      "evidence_quote": "Geoscience Australia has had a culture of scientific independence that has been allowed to override cyber resilience considerations.",
+      "why": "Auditors found cyber resilience considerations were overridden by the agency’s culture."
+    },
+    {
+      "pdf_page": 25,
+      "evidence_quote": "Geoscience Australia was assessed as vulnerable, with a high level of exposure and opportunity for external attacks and internal breaches and unauthorised disclosures of information.",
+      "why": "Auditors found Geoscience Australia vulnerable to external attacks and internal breaches."
+    },
+    {
+      "pdf_page": 47,
+      "evidence_quote": "There was limited evidence of assessment and formal planning to explain the level of priority given to other key enterprise assets (data and systems) and to high vulnerability systems.",
+      "why": "Auditors found limited assessment and formal planning to prioritize cyber security improvements."
+    }
+  ],
+  "selected_pages": [
+    25,
+    45,
+    46
+  ],
+  "raw_predictions": [
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "pdf_page": 46
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "control_area": "data_integrity",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "control_area": "data_integrity",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "control_area": "data_integrity",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46
+    },
+    {
+      "entity": "All three entities",
+      "system": null,
+      "observation_id": "4.14",
+      "weakness": "Cyber risk management approaches across operations were non-systematic and did not always align with enterprise strategic initiatives.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "each of the three entities had a range of non-systematic approaches to managing cyber risks across their operations that did not always align with the enterprise strategic initiatives",
+      "pdf_page": 46
+    },
+    {
+      "entity": "All three entities",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Audit and risk committees did not review vulnerabilities and cyber threats.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+      "pdf_page": 46
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the CIO had only recently assumed its responsibilities.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Treasury had recently appointed a Chief Information Officer at the Senior Executive Service level to take on the role and responsibility of Chief Information Security Officer",
+      "pdf_page": 46
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the COO had responsibility for that role.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Geoscience Australia had also recently appointed a Chief Information Officer at the Senior Executive Service level, and had separated that role from the Chief Information Security Officer position, with the Chief Operating Officer having responsibility for that role",
+      "pdf_page": 46
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "The Chief Information Officer position was vacant at the time of the audit.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "National Archives was in the process of recruiting a Chief Information Officer at the time of the audit",
+      "pdf_page": 46
+    }
+  ],
+  "source_verified": [
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "control_area": "data_integrity",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "control_area": "data_integrity",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.15",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "control_area": "data_integrity",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "All three entities",
+      "system": null,
+      "observation_id": "4.14",
+      "weakness": "Cyber risk management approaches across operations were non-systematic and did not always align with enterprise strategic initiatives.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "each of the three entities had a range of non-systematic approaches to managing cyber risks across their operations that did not always align with the enterprise strategic initiatives",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.18",
+      "weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the CIO had only recently assumed its responsibilities.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Treasury had recently appointed a Chief Information Officer at the Senior Executive Service level to take on the role and responsibility of Chief Information Security Officer",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the COO had responsibility for that role.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Geoscience Australia had also recently appointed a Chief Information Officer at the Senior Executive Service level, and had separated that role from the Chief Information Security Officer position, with the Chief Operating Officer having responsibility for that role",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "system": null,
+      "observation_id": "4.19",
+      "weakness": "The Chief Information Officer position was vacant at the time of the audit.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "National Archives was in the process of recruiting a Chief Information Officer at the time of the audit",
+      "pdf_page": 46,
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [
+    {
+      "index": 9,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "All three entities",
+        "system": null,
+        "observation_id": "4.18",
+        "weakness": "Audit and risk committees did not review vulnerabilities and cyber threats.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "There was no evidence that these committees reviewed vulnerabilities and cyber threats.",
+        "pdf_page": 46
+      }
+    }
+  ],
+  "status": "complete",
+  "limitations": "Not an exhaustive scan, labels or auditor-approved result.",
+  "numeric_ids_normalised": [],
+  "extraction_seconds": 12.31
+}

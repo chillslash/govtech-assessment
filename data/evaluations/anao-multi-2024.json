@@ -1,0 +1,505 @@
+{
+  "document_id": "anao-2024-incidents.pdf",
+  "report_id": "2024",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T03:20:33.052184+00:00",
+  "method": "hybrid: bounded heuristic shortlist + LLM discovery",
+  "findings_section_physical_pages": [
+    30,
+    88
+  ],
+  "candidate_pages": [
+    {
+      "pdf_page": 38,
+      "score": 41
+    },
+    {
+      "pdf_page": 70,
+      "score": 41
+    },
+    {
+      "pdf_page": 58,
+      "score": 40
+    },
+    {
+      "pdf_page": 30,
+      "score": 39
+    },
+    {
+      "pdf_page": 56,
+      "score": 39
+    },
+    {
+      "pdf_page": 60,
+      "score": 39
+    },
+    {
+      "pdf_page": 64,
+      "score": 39
+    },
+    {
+      "pdf_page": 69,
+      "score": 38
+    }
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        38,
+        70,
+        58,
+        30
+      ],
+      "accepted": [
+        {
+          "pdf_page": 38,
+          "evidence_quote": "AUSTRAC has not documented its approach to cyber security threat and vulnerability assessments and has not established critical information and asset registers.",
+          "why": "Threat and vulnerability assessments are undocumented, and critical asset registers are absent."
+        },
+        {
+          "pdf_page": 58,
+          "evidence_quote": "It has not documented an approach to threat and vulnerability assessments.",
+          "why": "Threat and vulnerability assessments lack a documented approach."
+        },
+        {
+          "pdf_page": 30,
+          "evidence_quote": "The coverage of event logs is not in accordance with ASD’s Cyber Security Guidelines.",
+          "why": "Event log coverage does not meet the cited guidelines."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 70,
+            "evidence_quote": "Services Australia has not defined reporting timeframes for referring significant or reportable cyber security incidents to ASD, affected entities, affected sectors and jurisdictions, and other notifiable authorities",
+            "why": "Reporting timeframes for significant incidents are undefined."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ],
+      "model_seconds": 6.12,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":38,\"evidence_quote\":\"AUSTRAC has not documented its approach to cyber security threat and vulnerability assessments and has not established critical information and asset registers.\",\"why\":\"Threat and vulnerability assessments are undocumented, and critical asset registers are absent.\"},{\"pdf_page\":70,\"evidence_quote\":\"Services Australia has not defined reporting timeframes for referring significant or reportable cyber security incidents to ASD, affected entities, affected sectors and jurisdictions, and other notifiable authorities\",\"why\":\"Reporting timeframes for significant incidents are undefined.\"},{\"pdf_page\":58,\"evidence_quote\":\"It has not documented an approach to threat and vulnerability assessments.\",\"why\":\"Threat and vulnerability assessments lack a documented approach.\"},{\"pdf_page\":30,\"evidence_quote\":\"The coverage of event logs is not in accordance with ASD’s Cyber Security Guidelines.\",\"why\":\"Event log coverage does not meet the cited guidelines.\"}]}"
+    },
+    {
+      "pages": [
+        56,
+        60,
+        64,
+        69
+      ],
+      "accepted": [
+        {
+          "pdf_page": 56,
+          "evidence_quote": "AUSTRAC does not perform complete system disaster testing as part of disaster recovery exercises",
+          "why": "Recovery testing does not cover complete systems or occur regularly as part of disaster recovery exercises."
+        },
+        {
+          "pdf_page": 64,
+          "evidence_quote": "Services Australia does not regularly review, update, test and evidence the assessment of its security maturity.",
+          "why": "Security maturity assessments were not regularly reviewed, tested, updated, or evidenced."
+        },
+        {
+          "pdf_page": 69,
+          "evidence_quote": "Services Australia does not have a policy or approach for managing cyber security incidents.",
+          "why": "The agency lacked a policy or documented approach for managing cyber security incidents."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 60,
+            "evidence_quote": "It has not documented an approach to threat and vulnerability assessments, nor does it have a policy covering the management of cyber security incidents.",
+            "why": "Services Australia lacked documented threat and vulnerability assessment procedures and a cyber incident management policy."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ],
+      "model_seconds": 7.69,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":56,\"evidence_quote\":\"AUSTRAC does not perform complete system disaster testing as part of disaster recovery exercises\",\"why\":\"Recovery testing does not cover complete systems or occur regularly as part of disaster recovery exercises.\"},{\"pdf_page\":60,\"evidence_quote\":\"It has not documented an approach to threat and vulnerability assessments, nor does it have a policy covering the management of cyber security incidents.\",\"why\":\"Services Australia lacked documented threat and vulnerability assessment procedures and a cyber incident management policy.\"},{\"pdf_page\":64,\"evidence_quote\":\"Services Australia does not regularly review, update, test and evidence the assessment of its security maturity.\",\"why\":\"Security maturity assessments were not regularly reviewed, tested, updated, or evidenced.\"},{\"pdf_page\":69,\"evidence_quote\":\"Services Australia does not have a policy or approach for managing cyber security incidents.\",\"why\":\"The agency lacked a policy or documented approach for managing cyber security incidents.\"}]}"
+    }
+  ],
+  "discovery_errors": [],
+  "discovery_verified": [
+    {
+      "pdf_page": 38,
+      "evidence_quote": "AUSTRAC has not documented its approach to cyber security threat and vulnerability assessments and has not established critical information and asset registers.",
+      "why": "Threat and vulnerability assessments are undocumented, and critical asset registers are absent."
+    },
+    {
+      "pdf_page": 58,
+      "evidence_quote": "It has not documented an approach to threat and vulnerability assessments.",
+      "why": "Threat and vulnerability assessments lack a documented approach."
+    },
+    {
+      "pdf_page": 30,
+      "evidence_quote": "The coverage of event logs is not in accordance with ASD’s Cyber Security Guidelines.",
+      "why": "Event log coverage does not meet the cited guidelines."
+    },
+    {
+      "pdf_page": 56,
+      "evidence_quote": "AUSTRAC does not perform complete system disaster testing as part of disaster recovery exercises",
+      "why": "Recovery testing does not cover complete systems or occur regularly as part of disaster recovery exercises."
+    },
+    {
+      "pdf_page": 64,
+      "evidence_quote": "Services Australia does not regularly review, update, test and evidence the assessment of its security maturity.",
+      "why": "Security maturity assessments were not regularly reviewed, tested, updated, or evidenced."
+    },
+    {
+      "pdf_page": 69,
+      "evidence_quote": "Services Australia does not have a policy or approach for managing cyber security incidents.",
+      "why": "The agency lacked a policy or documented approach for managing cyber security incidents."
+    }
+  ],
+  "selected_pages": [
+    30,
+    38,
+    56
+  ],
+  "raw_predictions": [
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.16",
+      "weakness": "Has not documented its approach to cyber security threat and vulnerability assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC has not documented its approach to cyber security threat and vulnerability assessments",
+      "pdf_page": 38
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.16",
+      "weakness": "Has not established critical information and asset registers.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "has not established critical information and asset registers",
+      "pdf_page": 38
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.17",
+      "weakness": "Has no documented plan to review, update and test its security documentation.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC does not have a documented plan to review, updat e and test its security documentation.",
+      "pdf_page": 38
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.21",
+      "weakness": "Has not reviewed, updated or tested its cyber security incident management procedures and has no documented plan to do so.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC has not reviewed, updated and tested and does not have documented plans to review, update or test the framework of procedures for cyber security incident management",
+      "pdf_page": 38
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.22",
+      "weakness": "Has no documented approach for triaging and responding to security issues through its monitored email address.",
+      "control_area": "incident_response",
+      "evidence_quote": "there is no documented approach for how triaging and responding is undertaken using a monitored email address as the central conduit.",
+      "pdf_page": 38
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Has no security maturity monitoring plan.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC does not have a security maturity monitoring plan.",
+      "pdf_page": 38
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has not documented assigned responsibilities for its Chief Information Security Officer.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the assigned responsibilities for its Chief Information Security Officer (CISO)",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has not documented its approach to continuous monitoring and improvement reporting.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "its approach to continuous monitoring and improvement reporting",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has not defined timeframes for reporting to stakeholders.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "defined timeframes for reporting to stakeholders",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "PDF page 30",
+      "weakness": "Event log coverage does not conform to ASD Cyber Security Guidelines.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "The coverage of event logs is not in accordance with ASD’s Cyber Security Guidelines.",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has no event logging policy.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "It does not have an event logging policy",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Does not document its analysis of all cyber security events.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not document its analysis of all cyber security events",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Recovery procedures do not include security and testing requirements for backup solutions.",
+      "control_area": "business_continuity",
+      "evidence_quote": "These procedures do not include the security and testing of backup solutions",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Recovery procedures do not detail the systems, applications and servers supporting critical business processes.",
+      "control_area": "business_continuity",
+      "evidence_quote": "nor detail the systems, applications and servers supporting critical business processes",
+      "pdf_page": 30
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.86",
+      "weakness": "Does not regularly test backup recovery as part of disaster recovery exercises.",
+      "control_area": "business_continuity",
+      "evidence_quote": "These are not specifically performed regularly as part of disaster recovery exercises.",
+      "pdf_page": 56
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.86",
+      "weakness": "Has no process for extracting and analysing production and archived backup data.",
+      "control_area": "business_continuity",
+      "evidence_quote": "AUSTRAC does not have a process for extracting and analysing production and archived backup data.",
+      "pdf_page": 56
+    }
+  ],
+  "source_verified": [
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.16",
+      "weakness": "Has not documented its approach to cyber security threat and vulnerability assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC has not documented its approach to cyber security threat and vulnerability assessments",
+      "pdf_page": 38,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.16",
+      "weakness": "Has not established critical information and asset registers.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "has not established critical information and asset registers",
+      "pdf_page": 38,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.17",
+      "weakness": "Has no documented plan to review, update and test its security documentation.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC does not have a documented plan to review, updat e and test its security documentation.",
+      "pdf_page": 38,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.21",
+      "weakness": "Has not reviewed, updated or tested its cyber security incident management procedures and has no documented plan to do so.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC has not reviewed, updated and tested and does not have documented plans to review, update or test the framework of procedures for cyber security incident management",
+      "pdf_page": 38,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.22",
+      "weakness": "Has no documented approach for triaging and responding to security issues through its monitored email address.",
+      "control_area": "incident_response",
+      "evidence_quote": "there is no documented approach for how triaging and responding is undertaken using a monitored email address as the central conduit.",
+      "pdf_page": 38,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Has no security maturity monitoring plan.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AUSTRAC does not have a security maturity monitoring plan.",
+      "pdf_page": 38,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has not documented assigned responsibilities for its Chief Information Security Officer.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "the assigned responsibilities for its Chief Information Security Officer (CISO)",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has not documented its approach to continuous monitoring and improvement reporting.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "its approach to continuous monitoring and improvement reporting",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has not defined timeframes for reporting to stakeholders.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "defined timeframes for reporting to stakeholders",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": "Security Information and Event Management (SIEM) solution",
+      "observation_id": "PDF page 30",
+      "weakness": "Event log coverage does not conform to ASD Cyber Security Guidelines.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "The coverage of event logs is not in accordance with ASD’s Cyber Security Guidelines.",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Has no event logging policy.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "It does not have an event logging policy",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Does not document its analysis of all cyber security events.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "does not document its analysis of all cyber security events",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Recovery procedures do not include security and testing requirements for backup solutions.",
+      "control_area": "business_continuity",
+      "evidence_quote": "These procedures do not include the security and testing of backup solutions",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "PDF page 30",
+      "weakness": "Recovery procedures do not detail the systems, applications and servers supporting critical business processes.",
+      "control_area": "business_continuity",
+      "evidence_quote": "nor detail the systems, applications and servers supporting critical business processes",
+      "pdf_page": 30,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.86",
+      "weakness": "Does not regularly test backup recovery as part of disaster recovery exercises.",
+      "control_area": "business_continuity",
+      "evidence_quote": "These are not specifically performed regularly as part of disaster recovery exercises.",
+      "pdf_page": 56,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "system": null,
+      "observation_id": "2.86",
+      "weakness": "Has no process for extracting and analysing production and archived backup data.",
+      "control_area": "business_continuity",
+      "evidence_quote": "AUSTRAC does not have a process for extracting and analysing production and archived backup data.",
+      "pdf_page": 56,
+      "document_id": "anao-2024-incidents.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "status": "complete",
+  "limitations": "Not an exhaustive scan, labels or auditor-approved result.",
+  "numeric_ids_normalised": [],
+  "extraction_seconds": 15.47
+}

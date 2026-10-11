@@ -1,0 +1,720 @@
+{
+  "status": "complete",
+  "finding_count": 50,
+  "report_count": 5,
+  "category_coverage": [
+    {
+      "control_area": "business_continuity",
+      "finding_count": 4,
+      "report_count": 1,
+      "entity_count": 1
+    },
+    {
+      "control_area": "data_integrity",
+      "finding_count": 3,
+      "report_count": 1,
+      "entity_count": 3
+    },
+    {
+      "control_area": "governance_assurance",
+      "finding_count": 34,
+      "report_count": 5,
+      "entity_count": 9
+    },
+    {
+      "control_area": "incident_response",
+      "finding_count": 1,
+      "report_count": 1,
+      "entity_count": 1
+    },
+    {
+      "control_area": "logging_monitoring",
+      "finding_count": 4,
+      "report_count": 2,
+      "entity_count": 2
+    },
+    {
+      "control_area": "patch_configuration",
+      "finding_count": 4,
+      "report_count": 2,
+      "entity_count": 3
+    }
+  ],
+  "source_findings": [
+    {
+      "entity": "Geoscience Australia",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design.",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F001",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Enterprise architecture plans were out of date or did not reflect the actual ICT systems design.",
+      "evidence_quote": "in two entities these plans were out-of-date and/or did not reflect the actual ICT systems design",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F002",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F003",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F004",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Supporting documentation did not identify security initiatives in use across ICT systems or the effectiveness of controls.",
+      "evidence_quote": "Supporting documentation did not include: the security initiatives in use across the ICT systems and the effectiveness of the controls",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F005",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "data_integrity",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F006",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "data_integrity",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F007",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "observation_id": "4.15",
+      "pdf_page": 46,
+      "control_area": "data_integrity",
+      "weakness": "No endorsed storage strategy identified data owners, data importance and data security classifications.",
+      "evidence_quote": "an endorsed storage strategy, outlining the business owner of the data, business importance of the data to the entity, and security classification of the data stored",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F008",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "All three entities",
+      "observation_id": "4.14",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Cyber risk management approaches across operations were non-systematic and did not always align with enterprise strategic initiatives.",
+      "evidence_quote": "each of the three entities had a range of non-systematic approaches to managing cyber risks across their operations that did not always align with the enterprise strategic initiatives",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F009",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "observation_id": "4.18",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F010",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "observation_id": "4.18",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "Division or branch risk registers were not consolidated into an enterprise risk register to inform cyber risk and investment decisions.",
+      "evidence_quote": "risk registers were prepared at the division or branch level but were not consolidated in an enterprise risk register to inform decision making on cyber risks and investments",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F011",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Treasury",
+      "observation_id": "4.19",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the CIO had only recently assumed its responsibilities.",
+      "evidence_quote": "Treasury had recently appointed a Chief Information Officer at the Senior Executive Service level to take on the role and responsibility of Chief Information Security Officer",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F012",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Geoscience Australia",
+      "observation_id": "4.19",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "The Chief Information Security Officer position was not filled at the time of the audit; the COO had responsibility for that role.",
+      "evidence_quote": "Geoscience Australia had also recently appointed a Chief Information Officer at the Senior Executive Service level, and had separated that role from the Chief Information Security Officer position, with the Chief Operating Officer having responsibility for that role",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F013",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "National Archives of Australia",
+      "observation_id": "4.19",
+      "pdf_page": 46,
+      "control_area": "governance_assurance",
+      "weakness": "The Chief Information Officer position was vacant at the time of the audit.",
+      "evidence_quote": "National Archives was in the process of recruiting a Chief Information Officer at the time of the audit",
+      "document_id": "ANAO_Report_2017-2018_53a.pdf",
+      "finding_id": "F014",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "observation_id": "2.14",
+      "pdf_page": 24,
+      "control_area": "governance_assurance",
+      "weakness": "Vulnerability reports and risk assessments did not cover all critical systems.",
+      "evidence_quote": "these did not cover all critical systems",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F015",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ASC",
+      "observation_id": "2.14",
+      "pdf_page": 24,
+      "control_area": "governance_assurance",
+      "weakness": "Did not document all vulnerabilities identified from its assessments.",
+      "evidence_quote": "ASC does not document all the vulnerabilities identified from its assessments.",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F016",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ASC",
+      "observation_id": "2.17",
+      "pdf_page": 24,
+      "control_area": "governance_assurance",
+      "weakness": "Did not identify critical ICT assets separately, instead treating all information assets as critical.",
+      "evidence_quote": "ASC has not separately identified critical ICT assets, instead treating all information assets as critical.",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F017",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ASC",
+      "observation_id": "2.17",
+      "pdf_page": 24,
+      "control_area": "governance_assurance",
+      "weakness": "Threat and risk profiles were not tailored to specific information assets.",
+      "evidence_quote": "Further work would be required by ASC to develop tailored threat and risk profiles for specific information assets.",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F018",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "observation_id": "2.18",
+      "pdf_page": 24,
+      "control_area": "governance_assurance",
+      "weakness": "Threats, risks and mitigations were not documented for all critical ICT assets.",
+      "evidence_quote": "it has not documented the threats, risks and mitigations against all critical assets.",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F019",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "All three entities",
+      "observation_id": "3.13",
+      "pdf_page": 31,
+      "control_area": "patch_configuration",
+      "weakness": "Did not always patch applications and operating systems within required timeframes, including some extreme risk patches at ASC and Australia Post and some non-extreme risk patches at the Reserve Bank.",
+      "evidence_quote": "All three entities did not always meet the required timeframes for patching applications and operating systems",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F020",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "observation_id": "3.15",
+      "pdf_page": 31,
+      "control_area": "patch_configuration",
+      "weakness": "Patch remediation in server environments was limited to extreme and high risk patches.",
+      "evidence_quote": "patch remediation only occurs for extreme and high risk patches in server environments.",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F021",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "observation_id": "3.15",
+      "pdf_page": 31,
+      "control_area": "patch_configuration",
+      "weakness": "Monitoring and other controls used to mitigate patch remediation risks were generally insufficient.",
+      "evidence_quote": "the ANAO’s testing of these other controls found that they were generally not sufficient to address the associated risks.",
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "finding_id": "F022",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "observation_id": "2.33",
+      "pdf_page": 44,
+      "control_area": "logging_monitoring",
+      "weakness": "Reviews of SIEM controls were not documented or formally approved.",
+      "evidence_quote": "there was no documentation and formal approval of reviews",
+      "document_id": "anao-2021-strategies.pdf",
+      "finding_id": "F023",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "observation_id": "2.80",
+      "pdf_page": 54,
+      "control_area": "governance_assurance",
+      "weakness": "AGD had no clear strategy for achieving Managing maturity against Policy 10.",
+      "evidence_quote": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+      "document_id": "anao-2021-strategies.pdf",
+      "finding_id": "F024",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "observation_id": "2.81",
+      "pdf_page": 54,
+      "control_area": "governance_assurance",
+      "weakness": "AGD had not provided evidence of processes to improve its maturity against Policy 10 to Managing.",
+      "evidence_quote": "AGD has not provided evidence to demonstrate its processes to improve its maturity against Policy 10 to ‘Managing’.",
+      "document_id": "anao-2021-strategies.pdf",
+      "finding_id": "F025",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "observation_id": "2.82",
+      "pdf_page": 54,
+      "control_area": "governance_assurance",
+      "weakness": "AGD had not obtained independent assurance of compliance with the Top Four mitigation strategies.",
+      "evidence_quote": "AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.",
+      "document_id": "anao-2021-strategies.pdf",
+      "finding_id": "F026",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "observation_id": "2.83",
+      "pdf_page": 54,
+      "control_area": "governance_assurance",
+      "weakness": "The Security and Risk Management Committee did not receive progress reports on work to improve Essential Eight maturity, limiting its ability to monitor implementation.",
+      "evidence_quote": "does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity",
+      "document_id": "anao-2021-strategies.pdf",
+      "finding_id": "F027",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.16",
+      "pdf_page": 38,
+      "control_area": "governance_assurance",
+      "weakness": "Has not documented its approach to cyber security threat and vulnerability assessments.",
+      "evidence_quote": "AUSTRAC has not documented its approach to cyber security threat and vulnerability assessments",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F028",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.16",
+      "pdf_page": 38,
+      "control_area": "governance_assurance",
+      "weakness": "Has not established critical information and asset registers.",
+      "evidence_quote": "has not established critical information and asset registers",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F029",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.17",
+      "pdf_page": 38,
+      "control_area": "governance_assurance",
+      "weakness": "Has no documented plan to review, update and test its security documentation.",
+      "evidence_quote": "AUSTRAC does not have a documented plan to review, updat e and test its security documentation.",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F030",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.21",
+      "pdf_page": 38,
+      "control_area": "governance_assurance",
+      "weakness": "Has not reviewed, updated or tested its cyber security incident management procedures and has no documented plan to do so.",
+      "evidence_quote": "AUSTRAC has not reviewed, updated and tested and does not have documented plans to review, update or test the framework of procedures for cyber security incident management",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F031",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.22",
+      "pdf_page": 38,
+      "control_area": "incident_response",
+      "weakness": "Has no documented approach for triaging and responding to security issues through its monitored email address.",
+      "evidence_quote": "there is no documented approach for how triaging and responding is undertaken using a monitored email address as the central conduit.",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F032",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.23",
+      "pdf_page": 38,
+      "control_area": "governance_assurance",
+      "weakness": "Has no security maturity monitoring plan.",
+      "evidence_quote": "AUSTRAC does not have a security maturity monitoring plan.",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F033",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "governance_assurance",
+      "weakness": "Has not documented assigned responsibilities for its Chief Information Security Officer.",
+      "evidence_quote": "the assigned responsibilities for its Chief Information Security Officer (CISO)",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F034",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "governance_assurance",
+      "weakness": "Has not documented its approach to continuous monitoring and improvement reporting.",
+      "evidence_quote": "its approach to continuous monitoring and improvement reporting",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F035",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "governance_assurance",
+      "weakness": "Has not defined timeframes for reporting to stakeholders.",
+      "evidence_quote": "defined timeframes for reporting to stakeholders",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F036",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "logging_monitoring",
+      "weakness": "Event log coverage does not conform to ASD Cyber Security Guidelines.",
+      "evidence_quote": "The coverage of event logs is not in accordance with ASD’s Cyber Security Guidelines.",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F037",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "logging_monitoring",
+      "weakness": "Has no event logging policy.",
+      "evidence_quote": "It does not have an event logging policy",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F038",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "logging_monitoring",
+      "weakness": "Does not document its analysis of all cyber security events.",
+      "evidence_quote": "does not document its analysis of all cyber security events",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F039",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "business_continuity",
+      "weakness": "Recovery procedures do not include security and testing requirements for backup solutions.",
+      "evidence_quote": "These procedures do not include the security and testing of backup solutions",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F040",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "PDF page 30",
+      "pdf_page": 30,
+      "control_area": "business_continuity",
+      "weakness": "Recovery procedures do not detail the systems, applications and servers supporting critical business processes.",
+      "evidence_quote": "nor detail the systems, applications and servers supporting critical business processes",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F041",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.86",
+      "pdf_page": 56,
+      "control_area": "business_continuity",
+      "weakness": "Does not regularly test backup recovery as part of disaster recovery exercises.",
+      "evidence_quote": "These are not specifically performed regularly as part of disaster recovery exercises.",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F042",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "AUSTRAC",
+      "observation_id": "2.86",
+      "pdf_page": 56,
+      "control_area": "business_continuity",
+      "weakness": "Has no process for extracting and analysing production and archived backup data.",
+      "evidence_quote": "AUSTRAC does not have a process for extracting and analysing production and archived backup data.",
+      "document_id": "anao-2024-incidents.pdf",
+      "finding_id": "F043",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.9",
+      "pdf_page": 25,
+      "control_area": "governance_assurance",
+      "weakness": "Overlapping strategic and program risks were monitored and reported separately, with assessments not automatically shared and key information missing from some risk registers.",
+      "evidence_quote": "Changes in assessments for strategic level risks do not automatically flow through to program level risks, and vice-versa.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F044",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.11",
+      "pdf_page": 25,
+      "control_area": "governance_assurance",
+      "weakness": "Risk owners for program-level risks PR3 and PR6 were not documented.",
+      "evidence_quote": "Risk owners for PR3 and PR6 are not documented, despite these risks being reported to the Census Program Board.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F045",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.12",
+      "pdf_page": 25,
+      "control_area": "governance_assurance",
+      "weakness": "Documented procedures did not specify the timing or level of detail for risk updates.",
+      "evidence_quote": "There are no documented procedures for the timing of updates or level of detail to be included.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F046",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.15",
+      "pdf_page": 26,
+      "control_area": "governance_assurance",
+      "weakness": "Three requested risk updates had no documented response, leaving no documented consideration of key factors for committee reporting.",
+      "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness to inform reporting to oversight committees.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F047",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.15",
+      "pdf_page": 26,
+      "control_area": "governance_assurance",
+      "weakness": "Risk updates were not consistently documented with cyber security content or reflection on progress strengthening cyber security controls.",
+      "evidence_quote": "Where there was no cyber security update, the documentation either referred to the privacy component of the risk (applicable to SR5 and PR6) or stated that there was no change from the previous update without any documented reflection on progress towards strengthening cyber security controls.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F048",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.15",
+      "pdf_page": 26,
+      "control_area": "governance_assurance",
+      "weakness": "Documented risk updates were completed an average of 31 days before the oversight committee meeting, so committees did not always receive current information.",
+      "evidence_quote": "Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting at which the risks were reported.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F049",
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "observation_id": "2.99",
+      "pdf_page": 45,
+      "control_area": "patch_configuration",
+      "weakness": "The ABS did not implement all key cyber security mitigation controls.",
+      "evidence_quote": "The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.",
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "finding_id": "F050",
+      "review_status": "proposed"
+    }
+  ],
+  "method": "deterministic topical candidate sets plus LLM semantic grouping",
+  "batches": [
+    {
+      "candidate_area": "risk and asset governance",
+      "input_findings": 17,
+      "raw": "{\"themes\":[]}",
+      "accepted": 0,
+      "rejected": 0,
+      "model_seconds": 5.06
+    },
+    {
+      "candidate_area": "documentation and oversight",
+      "input_findings": 27,
+      "raw": "{\"themes\":[]}",
+      "accepted": 0,
+      "rejected": 0,
+      "model_seconds": 6.78
+    },
+    {
+      "candidate_area": "monitoring and incident handling",
+      "input_findings": 5,
+      "raw": "{\"themes\":[]}",
+      "accepted": 0,
+      "rejected": 0,
+      "model_seconds": 5.56
+    },
+    {
+      "candidate_area": "patching and configuration",
+      "input_findings": 4,
+      "raw": "{\"themes\":[]}",
+      "accepted": 0,
+      "rejected": 0,
+      "model_seconds": 5.02
+    }
+  ],
+  "themes": [],
+  "rejected_themes": [],
+  "limitations": "Provisional source-checked records, not independently auditor-adjudicated.",
+  "candidate_groups": [
+    {
+      "candidate_area": "risk and asset governance",
+      "finding_ids": [
+        "F009",
+        "F010",
+        "F011",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F027",
+        "F028",
+        "F029",
+        "F044",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049"
+      ],
+      "report_count": 5,
+      "entity_count": 8,
+      "status": "candidate_only_not_semantically_validated"
+    },
+    {
+      "candidate_area": "documentation and oversight",
+      "finding_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005",
+        "F009",
+        "F013",
+        "F015",
+        "F016",
+        "F019",
+        "F024",
+        "F025",
+        "F026",
+        "F027",
+        "F028",
+        "F030",
+        "F031",
+        "F033",
+        "F034",
+        "F035",
+        "F036",
+        "F044",
+        "F045",
+        "F046",
+        "F047",
+        "F048",
+        "F049"
+      ],
+      "report_count": 5,
+      "entity_count": 9,
+      "status": "candidate_only_not_semantically_validated"
+    },
+    {
+      "candidate_area": "monitoring and incident handling",
+      "finding_ids": [
+        "F023",
+        "F032",
+        "F037",
+        "F038",
+        "F039"
+      ],
+      "report_count": 2,
+      "entity_count": 2,
+      "status": "candidate_only_not_semantically_validated"
+    },
+    {
+      "candidate_area": "patching and configuration",
+      "finding_ids": [
+        "F020",
+        "F021",
+        "F022",
+        "F050"
+      ],
+      "report_count": 2,
+      "entity_count": 3,
+      "status": "candidate_only_not_semantically_validated"
+    }
+  ]
+}

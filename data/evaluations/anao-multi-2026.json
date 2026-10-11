@@ -1,0 +1,303 @@
+{
+  "document_id": "Auditor-General_Report_2025-26_34.pdf",
+  "report_id": "2026",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T03:16:35.314144+00:00",
+  "method": "hybrid: bounded heuristic shortlist + LLM discovery",
+  "findings_section_physical_pages": [
+    22,
+    47
+  ],
+  "candidate_pages": [
+    {
+      "pdf_page": 23,
+      "score": 38
+    },
+    {
+      "pdf_page": 25,
+      "score": 36
+    },
+    {
+      "pdf_page": 32,
+      "score": 34
+    },
+    {
+      "pdf_page": 24,
+      "score": 33
+    },
+    {
+      "pdf_page": 44,
+      "score": 33
+    },
+    {
+      "pdf_page": 47,
+      "score": 33
+    },
+    {
+      "pdf_page": 45,
+      "score": 32
+    },
+    {
+      "pdf_page": 26,
+      "score": 30
+    }
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        23,
+        25,
+        32,
+        24
+      ],
+      "accepted": [
+        {
+          "pdf_page": 25,
+          "evidence_quote": "Key information that was present in the registers for some cyber security risks was missing for others",
+          "why": "Risk registers lacked consistent control effectiveness ratings and proximity dates, weakening risk monitoring and reporting."
+        }
+      ],
+      "rejected": [],
+      "model_seconds": 5.62,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":25,\"evidence_quote\":\"Key information that was present in the registers for some cyber security risks was missing for others\",\"why\":\"Risk registers lacked consistent control effectiveness ratings and proximity dates, weakening risk monitoring and reporting.\"}]}"
+    },
+    {
+      "pages": [
+        44,
+        47,
+        45,
+        26
+      ],
+      "accepted": [
+        {
+          "pdf_page": 45,
+          "evidence_quote": "The ABS gave insufficient consideration to holistic cyber security planning for the 2026 Census as it did not address risks across the entirety of the ABS ICT environment.",
+          "why": "Cyber security planning omitted risks across the broader ABS ICT environment."
+        },
+        {
+          "pdf_page": 47,
+          "evidence_quote": "The ABS has been working to address identified challenges in cyber security components of the Essential Eight mitigation strategies since 2023 but has repeatedly missed deadlines for achievement.",
+          "why": "The ABS repeatedly missed deadlines for implementing cyber security mitigations."
+        },
+        {
+          "pdf_page": 26,
+          "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness to inform reporting to oversight committees.",
+          "why": "Risk reporting lacked documented assessment of severity and control effectiveness."
+        }
+      ],
+      "rejected": [],
+      "model_seconds": 6.73,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":45,\"evidence_quote\":\"The ABS gave insufficient consideration to holistic cyber security planning for the 2026 Census as it did not address risks across the entirety of the ABS ICT environment.\",\"why\":\"Cyber security planning omitted risks across the broader ABS ICT environment.\"},{\"pdf_page\":45,\"evidence_quote\":\"The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.\",\"why\":\"Key cyber security mitigation controls remained unimplemented.\"},{\"pdf_page\":47,\"evidence_quote\":\"The ABS has been working to address identified challenges in cyber security components of the Essential Eight mitigation strategies since 2023 but has repeatedly missed deadlines for achievement.\",\"why\":\"The ABS repeatedly missed deadlines for implementing cyber security mitigations.\"},{\"pdf_page\":26,\"evidence_quote\":\"Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness to inform reporting to oversight committees.\",\"why\":\"Risk reporting lacked documented assessment of severity and control effectiveness.\"}]}"
+    }
+  ],
+  "discovery_errors": [],
+  "discovery_verified": [
+    {
+      "pdf_page": 25,
+      "evidence_quote": "Key information that was present in the registers for some cyber security risks was missing for others",
+      "why": "Risk registers lacked consistent control effectiveness ratings and proximity dates, weakening risk monitoring and reporting."
+    },
+    {
+      "pdf_page": 45,
+      "evidence_quote": "The ABS gave insufficient consideration to holistic cyber security planning for the 2026 Census as it did not address risks across the entirety of the ABS ICT environment.",
+      "why": "Cyber security planning omitted risks across the broader ABS ICT environment."
+    },
+    {
+      "pdf_page": 47,
+      "evidence_quote": "The ABS has been working to address identified challenges in cyber security components of the Essential Eight mitigation strategies since 2023 but has repeatedly missed deadlines for achievement.",
+      "why": "The ABS repeatedly missed deadlines for implementing cyber security mitigations."
+    },
+    {
+      "pdf_page": 26,
+      "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness to inform reporting to oversight committees.",
+      "why": "Risk reporting lacked documented assessment of severity and control effectiveness."
+    }
+  ],
+  "selected_pages": [
+    25,
+    26,
+    45
+  ],
+  "raw_predictions": [
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.9",
+      "weakness": "Overlapping strategic and program risks were monitored and reported separately, with assessments not automatically shared and key information missing from some risk registers.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Changes in assessments for strategic level risks do not automatically flow through to program level risks, and vice-versa.",
+      "pdf_page": 25
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.11",
+      "weakness": "Risk owners for program-level risks PR3 and PR6 were not documented.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Risk owners for PR3 and PR6 are not documented, despite these risks being reported to the Census Program Board.",
+      "pdf_page": 25
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.12",
+      "weakness": "Documented procedures did not specify the timing or level of detail for risk updates.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "There are no documented procedures for the timing of updates or level of detail to be included.",
+      "pdf_page": 25
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.14",
+      "weakness": "Before July 2025, risk updates were sought only for program-level risks rated high or above, irrespective of whether they were within target residual severity ratings.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "prior to July 2025, the CPMO sought updates from primary program leads only on program level risks rated ‘high’ and above, irrespective of whether risks were within target residual severity ratings.",
+      "pdf_page": 26
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.15",
+      "weakness": "Three requested risk updates had no documented response, leaving no documented consideration of key factors for committee reporting.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness to inform reporting to oversight committees.",
+      "pdf_page": 26
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.15",
+      "weakness": "Risk updates were not consistently documented with cyber security content or reflection on progress strengthening cyber security controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Where there was no cyber security update, the documentation either referred to the privacy component of the risk (applicable to SR5 and PR6) or stated that there was no change from the previous update without any documented reflection on progress towards strengthening cyber security controls.",
+      "pdf_page": 26
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.15",
+      "weakness": "Documented risk updates were completed an average of 31 days before the oversight committee meeting, so committees did not always receive current information.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting at which the risks were reported.",
+      "pdf_page": 26
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "ABS ICT environment",
+      "observation_id": "2.99",
+      "weakness": "The ABS did not implement all key cyber security mitigation controls.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.",
+      "pdf_page": 45
+    }
+  ],
+  "source_verified": [
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.9",
+      "weakness": "Overlapping strategic and program risks were monitored and reported separately, with assessments not automatically shared and key information missing from some risk registers.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Changes in assessments for strategic level risks do not automatically flow through to program level risks, and vice-versa.",
+      "pdf_page": 25,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.11",
+      "weakness": "Risk owners for program-level risks PR3 and PR6 were not documented.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Risk owners for PR3 and PR6 are not documented, despite these risks being reported to the Census Program Board.",
+      "pdf_page": 25,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.12",
+      "weakness": "Documented procedures did not specify the timing or level of detail for risk updates.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "There are no documented procedures for the timing of updates or level of detail to be included.",
+      "pdf_page": 25,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.15",
+      "weakness": "Three requested risk updates had no documented response, leaving no documented consideration of key factors for committee reporting.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Three (18 per cent) had no documented response: This meant there was no documented consideration of key factors such as residual risk severity and control effectiveness to inform reporting to oversight committees.",
+      "pdf_page": 26,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.15",
+      "weakness": "Risk updates were not consistently documented with cyber security content or reflection on progress strengthening cyber security controls.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Where there was no cyber security update, the documentation either referred to the privacy component of the risk (applicable to SR5 and PR6) or stated that there was no change from the previous update without any documented reflection on progress towards strengthening cyber security controls.",
+      "pdf_page": 26,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "2026 Census cyber security risk management",
+      "observation_id": "2.15",
+      "weakness": "Documented risk updates were completed an average of 31 days before the oversight committee meeting, so committees did not always receive current information.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Where there were documented updates, they were completed an average of 31 days prior to the oversight committee meeting at which the risks were reported.",
+      "pdf_page": 26,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australian Bureau of Statistics (ABS)",
+      "system": "ABS ICT environment",
+      "observation_id": "2.99",
+      "weakness": "The ABS did not implement all key cyber security mitigation controls.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "The ABS had developed, implemented and maintained a cyber security strategy and uplift plan, however, did not implement all key mitigation controls.",
+      "pdf_page": 45,
+      "document_id": "Auditor-General_Report_2025-26_34.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [
+    {
+      "index": 3,
+      "errors": [
+        "evidence quote not found on cited PDF page"
+      ],
+      "item": {
+        "entity": "Australian Bureau of Statistics (ABS)",
+        "system": "2026 Census cyber security risk management",
+        "observation_id": "2.14",
+        "weakness": "Before July 2025, risk updates were sought only for program-level risks rated high or above, irrespective of whether they were within target residual severity ratings.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "prior to July 2025, the CPMO sought updates from primary program leads only on program level risks rated ‘high’ and above, irrespective of whether risks were within target residual severity ratings.",
+        "pdf_page": 26
+      }
+    }
+  ],
+  "status": "complete",
+  "limitations": "Not an exhaustive scan, labels or auditor-approved result.",
+  "numeric_ids_normalised": [],
+  "extraction_seconds": 22.42
+}

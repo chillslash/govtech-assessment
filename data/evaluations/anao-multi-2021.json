@@ -1,0 +1,241 @@
+{
+  "document_id": "anao-2021-strategies.pdf",
+  "report_id": "2021",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T03:19:41.829063+00:00",
+  "method": "hybrid: bounded heuristic shortlist + LLM discovery",
+  "findings_section_physical_pages": [
+    35,
+    82
+  ],
+  "candidate_pages": [
+    {
+      "pdf_page": 44,
+      "score": 40
+    },
+    {
+      "pdf_page": 45,
+      "score": 37
+    },
+    {
+      "pdf_page": 55,
+      "score": 35
+    },
+    {
+      "pdf_page": 48,
+      "score": 34
+    },
+    {
+      "pdf_page": 54,
+      "score": 33
+    },
+    {
+      "pdf_page": 36,
+      "score": 32
+    },
+    {
+      "pdf_page": 37,
+      "score": 32
+    },
+    {
+      "pdf_page": 40,
+      "score": 31
+    }
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        44,
+        45,
+        55,
+        48
+      ],
+      "accepted": [
+        {
+          "pdf_page": 44,
+          "evidence_quote": "there was no documentation and formal approval of reviews.",
+          "why": "AGD lacked documented and formally approved reviews of SIEM monitoring."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 44,
+            "evidence_quote": "Anomalies in our security event reporting (from our technical logging system) found by ANAO during the course of this audit",
+            "why": "Auditor-identified anomalies showed security event reporting was not operating as intended."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ],
+      "model_seconds": 7.64,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":44,\"evidence_quote\":\"Anomalies in our security event reporting (from our technical logging system) found by ANAO during the course of this audit\",\"why\":\"Auditor-identified anomalies showed security event reporting was not operating as intended.\"},{\"pdf_page\":44,\"evidence_quote\":\"there was no documentation and formal approval of reviews.\",\"why\":\"AGD lacked documented and formally approved reviews of SIEM monitoring.\"}]}"
+    },
+    {
+      "pages": [
+        54,
+        36,
+        37,
+        40
+      ],
+      "accepted": [
+        {
+          "pdf_page": 54,
+          "evidence_quote": "The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.",
+          "why": "The committee could not monitor progress on improving cyber security maturity."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 36,
+            "evidence_quote": "PM&C has not fully implemented the mitigation strategy for restricting administrative privileges. AGD has not fully implemented the mitigation strategy for patching operating systems.",
+            "why": "Two entities had not fully implemented reported cyber security controls."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        },
+        {
+          "item": {
+            "pdf_page": 40,
+            "evidence_quote": "some operating system patches had not been applied within ISM timeframes. ... AGD did not perform risk assessments against the missed patches.",
+            "why": "Servers had overdue patches without risk assessments."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ],
+      "model_seconds": 7.66,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":36,\"evidence_quote\":\"PM&C has not fully implemented the mitigation strategy for restricting administrative privileges. AGD has not fully implemented the mitigation strategy for patching operating systems.\",\"why\":\"Two entities had not fully implemented reported cyber security controls.\"},{\"pdf_page\":40,\"evidence_quote\":\"some operating system patches had not been applied within ISM timeframes. ... AGD did not perform risk assessments against the missed patches.\",\"why\":\"Servers had overdue patches without risk assessments.\"},{\"pdf_page\":54,\"evidence_quote\":\"The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.\",\"why\":\"The committee could not monitor progress on improving cyber security maturity.\"}]}"
+    }
+  ],
+  "discovery_errors": [],
+  "discovery_verified": [
+    {
+      "pdf_page": 44,
+      "evidence_quote": "there was no documentation and formal approval of reviews.",
+      "why": "AGD lacked documented and formally approved reviews of SIEM monitoring."
+    },
+    {
+      "pdf_page": 54,
+      "evidence_quote": "The Security and Risk Management Committee does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity and is unable to monitor the progress of its implementation.",
+      "why": "The committee could not monitor progress on improving cyber security maturity."
+    }
+  ],
+  "selected_pages": [
+    44,
+    54
+  ],
+  "raw_predictions": [
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM controls were not documented or formally approved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "there was no documentation and formal approval of reviews",
+      "pdf_page": 44
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.80",
+      "weakness": "AGD had no clear strategy for achieving Managing maturity against Policy 10.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+      "pdf_page": 54
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.81",
+      "weakness": "AGD had not provided evidence of processes to improve its maturity against Policy 10 to Managing.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not provided evidence to demonstrate its processes to improve its maturity against Policy 10 to ‘Managing’.",
+      "pdf_page": 54
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.82",
+      "weakness": "AGD had not obtained independent assurance of compliance with the Top Four mitigation strategies.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.",
+      "pdf_page": 54
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.83",
+      "weakness": "The Security and Risk Management Committee did not receive progress reports on work to improve Essential Eight maturity, limiting its ability to monitor implementation.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity",
+      "pdf_page": 54
+    }
+  ],
+  "source_verified": [
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.33",
+      "weakness": "Reviews of SIEM controls were not documented or formally approved.",
+      "control_area": "logging_monitoring",
+      "evidence_quote": "there was no documentation and formal approval of reviews",
+      "pdf_page": 44,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.80",
+      "weakness": "AGD had no clear strategy for achieving Managing maturity against Policy 10.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not developed a clear strategy for achieving ‘Managing’ maturity.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.81",
+      "weakness": "AGD had not provided evidence of processes to improve its maturity against Policy 10 to Managing.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not provided evidence to demonstrate its processes to improve its maturity against Policy 10 to ‘Managing’.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.82",
+      "weakness": "AGD had not obtained independent assurance of compliance with the Top Four mitigation strategies.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "AGD has not had independent assurance of its compliance with the Top Four mitigation strategies.",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Attorney-General’s Department",
+      "system": null,
+      "observation_id": "2.83",
+      "weakness": "The Security and Risk Management Committee did not receive progress reports on work to improve Essential Eight maturity, limiting its ability to monitor implementation.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "does not receive reports on the progress of AGD’s work to improve its Essential Eight maturity",
+      "pdf_page": 54,
+      "document_id": "anao-2021-strategies.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [],
+  "status": "complete",
+  "limitations": "Not an exhaustive scan, labels or auditor-approved result.",
+  "numeric_ids_normalised": [],
+  "extraction_seconds": 9.48
+}

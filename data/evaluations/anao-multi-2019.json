@@ -1,0 +1,376 @@
+{
+  "document_id": "Auditor-General_Report_2019-20_1.pdf",
+  "report_id": "2019",
+  "model": "gpt-6-luna",
+  "reasoning": "medium",
+  "run_utc": "2026-10-11T03:17:34.192505+00:00",
+  "method": "hybrid: bounded heuristic shortlist + LLM discovery",
+  "findings_section_physical_pages": [
+    21,
+    48
+  ],
+  "candidate_pages": [
+    {
+      "pdf_page": 26,
+      "score": 40
+    },
+    {
+      "pdf_page": 24,
+      "score": 38
+    },
+    {
+      "pdf_page": 25,
+      "score": 38
+    },
+    {
+      "pdf_page": 39,
+      "score": 36
+    },
+    {
+      "pdf_page": 41,
+      "score": 36
+    },
+    {
+      "pdf_page": 43,
+      "score": 35
+    },
+    {
+      "pdf_page": 22,
+      "score": 34
+    },
+    {
+      "pdf_page": 31,
+      "score": 34
+    }
+  ],
+  "discovery_batches": [
+    {
+      "pages": [
+        26,
+        24,
+        25,
+        39
+      ],
+      "accepted": [
+        {
+          "pdf_page": 24,
+          "evidence_quote": "Australia Post provided vulnerability reports and risk assessments, these did not cover all critical systems.",
+          "why": "Vulnerability reporting and risk assessments omitted some critical systems."
+        },
+        {
+          "pdf_page": 26,
+          "evidence_quote": "only half of the sampled controls (five of 10) were designed and implemented as specified in its cyber security risk management framework.",
+          "why": "Only half of sampled controls met the framework; three were partial and two absent."
+        },
+        {
+          "pdf_page": 39,
+          "evidence_quote": "the controls applied have not been sufficient to address cyber security risks, in particular the protection against the execution of malware code.",
+          "why": "Applied controls did not adequately address cyber risks, including malware execution."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 25,
+            "evidence_quote": "it has not implemented baseline controls on all critical assets or undertaken recent assessments to determine the effectiveness of alternative cyber security controls.",
+            "why": "Australia Post lacked baseline controls across all critical assets and recent effectiveness assessments."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ],
+      "model_seconds": 9.67,
+      "raw_output": "{\n  \"candidates\": [\n    {\n      \"pdf_page\": 24,\n      \"evidence_quote\": \"Australia Post provided vulnerability reports and risk assessments, these did not cover all critical systems.\",\n      \"why\": \"Vulnerability reporting and risk assessments omitted some critical systems.\"\n    },\n    {\n      \"pdf_page\": 25,\n      \"evidence_quote\": \"it has not implemented baseline controls on all critical assets or undertaken recent assessments to determine the effectiveness of alternative cyber security controls.\",\n      \"why\": \"Australia Post lacked baseline controls across all critical assets and recent effectiveness assessments.\"\n    },\n    {\n      \"pdf_page\": 26,\n      \"evidence_quote\": \"only half of the sampled controls (five of 10) were designed and implemented as specified in its cyber security risk management framework.\",\n      \"why\": \"Only half of sampled controls met the framework; three were partial and two absent.\"\n    },\n    {\n      \"pdf_page\": 39,\n      \"evidence_quote\": \"the controls applied have not been sufficient to address cyber security risks, in particular the protection against the execution of malware code.\",\n      \"why\": \"Applied controls did not adequately address cyber risks, including malware execution.\"\n    }\n  ]\n}"
+    },
+    {
+      "pages": [
+        41,
+        43,
+        22,
+        31
+      ],
+      "accepted": [
+        {
+          "pdf_page": 41,
+          "evidence_quote": "Australia Post is yet to complete implementation of all its baseline controls across all its critical assets",
+          "why": "Baseline security controls were incomplete across critical assets."
+        },
+        {
+          "pdf_page": 31,
+          "evidence_quote": "All three entities did not always meet the required timeframes for patching applications and operating systems",
+          "why": "Patch remediation deadlines were missed across all three entities."
+        }
+      ],
+      "rejected": [
+        {
+          "item": {
+            "pdf_page": 41,
+            "evidence_quote": "ASC has not identified the criticality of data and systems within that network.",
+            "why": "ASC had not assessed the criticality of data and systems on its unclassified network."
+          },
+          "why": "missing, invalid, or unsourced fields"
+        }
+      ],
+      "model_seconds": 8.31,
+      "raw_output": "{\"candidates\":[{\"pdf_page\":41,\"evidence_quote\":\"Australia Post is yet to complete implementation of all its baseline controls across all its critical assets\",\"why\":\"Baseline security controls were incomplete across critical assets.\"},{\"pdf_page\":41,\"evidence_quote\":\"ASC has not identified the criticality of data and systems within that network.\",\"why\":\"ASC had not assessed the criticality of data and systems on its unclassified network.\"},{\"pdf_page\":31,\"evidence_quote\":\"All three entities did not always meet the required timeframes for patching applications and operating systems\",\"why\":\"Patch remediation deadlines were missed across all three entities.\"},{\"pdf_page\":31,\"evidence_quote\":\"the ANAO’s testing of these other controls found that they were generally not sufficient to address the associated risks.\",\"why\":\"Australia Post’s alternative controls were generally insufficient to mitigate patching risks.\"}]}"
+    }
+  ],
+  "discovery_errors": [],
+  "discovery_verified": [
+    {
+      "pdf_page": 24,
+      "evidence_quote": "Australia Post provided vulnerability reports and risk assessments, these did not cover all critical systems.",
+      "why": "Vulnerability reporting and risk assessments omitted some critical systems."
+    },
+    {
+      "pdf_page": 26,
+      "evidence_quote": "only half of the sampled controls (five of 10) were designed and implemented as specified in its cyber security risk management framework.",
+      "why": "Only half of sampled controls met the framework; three were partial and two absent."
+    },
+    {
+      "pdf_page": 39,
+      "evidence_quote": "the controls applied have not been sufficient to address cyber security risks, in particular the protection against the execution of malware code.",
+      "why": "Applied controls did not adequately address cyber risks, including malware execution."
+    },
+    {
+      "pdf_page": 41,
+      "evidence_quote": "Australia Post is yet to complete implementation of all its baseline controls across all its critical assets",
+      "why": "Baseline security controls were incomplete across critical assets."
+    },
+    {
+      "pdf_page": 31,
+      "evidence_quote": "All three entities did not always meet the required timeframes for patching applications and operating systems",
+      "why": "Patch remediation deadlines were missed across all three entities."
+    }
+  ],
+  "selected_pages": [
+    24,
+    26,
+    31
+  ],
+  "raw_predictions": [
+    {
+      "entity": "Australia Post",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Vulnerability reports and risk assessments did not cover all critical systems.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "these did not cover all critical systems",
+      "pdf_page": 24
+    },
+    {
+      "entity": "ASC",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Did not document all vulnerabilities identified from its assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "ASC does not document all the vulnerabilities identified from its assessments.",
+      "pdf_page": 24
+    },
+    {
+      "entity": "ASC",
+      "system": null,
+      "observation_id": "2.17",
+      "weakness": "Did not identify critical ICT assets separately, instead treating all information assets as critical.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "ASC has not separately identified critical ICT assets, instead treating all information assets as critical.",
+      "pdf_page": 24
+    },
+    {
+      "entity": "ASC",
+      "system": null,
+      "observation_id": "2.17",
+      "weakness": "Threat and risk profiles were not tailored to specific information assets.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Further work would be required by ASC to develop tailored threat and risk profiles for specific information assets.",
+      "pdf_page": 24
+    },
+    {
+      "entity": "Australia Post",
+      "system": null,
+      "observation_id": "2.18",
+      "weakness": "Threats, risks and mitigations were not documented for all critical ICT assets.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "it has not documented the threats, risks and mitigations against all critical assets.",
+      "pdf_page": 24
+    },
+    {
+      "entity": "Australia Post",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "Some sampled controls were only partly implemented or not implemented.",
+      "control_area": "other_uncertain",
+      "evidence_quote": "Three of the 10 sampled controls were partly implemented and two controls were not implemented.",
+      "pdf_page": 26
+    },
+    {
+      "entity": "Australia Post",
+      "system": null,
+      "observation_id": "2.23",
+      "weakness": "No approval documentation or risk assessment supported deviations from the cyber security risk management framework.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "No approval documentation or risk assessment was available to support the deviation from the framework.",
+      "pdf_page": 26
+    },
+    {
+      "entity": "All three entities",
+      "system": "Applications and operating systems",
+      "observation_id": "3.13",
+      "weakness": "Did not always patch applications and operating systems within required timeframes, including some extreme risk patches at ASC and Australia Post and some non-extreme risk patches at the Reserve Bank.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "All three entities did not always meet the required timeframes for patching applications and operating systems",
+      "pdf_page": 31
+    },
+    {
+      "entity": "Australia Post",
+      "system": "Servers",
+      "observation_id": "3.15",
+      "weakness": "Patch remediation in server environments was limited to extreme and high risk patches.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "patch remediation only occurs for extreme and high risk patches in server environments.",
+      "pdf_page": 31
+    },
+    {
+      "entity": "Australia Post",
+      "system": "Older operating systems",
+      "observation_id": "3.15",
+      "weakness": "Monitoring and other controls used to mitigate patch remediation risks were generally insufficient.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "the ANAO’s testing of these other controls found that they were generally not sufficient to address the associated risks.",
+      "pdf_page": 31
+    }
+  ],
+  "source_verified": [
+    {
+      "entity": "Australia Post",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Vulnerability reports and risk assessments did not cover all critical systems.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "these did not cover all critical systems",
+      "pdf_page": 24,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ASC",
+      "system": null,
+      "observation_id": "2.14",
+      "weakness": "Did not document all vulnerabilities identified from its assessments.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "ASC does not document all the vulnerabilities identified from its assessments.",
+      "pdf_page": 24,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ASC",
+      "system": null,
+      "observation_id": "2.17",
+      "weakness": "Did not identify critical ICT assets separately, instead treating all information assets as critical.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "ASC has not separately identified critical ICT assets, instead treating all information assets as critical.",
+      "pdf_page": 24,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "ASC",
+      "system": null,
+      "observation_id": "2.17",
+      "weakness": "Threat and risk profiles were not tailored to specific information assets.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "Further work would be required by ASC to develop tailored threat and risk profiles for specific information assets.",
+      "pdf_page": 24,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "system": null,
+      "observation_id": "2.18",
+      "weakness": "Threats, risks and mitigations were not documented for all critical ICT assets.",
+      "control_area": "governance_assurance",
+      "evidence_quote": "it has not documented the threats, risks and mitigations against all critical assets.",
+      "pdf_page": 24,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "All three entities",
+      "system": "Applications and operating systems",
+      "observation_id": "3.13",
+      "weakness": "Did not always patch applications and operating systems within required timeframes, including some extreme risk patches at ASC and Australia Post and some non-extreme risk patches at the Reserve Bank.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "All three entities did not always meet the required timeframes for patching applications and operating systems",
+      "pdf_page": 31,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "system": "Servers",
+      "observation_id": "3.15",
+      "weakness": "Patch remediation in server environments was limited to extreme and high risk patches.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "patch remediation only occurs for extreme and high risk patches in server environments.",
+      "pdf_page": 31,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    },
+    {
+      "entity": "Australia Post",
+      "system": "Older operating systems",
+      "observation_id": "3.15",
+      "weakness": "Monitoring and other controls used to mitigate patch remediation risks were generally insufficient.",
+      "control_area": "patch_configuration",
+      "evidence_quote": "the ANAO’s testing of these other controls found that they were generally not sufficient to address the associated risks.",
+      "pdf_page": 31,
+      "document_id": "Auditor-General_Report_2019-20_1.pdf",
+      "printed_page": null,
+      "review_status": "proposed"
+    }
+  ],
+  "rejected": [
+    {
+      "reason": "quote not within cited paragraph/table",
+      "item": {
+        "entity": "Australia Post",
+        "system": null,
+        "observation_id": "2.23",
+        "weakness": "Some sampled controls were only partly implemented or not implemented.",
+        "control_area": "other_uncertain",
+        "evidence_quote": "Three of the 10 sampled controls were partly implemented and two controls were not implemented.",
+        "pdf_page": 26,
+        "document_id": "Auditor-General_Report_2019-20_1.pdf",
+        "printed_page": null,
+        "review_status": "proposed"
+      }
+    },
+    {
+      "reason": "quote not within cited paragraph/table",
+      "item": {
+        "entity": "Australia Post",
+        "system": null,
+        "observation_id": "2.23",
+        "weakness": "No approval documentation or risk assessment supported deviations from the cyber security risk management framework.",
+        "control_area": "governance_assurance",
+        "evidence_quote": "No approval documentation or risk assessment was available to support the deviation from the framework.",
+        "pdf_page": 26,
+        "document_id": "Auditor-General_Report_2019-20_1.pdf",
+        "printed_page": null,
+        "review_status": "proposed"
+      }
+    }
+  ],
+  "status": "complete",
+  "limitations": "Not an exhaustive scan, labels or auditor-approved result.",
+  "numeric_ids_normalised": [],
+  "extraction_seconds": 8.38
+}
