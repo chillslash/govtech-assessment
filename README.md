@@ -1,9 +1,14 @@
 # GovTech Assessment — LLM-Powered Audit Assurance — Assessment and Prototype Plan
 
 **Assessment:** Internship Take-Home Technical Assessment — *LLM-Powered Audit Assurance Solution Proposal*.  
-**State:** Proposal and source-grounded prototype; two live GPT-6 Luna development-sample extraction calls completed. A held-out benchmark and final assessment slides remain pending.
+**State (11 October 2026):** The five-report prototype and expanded 189-page findings-section screen are complete. Evaluation results are frozen. All findings remain provisional and require auditor review.
 **Expected submission:** 6–8 slides **or** a written plan of up to five pages (excluding optional appendices). AI assistant use must be disclosed.
 
+## Current public prototype
+
+The completed five-report ANAO run screened 189 substantive findings pages and returned 286 source-checked candidate records. Source verification does not guarantee correct interpretation or full recall. See [full-report evaluation](docs/full-report-evaluation.md), [frozen comparison metrics](data/evaluations/anao-full-evaluation-summary.json), and the [reproducible full-scan runner](scripts/run_anao_full.py).
+
+The detailed sections below preserve earlier design decisions, experiments, and development notes for transparency.
 ## 1. What the assignment asks
 
 The assessment evaluates our ability to understand an audit-review workflow, propose an appropriate LLM approach, explain source grounding, identify development steps and dependencies, evaluate reliability, and address risks, security and human oversight. **It does not require a working implementation**. AGO annual reports are suggested as public reference material; we do not have to process every report.
